@@ -1,0 +1,283 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   Entry
+   ========================================================================== */
+
+/**
+ * Entry
+ */
+.Entry {
+  border: 1px solid #ebebeb;
+  border-bottom: 3px solid #ebebeb;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.Entry__img {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.Entry__body {
+}
+  .Entry__body-mask {
+    overflow: hidden;
+  }
+
+/*
+.Entry__body { padding: 20px; } //type0
+.Entry__body { padding: 15px; } //type1
+.Entry__body { padding: 10px 18px; } //type2
+.Entry__body { padding: 8px 15px; } //type3
+.Entry__body { padding: 15px; } //type4
+*/
+
+/**
+ * Entry__h
+ */
+.Entry__h {
+  font-weight: bold;
+  font-size: 14px;
+
+  &.is-hide-line2 {
+    @include hideText($BASE_LINE_HEIGHT, 2em);
+  }
+  &.is-hide-line3 {
+    @include hideText($BASE_LINE_HEIGHT, 3em);
+  }
+
+  &.is-l {
+    font-size: 16px;
+  }
+  &.is-s {
+    font-size: 12px;
+  }
+  &.is-xs {
+    font-size: 10px;
+  }
+
+}
+
+/**
+ * Entry__dsc
+ */
+.Entry__dsc {
+  font-size: 14px;
+
+  &.is-s {
+    font-size: 12px;
+  }
+  &.is-xs {
+    font-size: 10px;
+  }
+
+  &.is-hide-line2 {
+    @include hideText($BASE_LINE_HEIGHT, 2em);
+  }
+  &.is-hide-line3 {
+    @include hideText($BASE_LINE_HEIGHT, 3em);
+  }
+  &.is-hide-line4 {
+    @include hideText($BASE_LINE_HEIGHT, 4em);
+  }
+}
+
+/**
+ * Entry__sum
+ */
+.Entry__sum {
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-family: $DEVICE_FONT_EN;
+  margin-bottom: 14px;/* @FIX_ME */
+
+  &.is-s {
+    font-size: 20px;
+    margin-bottom: 12px;/* @FIX_ME */
+  }
+}
+
+/**
+ * Entry__gauge
+ */
+.Entry__gauge {
+  margin-top: 12px;/* @FIX_ME */
+}
+
+/**
+ * Entry__info
+ */
+.Entry__info {
+  line-height: 24px;
+  display: table;
+  width: 100%;
+}
+  .Entry__info-founder,
+  .Entry__info-category {
+    display: table-cell;
+  }
+  .Entry__info-founder {
+    color: #444;
+  }
+  .Entry__info-category {
+    color: #999;
+    text-align: right;
+  }
+    .Entry__info-founder-icon {/* @FIX_ME */
+      img {
+        border-radius: 4px;
+      }
+    }
+    .Entry__info-founder-icon,
+    .Entry__info-category-icon {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+
+/**
+ * Entry__condition
+ */
+.Entry__conditon {
+  line-height: 1;
+  display: table;
+  width: 100%;
+  margin-top: 12px;/* @FIX_ME */
+}
+  .Entry__condition-sum,
+  .Entry__condition-remain {
+    display: table-cell;
+    vertical-align: bottom;
+    line-height: 1;
+  }
+  .Entry__condition-sum {
+    width: 100%;
+  }
+  .Entry__condition-remain {
+    text-align: right;
+    white-space: nowrap;
+  }
+    .Entry__condition-sum-dt,
+    .Entry__condition-remain-dt {
+      color: #666;
+      font-size: 14px;
+      margin-right: 9px;
+      display: inline-block;
+    }
+    .Entry__condition-sum-dd,
+    .Entry__condition-remain-dd {
+      color: #000;
+      font-size: 20px;
+      display: inline-block;
+      font-weight: bold;
+      font-family: $DEVICE_FONT_EN;
+    }
+
+/**
+ * Entry.is-type0
+ */
+.Entry.is-type0 {
+
+  .Entry__body {
+    padding: 20px;
+  }
+    .Entry__info {
+      margin-top: 20px;/* @FIX_ME */
+    }
+
+}
+
+/**
+ * Entry.is-type1
+ */
+.Entry.is-type1 {
+
+  .Entry__body {
+    padding: 15px;
+  }
+    .Entry__gauge {
+      margin-top: 17px;/* @FIX_ME */
+    }
+
+    .Entry__conditon {
+    }
+      .Entry__condition-sum,
+      .Entry__condition-remain {
+        text-align: left;
+      }
+        .Entry__condition-sum-dt,
+        .Entry__condition-remain-dt {
+          display: block;
+          font-size: 12px;
+          margin-right: 0;/* @FIX_ME */
+          margin-bottom: 3px;
+        }
+        .Entry__condition-sum-dd,
+        .Entry__condition-remain-dd {
+        }
+
+}
+
+/**
+ * Entry.is-type2
+ */
+.Entry.is-type2 {
+
+  height: 124px;
+
+  > a {
+    display: table;
+    height: inherit;
+  }
+
+  .Entry__img {
+    display: table-cell;
+    vertical-align: top;
+    height: inherit;
+
+    img {
+      width: auto;
+      height: 100%;
+    }
+  }
+    .Entry__img-mask {
+      width: 140px;
+      height: inherit;
+      overflow: hidden;
+    }
+
+  .Entry__body {
+    height: inherit;
+    display: table-cell;
+    vertical-align: top;
+    overflow: hidden;
+    padding: 10px 18px;
+  }
+
+}
+
+/**
+ * Entry.is-type3
+ */
+.Entry.is-type3 {
+
+  .Entry__body {
+    padding: 8px 15px;
+  }
+
+}
+
+/**
+ * Entry.is-type4
+ */
+.Entry.is-type4 {
+
+  .Entry__body {
+    padding: 15px;
+  }
+
+}

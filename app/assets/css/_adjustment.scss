@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.is-no-transition { transition: none !important; }
+.is-fixed { position: fixed !important; }
+.is-disable { pointer-events: none !important; }
+
+.u-link-text { text-decoration: underline !important; }
+.u-font_bold { font-weight: bold !important; }
+.u-pos_abs { position: absolute !important; }
+.u-pos_rel { position: relative !important; }
+.u-d_none { display: none !important; }
+.u-d_ib { display: inline-block !important; }
+.u-d_block { display: block !important; }
+.u-d_table { display: table !important; }
+.u-m-lr_auto { margin-left: auto !important; margin-right: auto !important; }
+.u-w_320 { width: 320px !important; }
+.u-of_hidden { overflow: hidden !important; }
+.u-pe_none { pointer-events: none !important; }
+.u-pe_auto { pointer-events: auto !important; }
+.u-fl_l { float: left !important; }
+.u-fl_r { float: right !important; }
+.u-align_c { text-align: center !important; }
+.u-clr_both { clear: both; }
+
+.u-valign_m { vertical-align: middle !important; }
+
+.u-clrfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.u-txt-of-ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}

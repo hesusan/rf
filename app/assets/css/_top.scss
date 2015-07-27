@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   Top
+   ========================================================================== */
+
+.Top-visual {
+  background-color: #eee;
+  height: 340px;
+}
+
+.Top-visual__inner {
+  position: relative;
+  height: inherit;
+  padding-top: 19px;
+}
+
+/**
+ * lead
+ */
+.Top-visual__lead {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+  .Top-visual__lead-item-1 {
+    color: #444;
+    font-size: 18px;
+  }
+
+/**
+ * entry
+ * 基本Entryの上書きをします
+ */
+.Top-visual__entry {
+  background-color: #fff;
+  border-radius: 4px;
+  height: 244px;
+  overflow: hidden;
+
+  > a {
+    height: 100%;
+  }
+
+  .Entry__img {
+    float: left;
+    width: 400px;
+    height: 100%;
+    overflow: hidden;
+
+    img {
+      width: auto;
+      height: 100%;
+    }
+  }
+
+  .Entry__body {
+    overflow: hidden;
+    padding: 20px;
+  }
+
+    .Entry__h {
+      font-weight: bold;
+      font-size: 18px;
+      color: #4d4d4d;
+      margin-bottom: 15px;
+    }
+
+    .Entry__dsc {
+      font-size: 14px;
+      color: #535353;
+      @include hideText($BASE_LINE_HEIGHT, 2em);
+    }
+
+    /**
+     * Entry__gauge
+     */
+    .Entry__gauge {
+      margin-top: 12px;
+      height: 24px;
+      border-radius: 12px;
+    }
+      .Entry__gauge-txt {
+        line-height: 24px;
+      }
+
+    /**
+     * Entry__info
+     */
+    .Entry__info {
+      margin-top: 30px;
+    }
+
+    /**
+     * Entry__condition
+     */
+    .Entry__condition {
+      margin-top: 5px;
+    }
+      .Entry__condition-sum-dt,
+      .Entry__condition-remain-dt {
+        font-size: 18px;
+        margin-right: 13px;
+      }
+      .Entry__condition-sum-dd,
+      .Entry__condition-remain-dd {
+        font-size: 26px;
+      }
+
+}/*Top__visual-entry*/
+

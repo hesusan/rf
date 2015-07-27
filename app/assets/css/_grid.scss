@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   Grid
+   ========================================================================== */
+
+.Grid {
+  @include clrfix();
+}
+  %Grid_col {
+    float: left;
+  }
+  .Grid__col3 {
+    @extend %Grid_col;
+    width: 312px;/* 31.2% */
+
+    + .Grid__col3 {
+      margin-left: 32px;/* 3.2% */
+    }
+  }
+  .Grid__col4 {
+    @extend %Grid_col;
+    width: 226px;/* 22.6% */
+
+    + .Grid__col4 {
+      margin-left: 32px;/* 3.2% */
+    }
+  }
+  .Grid__col4-2 {
+    @extend %Grid_col;
+    width: 226px;/* 22.6% */
+
+    + .Grid__col4 {
+      margin-left: 32px;/* 3.2% */
+    }
+  }
+  .Grid__col5 {
+    @extend %Grid_col;
+    width: 188px;/* 18.8% */
+
+    + .Grid__col5 {
+      margin-left: 15px;/* 1.5% */
+    }
+  }

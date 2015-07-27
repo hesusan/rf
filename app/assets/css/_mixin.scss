@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+//通常のスプライト
+@mixin sprite-bg($i_sprite, $i_pixelRatio:1 ) {
+  $x : nth( $i_sprite, 3 ) / $i_pixelRatio;
+  $y : nth( $i_sprite, 4 ) / $i_pixelRatio;
+  $width : nth( $i_sprite, 5 ) / $i_pixelRatio;
+  $height : nth( $i_sprite, 6 ) / $i_pixelRatio;
+  $total_width : nth( $i_sprite, 7 ) / $i_pixelRatio;
+  $total_height : nth( $i_sprite, 8 ) / $i_pixelRatio;
+  $path: nth( $i_sprite, 9 );
+
+	display: block;
+	width: $width;
+  height: 0;
+	background-image: url( #{$path}#{$version} );
+	background-repeat: no-repeat;
+  @if ($i_pixelRatio != 1) {
+    background-size: $total_width auto;
+  }
+	background-position: $x $y;
+  padding-top: $height;
+	overflow: hidden;
+}
+
+//icon
+@mixin sprite-icon($i_sprite, $i_pixelRatio:1 ) {
+  $x : nth( $i_sprite, 3 ) / $i_pixelRatio;
+  $y : nth( $i_sprite, 4 ) / $i_pixelRatio;
+  $width : nth( $i_sprite, 5 ) / $i_pixelRatio;
+  $height : nth( $i_sprite, 6 ) / $i_pixelRatio;
+  $total_width : nth( $i_sprite, 7 ) / $i_pixelRatio;
+  $total_height : nth( $i_sprite, 8 ) / $i_pixelRatio;
+  $path: nth( $i_sprite, 9 );
+
+	display: block;
+  /*vertical-align: middle;*/
+	width: $width;
+  overflow: hidden;
+  text-indent: -100%;
+  height: $height;
+	background-image: url( #{$path}#{$version} );
+	background-repeat: no-repeat;
+  
+  @if ($i_pixelRatio != 1) {
+    background-size: $total_width auto;
+  }
+  
+	background-position: $x $y;
+}
+
+@mixin sprite-width($sprite, $i_pixelRatio:1) {
+  width: nth($sprite, 5)/$i_pixelRatio;
+}
+
+@mixin sprite-height($sprite, $i_pixelRatio:1) {
+  height: nth($sprite, 6)/$i_pixelRatio;
+}
+
+@mixin sprite-position($sprite, $i_pixelRatio:1) {
+  $sprite-offset-x: nth($sprite, 3)/$i_pixelRatio;
+  $sprite-offset-y: nth($sprite, 4)/$i_pixelRatio;
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image}#{$version});
+}
+
+@mixin sprite-size($sprite, $i_pixelRatio:1) {
+  background-size: nth($sprite, 7)/$i_pixelRatio nth($sprite, 8)/$i_pixelRatio;
+}
+
+@mixin sprite($sprite, $i_pixelRatio:1) {
+  display: block;
+  overflow: hidden;
+  @include sprite-image($sprite);
+  @include sprite-position($sprite, $i_pixelRatio);
+  @include sprite-width($sprite, $i_pixelRatio);
+  @include sprite-height($sprite, $i_pixelRatio);
+  @include sprite-size($sprite, $i_pixelRatio);
+}
+
+@function image-url($path) {
+  @return url($imagePath + $path + $version);
+}
+
+@function get-sprite-width($sprite, $i_pixelRatio:1) {
+  @return nth($sprite, 5)/$i_pixelRatio;
+}
+
+@function get-sprite-height($sprite, $i_pixelRatio:1) {
+  @return nth($sprite, 6)/$i_pixelRatio;
+}
