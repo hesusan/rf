@@ -63,6 +63,11 @@
 .u-mt_30 { margin-top: 30px !important;}
 .u-mb_30 { margin-bottom: 30px !important;}
 
+.u-mt_25 { margin-top: 25px !important;}
+.u-mr_25 { margin-right: 25px !important; }
+.u-mb_25 { margin-bottom: 25px !important;}
+.u-ml_25 { margin-left: 25px !important; }
+
 .u-mt_20 { margin-top: 20px !important;}
 .u-mr_20 { margin-right: 20px !important; }
 .u-mb_20 { margin-bottom: 20px !important;}
@@ -119,6 +124,7 @@ a {
 
 .Container {
   @include container();
+  @include clrfix();
 }
 
 /**

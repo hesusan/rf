@@ -26,14 +26,6 @@
       margin-left: 32px;/* 3.2% */
     }
   }
-  .Grid__col4-2 {
-    @extend %Grid_col;
-    width: 226px;/* 22.6% */
-
-    + .Grid__col4 {
-      margin-left: 32px;/* 3.2% */
-    }
-  }
   .Grid__col5 {
     @extend %Grid_col;
     width: 188px;/* 18.8% */
@@ -42,3 +34,16 @@
       margin-left: 15px;/* 1.5% */
     }
   }
+
+.Grid.is-grid-s {
+
+  .Grid__col3 {
+    @extend %Grid_col;
+    width: 226px;
+
+    + .Grid__col3 {
+      margin-left: 31px;
+    }
+  }
+
+}
