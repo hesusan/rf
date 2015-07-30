@@ -121,10 +121,10 @@
     display: table-cell;
   }
   .Entry__info-founder {
-    color: #444;
+    color: $COLOR_BASE;
   }
   .Entry__info-category {
-    color: #999;
+    color: $COLOR_WEAK;
     text-align: right;
   }
     .Entry__info-founder-icon {/* @FIX_ME */
@@ -163,14 +163,14 @@
   }
     .Entry__condition-sum-dt,
     .Entry__condition-remain-dt {
-      color: #666;
+      color: $COLOR_WEAK;
       font-size: 14px;
       margin-right: 9px;
       display: inline-block;
     }
     .Entry__condition-sum-dd,
     .Entry__condition-remain-dd {
-      color: #000;
+      color: $COLOR_BASE;
       font-size: 20px;
       display: inline-block;
       font-weight: bold;

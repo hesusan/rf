@@ -24,7 +24,7 @@
   left: 0;
 }
   .Top-visual__lead-item-1 {
-    color: #444;
+    color: $COLOR_BASE;
     font-size: 18px;
   }
 
@@ -62,13 +62,13 @@
     .Entry__h {
       font-weight: bold;
       font-size: 18px;
-      color: #4d4d4d;
+      color: $COLOR_BASE;
       margin-bottom: 15px;
     }
 
     .Entry__dsc {
       font-size: 14px;
-      color: #535353;
+      color: $COLOR_BASE;
       @include hideText($BASE_LINE_HEIGHT, 2em);
     }
 

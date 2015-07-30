@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   Button
+   ========================================================================== */
+
+/**
+ * もっと見る系
+ */
+.Btn-0 {
+  background-color: #fff;
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  display: inline-block;
+  min-width: 160px;
+  vertical-align: middle;
+  height: 38px;
+
+  &.is-l {
+    min-width: 260px;
+  }
+}
+  .Btn-0__inner {
+    display: table;
+    height: inherit;
+    width: 100%;
+    padding-left: 28px;
+    padding-right: 28px;
+  }
+    .Btn-0__content {
+      display: table-cell;
+      vertical-align: middle;
+      height: inherit;
+      text-align: center;
+    }
+      .Btn-0__txt {
+        color: #ff881a;
+        font-size: 16px;
+      }
+
+/**
+ * 赤グラデ
+ */
+.Btn-1 {
+  background-color: #ec0d17;
+  background-image: linear-gradient(to bottom, #ff555d, #ec0d17);
+  border-radius: 6px;
+  display: inline-block;
+  height: 60px;
+  min-width: 400px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
+  line-height: 1;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+  .Btn-1__inner {
+    display: table;
+    height: inherit;
+    width: 100%;
+  }
+    .Btn-1__content {
+      color: #fff;
+      display: table-cell;
+      vertical-align: middle;
+      height: inherit;
+      text-align: center;
+    }
+    .Btn-1__txt {
+      font-weight: bold;
+      font-size: 22px;
+    }
