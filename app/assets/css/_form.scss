@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   Form
+   ========================================================================== */
+
+/**
+ * 暫定
+ */
+.Input {
+  background-color: #f0f2f5;
+  border: 1px solid #ccc;
+  appearance: none;
+  padding: 0.7857em 10px;
+  font-size: 14px;
+  vertical-align: top;
+}
+
+.Textarea {
+  background-color: #f0f2f5;
+  border: 1px solid #ccc;
+  appearance: none;
+  padding: 0.7857em 10px;
+  font-size: 14px;
+  line-height: $BASE_LINE_HEIGHT;
+  vertical-align: top;
+}

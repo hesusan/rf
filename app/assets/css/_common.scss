@@ -11,7 +11,7 @@
  * 基本コンテナ
  */
 @mixin container() {
-  width: $MIN_PAGE_WIDTH;
+  width: $PAGE_WIDTH;
   margin-left: auto;
   margin-right: auto;
 }
@@ -39,6 +39,18 @@
 
 /* Utitlity
    ----------------------------------------------------------------- */
+
+th {
+  text-align: left;
+}
+
+.u-fit {//u-fit-imgに変更
+  width: 100%;
+  height: auto;
+}
+.u-fit-w {
+  width: 100%;
+}
 
 .u-link {
   color: #ff881a;
@@ -126,6 +138,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   position: relative;
+  padding-top: 111px;
 }
 
 .Page-body {
@@ -195,20 +208,4 @@ a {
     overflow: hidden;
   }
 
-/**
- * icon
- */
-%icon {
-  display: inline-block;
-  vertical-align: middle;
 
-  &:after {
-    content: '';
-  }
-}
-.new-icon {
-  @extend %icon;
-  &:after {
-    /*@include sprite-icon($common-icon-new);*/
-  }
-}

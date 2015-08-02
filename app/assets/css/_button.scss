@@ -4,16 +4,20 @@
    Button
    ========================================================================== */
 
+%Btn {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
 /**
  * もっと見る系
  */
 .Btn-0 {
+  @extend %Btn;
   background-color: #fff;
   border: 1px solid #e6e6e6;
   border-radius: 4px;
-  display: inline-block;
   min-width: 160px;
-  vertical-align: middle;
   height: 38px;
 
   &.is-l {
@@ -42,10 +46,10 @@
  * 赤グラデ
  */
 .Btn-1 {
+  @extend %Btn;
   background-color: #ec0d17;
   background-image: linear-gradient(to bottom, #ff555d, #ec0d17);
   border-radius: 6px;
-  display: inline-block;
   height: 60px;
   min-width: 400px;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);

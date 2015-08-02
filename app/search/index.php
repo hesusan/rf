@@ -28,7 +28,7 @@
 
     <div class="Container">
 
-      <section class="Page-main">
+      <section class="Page-main" role="main">
 
         <!-- @NOTE Page-hの種類に注意 -->
         <h1 class="Page-h" style="margin-bottom: 28px">新着プロジェクト 200件</h1>

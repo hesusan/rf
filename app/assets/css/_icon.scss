@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   Icon
+   ========================================================================== */
+
+/**
+ * icon
+ */
+%Icon {
+  display: inline-block;
+  vertical-align: middle;
+
+  &:after {
+    content: '';
+  }
+}
+
+/**
+ * 必須
+ */
+.Require-icon {
+  @extend %Icon;
+  color: #fff;
+  background-color: #e60013;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  font-size: 12px;
+  line-height: 24px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+/**
+ * 任意
+ */
+.Optional-icon {
+  @extend %Icon;
+  color: #888;
+  background-color: #fff;
+  border: 1px solid #888;
+  border-radius: 2px;
+  font-size: 12px;
+  line-height: 24px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+}

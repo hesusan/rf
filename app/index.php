@@ -779,7 +779,7 @@
     </section>
 
 
-    <div class="Container Grid">
+    <section class="Container Grid">
 
       <header class="Header">
         <h1 class="Heading">
@@ -862,7 +862,7 @@
         </a>
       </article>
 
-    </div>
+    </section>
 
   </div>
 
