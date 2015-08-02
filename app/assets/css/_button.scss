@@ -78,3 +78,17 @@
       font-weight: bold;
       font-size: 22px;
     }
+
+/**
+ * btns
+ */
+.Btn-group {
+  width: 100%;
+}
+  .Btn-group__item {
+    display: inline-block;
+
+    + .Btn-group__item {
+      margin-left: 100px;
+    }
+  }

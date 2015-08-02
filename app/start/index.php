@@ -38,23 +38,23 @@
             あなたもその一歩をスタートしませんか？
           </p>
         </div>
-        <ul class="Start-visual__btns u-align_c">
-          <li class="Start-visual__btns-item">
+        <ul class="Btn-group Start-visual__btns u-align_c">
+          <li class="Btn-group__item Start-visual__btns-item">
             <a href="#" class="Btn-1">
               <div class="Btn-1__inner">
                 <div class="Btn-1__content">
-                  <div class="Btn-1__txt u-txt_18">まずは相談してみる</div>
-                  <div class="u-txt_12 u-mt_5">スタッフに内容や金額の相談に乗って欲しい！</div>
+                  <div class="Btn-1__txt u-fs_18">まずは相談してみる</div>
+                  <div class="u-fs_12 u-mt_5">スタッフに内容や金額の相談に乗って欲しい！</div>
                 </div>
               </div>
             </a>
           </li><!--
-          --><li class="Start-visual__btns-item">
+          --><li class="Btn-group__item Start-visual__btns-item">
             <a href="#" class="Btn-1 u-valign_b">
               <div class="Btn-1__inner">
                 <div class="Btn-1__content">
-                  <div class="Btn-1__txt u-txt_18">プロジェクトを始める</div>
-                  <div class="u-txt_12 u-mt_5">担当者と一緒にプロジェクトの掲載準備をしたい！</div>
+                  <div class="Btn-1__txt u-fs_18">プロジェクトを始める</div>
+                  <div class="u-fs_12 u-mt_5">担当者と一緒にプロジェクトの掲載準備をしたい！</div>
                 </div>
               </div>
             </a>
@@ -285,7 +285,7 @@
               <tbody>
             </table>
 
-            <p class="u-align_c u-txt_14 u-mt_30">
+            <p class="u-align_c u-fs_14 u-mt_30">
               小さなことでも、お気軽にご相談ください。<br>READYFORのスタッフから３営業日位内にご連絡させていただきます。<br>
               ご相談の過程でプロジェクトの内容が固まってきた場合は、いつでもアイディアの申請に進んでいただくことができます。
             </p>
@@ -310,7 +310,7 @@
         <a href="#" class="Btn-1">
           <div class="Btn-1__inner">
             <div class="Btn-1__content">
-              <div class="Btn-1__txt u-txt_18">すぐにプロジェクトをはじめたい人はこちら</div>
+              <div class="Btn-1__txt u-fs_18">すぐにプロジェクトをはじめたい人はこちら</div>
             </div>
           </div>
         </a>

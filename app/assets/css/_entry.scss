@@ -4,14 +4,25 @@
    Entry
    ========================================================================== */
 
+@mixin Entry() {
+  border: 1px solid #ebebeb;
+  border-bottom: 3px solid #ebebeb;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+%Entry {
+  border: 1px solid #ebebeb;
+  border-bottom: 3px solid #ebebeb;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
 /**
  * Entry
  */
 .Entry {
-  border: 1px solid #ebebeb;
-  border-bottom: 3px solid #ebebeb;
-  border-radius: 4px;
-  overflow: hidden;
+  @extend %Entry;
 }
 
 .Entry__img {
