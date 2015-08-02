@@ -218,13 +218,14 @@
   .Start-contact__table {
     width: 100%;
     table-layout: fixed;
+    border-collapse: collapse;
 
     th {
       color: #b2b2b2;
       font-size: 18px;
       font-weight: bold;
       vertical-align: top;
-      width: 200px;
+      width: 206px;
       line-height: (40/18);
     }
     td {

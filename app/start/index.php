@@ -230,46 +230,56 @@
               <tbody>
                 <tr>
                   <th class="u-valign_m">
-                    <b class="Require-icon u-mr_20">必須</b>お名前
+                    <label for="Contact-input-0">
+                      <b class="Require-icon u-mr_20">必須</b>お名前
+                    </label>
                   </th>
                   <td>
-                    <input type="text" placeholder="氏名を入力してください" class="Input u-fit-w">
+                    <input type="text" placeholder="氏名を入力してください" class="Input u-fit-w" id="Contact-input-0">
                   </td>
                 </tr>
                 <tr class="Start-contact__table__spacer"></tr>
                 <tr>
                   <th class="u-valign_m">
-                    <b class="Optional-icon u-mr_20">任意</b>団体名
+                    <label for="Contact-input-1">
+                      <b class="Optional-icon u-mr_20">任意</b>団体名
+                    </label>
                   </th>
                   <td>
-                    <input type="text" placeholder="団体名を入力してください(個人で活動される方は入力不要です)"  class="Input u-fit-w">
+                    <input type="text" placeholder="団体名を入力してください(個人で活動される方は入力不要です)" class="Input u-fit-w" id="Contact-input-1">
                   </td>
                 </tr>
                 <tr class="Start-contact__table__spacer"></tr>
                 <tr>
                   <th class="u-valign_m">
-                    <b class="Require-icon u-mr_20">必須</b>メールアドレス
+                    <label for="Contact-input-2">
+                      <b class="Require-icon u-mr_20">必須</b>メールアドレス
+                    </label>
                   </th>
                   <td>
-                    <input type="text" placeholder="メールアドレスを入力してください" class="Input u-fit-w">
+                    <input type="text" placeholder="メールアドレスを入力してください" class="Input u-fit-w" id="Contact-input-2">
                   </td>
                 </tr>
                 <tr class="Start-contact__table__spacer"></tr>
                 <tr>
                   <th class="u-valign_m">
-                    <b class="Require-icon u-mr_20">必須</b>電話番号
+                    <label for="Contact-input-3">
+                      <b class="Require-icon u-mr_20">必須</b>電話番号
+                    </label>
                   </th>
                   <td>
-                    <input type="text" placeholder="通話可能な電話番号を入力してください" class="Input u-fit-w">
+                    <input type="text" placeholder="通話可能な電話番号を入力してください" class="Input u-fit-w" id="Contact-input-3">
                   </td>
                 </tr>
                 <tr class="Start-contact__table__spacer"></tr>
                 <tr>
                   <th>
-                    <b class="Require-icon u-mr_20">必須</b>ご相談内容
+                    <label for="Contact-input-4">
+                      <b class="Require-icon u-mr_20">必須</b>ご相談内容
+                    </label>
                   </th>
                   <td>
-                    <textarea rows="6" placeholder="例）地元の和紙を活用したものづくりのプロジェクトをやりたいのですが、どうやって進めればいいのか相談したいです。" class="Textarea u-fit-w"></textarea>
+                    <textarea rows="6" placeholder="例）地元の和紙を活用したものづくりのプロジェクトをやりたいのですが、どうやって進めればいいのか相談したいです。" class="Textarea u-fit-w" id="Contact-input-4"></textarea>
                   </td>
                 </tr>
               <tbody>
