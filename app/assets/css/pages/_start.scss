@@ -8,26 +8,18 @@
  * visual
  */
 .Start-visual {
-  position: relative;
-  overflow: hidden;
 }
   .Start-visual__bg {
-    min-width: $MIN_VISUAL_WIDTH;
-    margin-left: -120px;
-    margin-right: -120px;
   }
-
   .Start-visual__main {
     position: absolute;
     bottom: 0;
     width: 100%;
   }
-
   .Start-visual__h {
     color: #fff;
     font-size: 40px;
   }
-
   .Start-visual__lead {
     color: #fff;
     font-size: 16px;

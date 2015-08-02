@@ -26,8 +26,8 @@
 
   <section class="Page-body" role="main">
 
-    <div class="Start-visual">
-      <div class="Start-visual__bg">
+    <div class="Visual Start-visual">
+      <div class="Visual__bg Start-visual__bg">
         <img src="../images/start/start_visual0.jpg" width="1440" height="440" alt="" class="u-fit">
       </div>
       <div class="Start-visual__main">
@@ -40,7 +40,7 @@
         </div>
         <ul class="Start-visual__btns u-align_c">
           <li class="Start-visual__btns-item">
-            <a href="#" class="Btn-1 u-valign_b">
+            <a href="#" class="Btn-1">
               <div class="Btn-1__inner">
                 <div class="Btn-1__content">
                   <div class="Btn-1__txt u-txt_18">まずは相談してみる</div>
@@ -290,7 +290,7 @@
               ご相談の過程でプロジェクトの内容が固まってきた場合は、いつでもアイディアの申請に進んでいただくことができます。
             </p>
             <div class="u-align_c u-mt_30">
-              <a href="#" class="Btn-1 u-valign_b">
+              <a href="#" class="Btn-1">
                 <div class="Btn-1__inner">
                   <div class="Btn-1__content">
                     <div class="Btn-1__txt">相談する</div>
