@@ -3,7 +3,7 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>国内最大のクラウドファウンディングサイト READYFOR</title>
+<title>はじめる | 国内最大のクラウドファウンディングサイト READYFOR</title>
 <meta name="viewport" content="width=device-width">
 <meta name="keywords" content="">
 <meta name="description" content="国内最大のクラウドファウンディングサイトREADYFORは、誰もがやりたいことを実行できる世界を創ります">
