@@ -32,6 +32,18 @@
       </div>
     </div>
 
+    <header class="About-header">
+      <h1 class="About-header__heading">
+        <div class="About-header__heading-txt0">1</div>
+        <div class="About-header__heading-txt1">
+            日本No.1<br>
+            クラウドファンディング
+        </div>
+        <div class="About-header__heading-txt2">READYFORとは？</div>
+      </h1>
+      <p class="About-header__dsc">日本で最初の、そして最大のクラウドファンディングサービスです。</p>
+    </header>
+
     <section>
       <header class="Header-1">
         <h1 class="Heading-1">クラウドファンディングとは？</h1>
@@ -41,7 +53,7 @@
           群衆（Crowd）と 資金調達（Funding）という言葉を組み合わせた造語で、クリエーターや起業家がアイディアをするために必要な資金を、インターネットを通じてから支援して頂くことで、プロジェクトの実現までサポートすることを言います。
         </p>
         <p class="u-fs_16 u-mb_40 u-align_c">
-          READYFOR（レディーフォー）は、2011年4月のオープンから約2100プロジェクトの資金調達を行い、これまで日本最大の合計で8万人から約12億円が支援されています。社会問題を解決するプロジェクトからクリエイティブなプロジェクト まで、幅広い分野でご利用いただいております。(2015年2月28日現在)
+          READYFOR（レディーフォー）は、2011年4月のオープンから約<b class="u-font_b">2100</b>プロジェクトの資金調達を行い、これまで日本最大の合計で<b class="u-font_b">8万人</b>から約<b class="u-font_b">12億円</b>が支援されています。社会問題を解決するプロジェクトからクリエイティブなプロジェクト まで、幅広い分野でご利用いただいております。(2015年2月28日現在)
         </p>
 
         <div class="u-mb_50 u-align_c">
