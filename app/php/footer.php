@@ -8,7 +8,7 @@
           <section class="Site-footer__section">
             <h1 class="Site-footer__section-h">会社情報</h1>
             <ul class="Site-footer__section-list">
-              <li><a href="#">READYFORとは</a></li>
+              <li><a href="/about/">READYFORとは</a></li>
               <li><a href="#">運営会社</a></li>
               <li><a href="#">開発チーム</a></li>
               <li><a href="#">採用情報</a></li>
@@ -19,7 +19,7 @@
           <section class="Site-footer__section">
             <h1 class="Site-footer__section-h">はじめる</h1>
             <ul class="Site-footer__section-list">
-              <li><a href="#">プロジェクトをはじめる</a></li>
+              <li><a href="/start/">プロジェクトをはじめる</a></li>
               <li><a href="#">READYFORの教科書</a></li>
               <li><a href="#">READYFOR OF THE YEAR</a></li>
               <li><a href="#">セミナー情報</a></li>
@@ -29,9 +29,9 @@
           <section class="Site-footer__section">
             <h1 class="Site-footer__section-h">みつける</h1>
             <ul class="Site-footer__section-list">
-              <li><a href="#">募集中のプロジェクト</a></li>
-              <li><a href="#">成功したプロジェクト</a></li>
-              <li><a href="#">特集企画</a></li>
+              <li><a href="/search/">募集中のプロジェクト</a></li>
+              <li><a href="/search/">成功したプロジェクト</a></li>
+              <li><a href="/search/">特集企画</a></li>
             </ul>
           </section>
 

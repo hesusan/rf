@@ -15,19 +15,19 @@
         <nav class="Site-nav">
           <ul class="Site-nav__inner">
             <li class="Site-nav__item">
-              <a href="#" class="Site-nav__link">
+              <a href="/search/" class="Site-nav__link">
                 <div class="Site-nav__link-icon"></div>
                 <div class="Site-nav__link-txt">プロジェクトを探す</div>
               </a>
             </li>
             <li class="Site-nav__item">
-              <a href="#" class="Site-nav__link">
+              <a href="/start/" class="Site-nav__link">
                 <div class="Site-nav__link-icon"></div>
                 <div class="Site-nav__link-txt">プロジェクトをはじめる</div>
               </a>
             </li>
             <li class="Site-nav__item">
-              <a href="#" class="Site-nav__link">
+              <a href="/about/" class="Site-nav__link">
                 <div class="Site-nav__link-icon"></div>
                 <div class="Site-nav__link-txt">はじめての方へ</div>
               </a>

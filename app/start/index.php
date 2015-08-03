@@ -71,9 +71,11 @@
 
         <div class="Start-reasons u-clrfix">
           <section class="Start-reason u-fl_l">
-            <h1 class="Start-reason__h">1.10万人以上の支援者があなたのプロジェクトを待っています</h1>
+            <h1 class="Start-reason__h">
+              <img src="../images/start/start_reason0_h.jpg" width="460" height="130" alt="1.10万人以上の支援者があなたのプロジェクトを待っています">
+            </h1>
             <div class="Start-reason__img">
-              <img>
+              <img src="../images/start/start_reason0_fig.jpg" width="460" height="300" alt="">
             </div>
             <div class="Start-reason__dsc">
               <p>READYFORの支援者は、老若男女幅広い方々で構成されています。あなたのプロジェクトを、新たな層の方にアピールし、共感・支援を集めることができます。</p>
@@ -81,9 +83,11 @@
           </section>
 
           <section class="Start-reason u-fl_r">
-            <h1>2.国内最多2600以上のプロジェクトから選ばれています</h1>
+            <h1 class="Start-reason__h">
+              <img src="../images/start/start_reason1_h.jpg" width="460" height="130" alt="2.国内最多2600以上のプロジェクトから選ばれています">
+            </h1>
             <div class="Start-reason__img">
-              <img>
+              <img src="../images/start/start_reason1_fig.jpg" width="460" height="300" alt="">
             </div>
             <div class="Start-reason__dsc">
               <p>ジャンルや金額の規模を問わず、プロジェクトを応募することができます。これまでには、5万〜5000万円万超まで、幅広いプロジェクトを掲載しています。</p>
@@ -93,9 +97,11 @@
 
         <div class="Start-reasons u-clrfix">
           <section class="Start-reason u-fl_l">
-            <h1 class="Start-reason__h">3.幅広いデバイスや決済手段を ご利用いただけます</h1>
+            <h1 class="Start-reason__h">
+              <img src="../images/start/start_reason2_h.jpg" width="460" height="130" alt="3.幅広いデバイスや決済手段を ご利用いただけます">
+            </h1>
             <div class="Start-reason__img">
-              <img>
+              <img src="../images/start/start_reason2_fig.jpg" width="460" height="300" alt="">
             </div>
             <div class="Start-reason__dsc">
               <p>PC、タブレット、モバイルの全機器からご利用いただけます。また、決済手段も各種クレジットカード、銀行振込(30,000円以上の支援)と様々な手段に対応しています。</p>
@@ -103,9 +109,11 @@
           </section>
 
           <section class="Start-reason u-fl_r">
-            <h1 class="Start-reason__h">4.掲載は無料！だれでも気軽に 始めることができます</h1>
+            <h1 class="Start-reason__h">
+              <img src="../images/start/start_reason3_h.jpg" width="460" height="130" alt="4.掲載は無料！だれでも気軽に 始めることができます">
+            </h1>
             <div class="Start-reason__img">
-              <img>
+              <img src="../images/start/start_reason3_fig.jpg" width="460" height="300" alt="">
             </div>
             <div class="Start-reason__dsc">
               <p>掲載料や原稿手数料は一切かかりません。手数料は、目標達成時のみいただいておりますので(達成金額の17% )誰でも気軽にプロジェクトを始めることができます。</p>
@@ -121,7 +129,7 @@
         <h1 class="Heading-1">プロジェクト達成までの流れ</h1>
       </header>
       <div class="Container Start-container">
-        <ol>
+        <ol class="Start-flow">
           <li>スタート：「プロジェクトをはじめる」ボタンから、エントリーしてください。</li>
           <li>相談と審査：プロジェクトの審査を行います。</li>
           <li>原稿の作成：あなたのプロジェクトについて、文章や写真の素材をWEB上で入力してください。</li>
@@ -143,6 +151,7 @@
 
           <section class="Start-voice is-pos_l is-clr_0 u-clrfix u-mb_30">
             <div class="Start-voice__img">
+              <img src="../images/start/start_voice_img0.jpg" width="160" height="160" alt="">
             </div>
             <div class="Start-voice__body">
               <h1 class="Start-voice__h">
@@ -160,6 +169,7 @@
 
           <section class="Start-voice is-pos_r is-clr_1 u-clrfix u-mb_30">
             <div class="Start-voice__img">
+              <img src="../images/start/start_voice_img1.jpg" width="160" height="160" alt="">
             </div>
             <div class="Start-voice__body">
               <h1 class="Start-voice__h">
@@ -179,6 +189,7 @@
 
           <section class="Start-voice is-pos_l is-clr_0 u-clrfix u-mb_30">
             <div class="Start-voice__img">
+              <img src="../images/start/start_voice_img2.jpg" width="160" height="160" alt="">
             </div>
             <div class="Start-voice__body">
               <h1 class="Start-voice__h">
@@ -196,6 +207,7 @@
 
           <section class="Start-voice is-pos_r is-clr_1 u-clrfix">
             <div class="Start-voice__img">
+              <img src="../images/start/start_voice_img3.jpg" width="160" height="160" alt="">
             </div>
             <div class="Start-voice__body">
               <h1 class="Start-voice__h">
