@@ -33,7 +33,7 @@
 
     <div class="Container">
 
-      <section class="Page-main" role="main">
+      <section class="Page-main u-fl_r" role="main">
 
         <!-- @NOTE Page-hの種類に注意 -->
         <h1 class="Page-h" style="margin-bottom: 28px">新着プロジェクト 200件</h1>
@@ -240,7 +240,7 @@
 
       </section>
 
-      <div class="Sidebar">
+      <div class="Sidebar u-fl_l">
 
         <form class="Search u-mb_30">
           <input type="text" class="Search-input" placeholder="キーワード検索">

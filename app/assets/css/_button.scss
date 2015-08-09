@@ -18,7 +18,7 @@
   background-color: #fff;
   border: 1px solid #e6e6e6;
   border-radius: 4px;
-  min-width: 160px;
+  width: 160px;
   height: 38px;
 
   &.is-l {
@@ -56,7 +56,7 @@
   background-image: linear-gradient(to bottom, #ff555d, #ec0d17);
   border-radius: 6px;
   height: 60px;
-  min-width: 400px;
+  width: 400px;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,0.5);
   line-height: 1;
 
@@ -94,7 +94,7 @@
   @extend %Btn;
   border-radius: 6px;
   height: 40px;
-  min-width: 320px;
+  width: 320px;
   line-height: 1;
 
   &.is-blue {

@@ -9,16 +9,39 @@
 */
 
 /**
- * rightパターンも考えておく
+ * Sidebar
  */
 .Sidebar {
   float: left;
   width: 228px;
+
+  &.is-type0 {
+    width: 350px;
+  }
+
+}
+
+/**
+ * Side-area
+ */
+.Side-area-0 {
+  border: 1px solid #dbdbdb;
+  border-radius: 6px;
+  padding: 25px;
+}
+
+.Side-area-1 {
+  background-color: #fffbf7;
+  border: 1px solid #ff9331;
+  border-radius: 6px;
+  padding: 25px;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.1);
 }
 
 /**
  * Search
  * @TO_DO 可変にする
+ * @TO_DO エリアモジュールにする
  */
 .Search {
   overflow: hidden;

@@ -64,7 +64,9 @@ th {
   width: 100%;
   height: auto;
 }
-.u-fit-w { width: 100%; }
+.u-fit-w { width: 100% !important; }
+
+.u-font-en { font-family: $DEVICE_FONT_EN !important; }
 
 .u-note { color: $COLOR_WEAK2 !important; }
 .u-link { color: $COLOR_LINK !important; }
@@ -173,6 +175,11 @@ th {
   float: right;
   width: 742px;
   height: 500px;
+
+  &.is-type0 {
+    width: 610px;
+  }
+
 }
   .Page-h {/* @FIX_ME これ微妙 */
     font-size: 20px;
