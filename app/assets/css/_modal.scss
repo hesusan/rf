@@ -4,19 +4,25 @@
    Modal
    ========================================================================== */
 
+/**
+ * Overlay
+ */
 .Overlay {
-  background-color: black;
+  background-color: rgba(0,0,0,0.5);
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   overflow: hidden;
-  opacity: 0.5;
   z-index: 9999;
   backface-visibility: hidden;
+  display: none;
 }
 
+/**
+ * Modal
+ */
 .Modal {
   background-color: #fff;
   border-radius: 6px;
@@ -34,43 +40,49 @@
     right: 12px;
   }
 
-.Modal__part-0 {
-  position: relative;
-  text-align: center;
-
-  &:before {
-    content: '';
-    display: block;
-    height: 1px;
-    background-color: #ebebeb;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin-top: auto;
-    margin-bottom: auto;
-  }
-}
-  .Modal__part-0__circle {
-    background-color: #fff;
-    border: 1px solid #ebebeb;
-    border-radius: 21px;
-    font-size: 10px;
-    height: 42px;
-    width: 42px;
-    line-height: 42px;
-    overflow: hidden;
-    display: inline-block;
-    vertical-align: middle;
+  .Modal__part-0 {
     position: relative;
-  }
+    text-align: center;
 
-.Signup {
+    &:before {
+      content: '';
+      display: block;
+      height: 1px;
+      background-color: #ebebeb;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+  }
+    .Modal__part-0__circle {
+      background-color: #fff;
+      border: 1px solid #ebebeb;
+      border-radius: 21px;
+      font-size: 10px;
+      height: 42px;
+      width: 42px;
+      line-height: 42px;
+      overflow: hidden;
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+    }
+
+/**
+ * Signup
+ */
+.Signup-modal {
   width: 480px;
   padding: 20px 80px;
 }
 
-.Login {
+/**
+ * Login
+ */
+.Login-modal {
   width: 480px;
   padding: 20px 80px;
 }

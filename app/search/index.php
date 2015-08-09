@@ -24,6 +24,11 @@
 
   <? require_once '../php/header.php'; ?>
 
+  <div class="Overlay">
+    <? require_once 'php/signup_modal.php'; ?>
+    <? require_once 'php/login_modal.php'; ?>
+  </div>
+
   <div class="Page-body" style="padding-top: 20px">
 
     <div class="Container">
