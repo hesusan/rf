@@ -2,11 +2,15 @@
 
 @import "_version";
 @import "_variables";
+
 @import "_mixin";
 @import "_reset";
 @import "_default";
+@import "_adjustment";
+
 @import "_common";
 @import "_header";
+@import "_footer";
 @import "_sidebar";
 @import "_localnav";
 @import "_modal";
@@ -17,10 +21,11 @@
 @import "_entry";
 @import "_gauge";
 @import "_button";
-@import "_footer";
-@import "_adjustment";
+
+//pages
 @import "pages/_top";
 @import "pages/_about";
 @import "pages/_start";
 @import "pages/_search";
+
 //@import "vendor/animate/_animate";

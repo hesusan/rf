@@ -25,8 +25,8 @@
   <? require_once '../php/header.php'; ?>
 
   <div class="Overlay">
-    <? require_once 'php/signup_modal.php'; ?>
-    <? require_once 'php/login_modal.php'; ?>
+    <? require_once '../php/signup_modal.php'; ?>
+    <? require_once '../php/login_modal.php'; ?>
   </div>
 
   <section class="Page-body" role="main">
