@@ -6,11 +6,6 @@
 
 $imagePath: '../images/';
 
-/*
-@import "sprite/_common-sprite-base";
-@import "sprite/_top-sprite-base";
-*/
-
 @import "sprite/_common-sprite-base";
 @import "sprite/_about-sprite-base";
 @import "sprite/_start-sprite-base";
@@ -23,6 +18,8 @@ $PAGE_WIDTH: 1000px;
 /* color */
 $COLOR_BASE: #444;
 $COLOR_WEAK: #666;
+$COLOR_WEAK2: #888;
+$COLOR_LINK: #ff881a;
 $COLOR_FOCUS: #e60013;
 
 $BASE_LINE_HEIGHT: 1.4;

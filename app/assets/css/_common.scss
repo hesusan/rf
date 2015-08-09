@@ -60,17 +60,14 @@ th {
 /* Utitlity
    ----------------------------------------------------------------- */
 
-.u-fit {//u-fit-imgに変更
+.u-fit {//@FIX_ME u-fit-imgに変更
   width: 100%;
   height: auto;
 }
-.u-fit-w {
-  width: 100%;
-}
+.u-fit-w { width: 100%; }
 
-.u-link {
-  color: #ff881a;
-}
+.u-note { color: $COLOR_WEAK2; }
+.u-link { color: $COLOR_LINK; }
 
 .u-link-area {
   color: inherit;
@@ -119,6 +116,11 @@ th {
 .u-mr_20 { margin-right: 20px !important; }
 .u-mb_20 { margin-bottom: 20px !important;}
 .u-ml_20 { margin-left: 20px !important; }
+
+.u-mt_15 { margin-top: 15px !important; }
+.u-mr_15 { margin-right: 15px !important; }
+.u-mb_15 { margin-bottom: 15px !important; }
+.u-ml_15 { margin-left: 15px !important; }
 
 .u-mt_14 { margin-top: 14px !important; }
 .u-mr_14 { margin-right: 14px !important; }

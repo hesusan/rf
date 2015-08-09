@@ -24,6 +24,36 @@
 
   <? require_once 'php/header.php'; ?>
 
+  <div class="Overlay u-d_none"></div>
+
+  <aside class="Modal Signup u-d_none">
+    <a href="#" class="Modal__closer">×閉じる</a>
+    <h1 class="u-fs_24 u-align_c u-mb_25">新規登録</h1>
+    <div class="u-mb_15">facebookで登録</div>
+    <p class="u-mb_15 u-align_c">または</p>
+    <form>
+      <div>
+        <input type="text" placeholder="メールアドレス" class="Input u-fit-w">
+      </div>
+      <div class="u-mt_15">
+        <input type="text" placeholder="パスワード(英数字6～12文字)" class="Input u-fit-w">
+      </div>
+      <div class="u-mt_15">
+        <input type="text" placeholder="パスワードの確認" class="Input u-fit-w">
+      </div>
+      <div class="u-mt_15">
+        <input type="text" placeholder="お名前(ニックネーム)" class="Input u-fit-w">
+      </div>
+      <div class="u-mt_25">メールアドレスで登録</div>
+    </form>
+    <p class="u-mt_25 u-fs_16 u-align_c">
+      アカウントを既にお持ちの方は<a href="#">ログイン</a>
+    </p>
+    <p class="u-mt_25 u-fs_12 u-note">
+      アカウントを作成することにより、<a href="#">利用規約</a>および<a href="#">プライバシーポリシー</a>に同意されたものとさせていただきます。
+    </p>
+  </aside>
+
   <div class="Page-body">
 
     <div class="Top-visual">
