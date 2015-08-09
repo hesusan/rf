@@ -34,10 +34,43 @@
     right: 12px;
   }
 
+.Modal__part-0 {
+  position: relative;
+  text-align: center;
+
+  &:before {
+    content: '';
+    display: block;
+    height: 1px;
+    background-color: #ebebeb;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+}
+  .Modal__part-0__circle {
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 21px;
+    font-size: 10px;
+    height: 42px;
+    width: 42px;
+    line-height: 42px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+  }
+
 .Signup {
   width: 480px;
   padding: 20px 80px;
 }
-  .Signup__inner {
 
-  }
+.Login {
+  width: 480px;
+  padding: 20px 80px;
+}

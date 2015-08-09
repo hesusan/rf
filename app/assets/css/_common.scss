@@ -66,8 +66,8 @@ th {
 }
 .u-fit-w { width: 100%; }
 
-.u-note { color: $COLOR_WEAK2; }
-.u-link { color: $COLOR_LINK; }
+.u-note { color: $COLOR_WEAK2 !important; }
+.u-link { color: $COLOR_LINK !important; }
 
 .u-link-area {
   color: inherit;

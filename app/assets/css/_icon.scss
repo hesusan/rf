@@ -133,7 +133,18 @@
   @extend %Icon;
   @include sprite-icon($common-icon-arrow-r);
 }
+
 .Icon-arrow-r-2 {
   @extend %Icon;
   @include sprite-icon($common-icon-arrow-r-2);
+}
+
+.Icon-fb {
+  @extend %Icon;
+  @include sprite-icon($common-icon-fb);
+}
+
+.Icon-mail {
+  @extend %Icon;
+  @include sprite-icon($common-icon-mail);
 }

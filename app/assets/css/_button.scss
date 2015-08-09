@@ -5,6 +5,7 @@
    ========================================================================== */
 
 %Btn {
+  cursor: pointer;
   display: inline-block;
   vertical-align: bottom;
 }
@@ -73,15 +74,54 @@
   }
     .Btn-1__content {
       color: #fff;
+      font-size: 22px;
+      font-weight: bold;
       display: table-cell;
       vertical-align: middle;
       height: inherit;
       text-align: center;
     }
     .Btn-1__txt {
-      font-weight: bold;
-      font-size: 22px;
+     /* font-weight: bold;
+      font-size: 22px;*/
       vertical-align: middle;
+    }
+
+/**
+ * Signin, Login系
+ */
+.Btn-2 {
+  @extend %Btn;
+  border-radius: 6px;
+  height: 40px;
+  min-width: 320px;
+  line-height: 1;
+
+  &.is-blue {
+    background-color: #47629c;
+  }
+  &.is-red {
+    background-color: #e00314;
+  }
+}
+  .Btn-2__inner {
+    display: table;
+    height: inherit;
+    width: 100%;
+  }
+    .Btn-2__content {
+      color: #fff;
+      font-size: 16px;
+      display: table-cell;
+      vertical-align: middle;
+      height: inherit;
+      text-align: center;
+    }
+    .Btn-2__txt {
+      vertical-align: middle;
+    }
+    .Btn-2__icon {
+      margin-right: 14px;
     }
 
 /**
