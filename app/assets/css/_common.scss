@@ -156,11 +156,31 @@ th {
   padding-top: 111px;
 }
 
+/**
+ * body
+ */
 .Page-body {
   padding-bottom: 50px;
   @include clrfix();
 }
 
+/**
+ * main
+ */
+.Page-main {
+  float: right;
+  width: 742px;
+  height: 500px;
+}
+  .Page-h {/* @FIX_ME これ微妙 */
+    font-size: 20px;
+    /*color: #444;*/
+    line-height: 34px;
+  }
+
+/**
+ * Container
+ */
 .Container {
   @include container();
   @include clrfix();

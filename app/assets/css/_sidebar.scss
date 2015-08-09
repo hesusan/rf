@@ -8,18 +8,6 @@
 (1000 - (230 + 30)) - 31*2
 */
 
-.Page-main {
-  float: right;
-  width: 742px;
-  height: 500px;
-}
-  .Page-h {/* @FIX_ME これ微妙 */
-    font-size: 20px;
-    /*color: #444;*/
-    line-height: 34px;
-  }
-
-
 /**
  * rightパターンも考えておく
  */
@@ -57,74 +45,4 @@
     color: #fff;
     height: 34px;
     width: 54px;
-  }
-
-/**
- * Local-nav
- */
-.Local-nav {
-}
-
-/**
- * Local-nav-menu
- */
-.Local-nav-menu {
-}
-  .Local-nav-menu__list {
-  }
-    .Local-nav-menu__item {
-      border-bottom: 1px solid #ebebeb;
-      padding-top: 4px;
-      padding-bottom: 4px;
-    }
-      .Local-nav-menu__link {
-        border-radius: 2px;
-        color: inherit;
-        display: block;
-        font-size: 14px;
-        padding: 8px 26px 8px 10px;
-        position: relative;
-
-        &:hover {
-          background-color: #ff881a;
-          color: #fff;
-          text-decoration: none;/* FIX_ME */
-
-          &:after {
-            @include sprite($common-icon-arrow-r-0);
-          }
-
-        }
-
-        &:after {
-          @include sprite($common-icon-arrow-r-1);
-          content: '';
-          position: absolute;
-          top: 0;
-          bottom: 0;
-          right: 10px;
-          margin-top: auto;
-          margin-bottom: auto;
-        }
-      }
-
-/**
- * Local-nav-menu-h
- */
-.Local-nav-menu__h {
-  border-top: 2px solid $COLOR_FOCUS;
-  border-bottom: 1px solid #ebebeb;
-  padding-top: 18px;
-  padding-bottom: 18px;
-}
-  .Local-nav-menu__h-txt {
-    color: #444;
-    font-size: 16px;
-    line-height: 1;
-    vertical-align: middle;
-  }
-  .Local-nav-menu__h-icon {
-    /*vertical-align: middle;*/
-    display:inline-block;
-    margin-right: 13px;
   }

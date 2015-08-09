@@ -102,10 +102,6 @@
 
         &:after {
           content: '';
-          background-color: gray;
-          height: 22px;
-          width: 18px;
-          display: block;
           position: absolute;
           bottom: 0;
         }
@@ -133,6 +129,7 @@
    */
   .Start-voice.is-pos_l {
     .Start-voice__h:after {
+      @include sprite($common-icon-serif-l);
       bottom: -2px;
       left: -18px;
     }
@@ -147,6 +144,7 @@
 
   .Start-voice.is-pos_r {
     .Start-voice__h:after {
+      @include sprite($common-icon-serif-r);
       bottom: -2px;
       right: -18px;
     }
