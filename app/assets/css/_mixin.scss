@@ -33,7 +33,7 @@
   $total_height : nth( $i_sprite, 8 ) / $i_pixelRatio;
   $path: nth( $i_sprite, 9 );
 
-	display: block;
+	display: inline-block;
   /*vertical-align: middle;*/
 	width: $width;
   overflow: hidden;
@@ -41,11 +41,11 @@
   height: $height;
 	background-image: url( #{$path}#{$version} );
 	background-repeat: no-repeat;
-  
+
   @if ($i_pixelRatio != 1) {
     background-size: $total_width auto;
   }
-  
+
 	background-position: $x $y;
 }
 

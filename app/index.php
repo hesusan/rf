@@ -91,7 +91,7 @@
 
       <header class="Header">
         <h1 class="Heading">
-          <span>注目のプロジェクト</span>
+          <span class="Icon-readyfor u-mr_10"></span><span class="u-d_ib">注目のプロジェクト</span>
         </h1>
       </header>
 
@@ -396,7 +396,7 @@
 
       <header class="Header">
         <h1 class="Heading">
-          <span>もうひと押し</span>
+          <span class="Icon-onepush u-mr_10"></span><span>もうひと押し</span>
         </h1>
         <div class="Header__misc u-fl_r">
           <a href="#" class="Btn-0">
@@ -538,7 +538,7 @@
         <section class="Grid__col3">
           <header class="Header">
             <h1 class="Heading is-s">
-              <span>人気のプロジェクト</span>
+              <span class="Icon-ranking u-mr_10"></span><span>人気のプロジェクト</span>
             </h1>
           </header>
 
@@ -564,7 +564,7 @@
         <section class="Grid__col3">
           <header class="Header">
             <h1 class="Heading is-s">
-              <span>人気のリターン</span>
+              <span class="Icon-return u-mr_10"></span><span>人気のリターン</span>
             </h1>
           </header>
 
@@ -593,7 +593,7 @@
         <section class="Grid__col3">
           <header class="Header">
             <h1 class="Heading is-s">
-              <span>達成金額順</span>
+              <span class="Icon-money u-mr_10"></span><span>達成金額順</span>
             </h1>
           </header>
 
@@ -624,7 +624,7 @@
 
       <header class="Header">
         <h1 class="Heading">
-          <span>新着プロジェクト</span>
+          <span class="Icon-new u-mr_10"></span><span>新着プロジェクト</span>
         </h1>
         <div class="Header__misc u-fl_r">
           <a href="#" class="Btn-0">
@@ -707,7 +707,7 @@
     <section class="Container u-mb_40">
       <header class="Header">
         <h1 class="Heading">
-          <span>成功したプロジェクト</span>
+          <span class="Icon-success u-mr_10"></span><span>成功したプロジェクト</span>
         </h1>
         <div class="Header__misc u-fl_r">
           <a href="#" class="Btn-0">
@@ -783,7 +783,7 @@
 
       <header class="Header">
         <h1 class="Heading">
-          <span class="Heading__txt">成功者インタビュー</span>
+          <span class="Icon-interview u-mr_10"></span><span class="Heading__txt">成功者インタビュー</span>
         </h1>
       </header>
 

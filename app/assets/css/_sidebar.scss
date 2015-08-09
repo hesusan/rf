@@ -91,16 +91,14 @@
           text-decoration: none;/* FIX_ME */
 
           &:after {
-            background-color: #fff;
+            @include sprite($common-icon-arrow-r-0);
           }
+
         }
 
         &:after {
+          @include sprite($common-icon-arrow-r-1);
           content: '';
-          background-color: gray;
-          height: 11px;
-          width: 6px;
-          display: block;
           position: absolute;
           top: 0;
           bottom: 0;
@@ -126,11 +124,7 @@
     vertical-align: middle;
   }
   .Local-nav-menu__h-icon {
-    vertical-align: middle;
-    width:24px;
-    height:24px;
+    /*vertical-align: middle;*/
     display:inline-block;
-    background-color:gray;
-
     margin-right: 13px;
   }

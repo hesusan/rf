@@ -247,7 +247,7 @@
 
           <section class="Local-nav-menu u-mb_25">
             <h1 class="Local-nav-menu__h">
-              <span class="Local-nav-menu__h-icon"></span><span class="Local-nav-menu__h-txt">プロジェクトをさがす</span>
+              <span class="Local-nav-menu__h-icon Icon-search"></span><span class="Local-nav-menu__h-txt">プロジェクトをさがす</span>
             </h1>
             <ul class="Local-nav-menu__list">
               <li class="Local-nav-menu__item">
@@ -270,7 +270,7 @@
 
           <section class="Local-nav-menu u-mb_25">
             <h1 class="Local-nav-menu__h">
-              <span class="Local-nav-menu__h-icon"></span><span class="Local-nav-menu__h-txt">カテゴリからさがす</span>
+              <span class="Local-nav-menu__h-icon Icon-tag-2"></span><span class="Local-nav-menu__h-txt">カテゴリからさがす</span>
             </h1>
             <ul class="Local-nav-menu__list">
               <li class="Local-nav-menu__item">

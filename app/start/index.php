@@ -243,7 +243,7 @@
                 <tr>
                   <th class="u-valign_m">
                     <label for="Contact-input-0">
-                      <b class="Require-icon u-mr_20">必須</b>お名前
+                      <b class="Icon-require u-mr_20">必須</b>お名前
                     </label>
                   </th>
                   <td>
@@ -254,7 +254,7 @@
                 <tr>
                   <th class="u-valign_m">
                     <label for="Contact-input-1">
-                      <b class="Optional-icon u-mr_20">任意</b>団体名
+                      <b class="Icon-optional u-mr_20">任意</b>団体名
                     </label>
                   </th>
                   <td>
@@ -265,7 +265,7 @@
                 <tr>
                   <th class="u-valign_m">
                     <label for="Contact-input-2">
-                      <b class="Require-icon u-mr_20">必須</b>メールアドレス
+                      <b class="Icon-require u-mr_20">必須</b>メールアドレス
                     </label>
                   </th>
                   <td>
@@ -276,7 +276,7 @@
                 <tr>
                   <th class="u-valign_m">
                     <label for="Contact-input-3">
-                      <b class="Require-icon u-mr_20">必須</b>電話番号
+                      <b class="Icon-require u-mr_20">必須</b>電話番号
                     </label>
                   </th>
                   <td>
@@ -287,7 +287,7 @@
                 <tr>
                   <th>
                     <label for="Contact-input-4">
-                      <b class="Require-icon u-mr_20">必須</b>ご相談内容
+                      <b class="Icon-require u-mr_20">必須</b>ご相談内容
                     </label>
                   </th>
                   <td>
