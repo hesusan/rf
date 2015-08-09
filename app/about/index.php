@@ -34,12 +34,14 @@
 
     <header class="About-header">
       <h1 class="About-header__heading">
-        <div class="About-header__heading-txt0">1</div>
-        <div class="About-header__heading-txt1">
+        <div class="About-header__heading-obj">
+          <div class="About-header__heading-obj-num"></div>
+        </div>
+        <div class="About-header__heading-txt-0">
             日本No.1<br>
             クラウドファンディング
         </div>
-        <div class="About-header__heading-txt2">READYFORとは？</div>
+        <div class="About-header__heading-txt-1">READYFORとは？</div>
       </h1>
       <p class="About-header__dsc">日本で最初の、そして最大のクラウドファンディングサービスです。</p>
     </header>

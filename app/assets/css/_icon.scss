@@ -22,7 +22,7 @@
 .Require-icon {
   @extend %Icon;
   color: #fff;
-  background-color: #e60013;
+  background-color: $COLOR_FOCUS;
   border-radius: 2px;
   border: 1px solid transparent;
   font-size: 12px;
