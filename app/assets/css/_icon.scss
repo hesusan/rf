@@ -10,10 +10,11 @@
 %Icon {
   display: inline-block;
   vertical-align: middle;
-
+/*
   &:after {
     content: '';
   }
+  */
 }
 
 /**
@@ -125,5 +126,14 @@
 
 .Icon-tag-2 {
   @extend %Icon;
-  @include sprite-icon($common-icon-tag2);
+  @include sprite-icon($common-icon-tag-2);
+}
+
+.Icon-arrow-r {
+  @extend %Icon;
+  @include sprite-icon($common-icon-arrow-r);
+}
+.Icon-arrow-r-2 {
+  @extend %Icon;
+  @include sprite-icon($common-icon-arrow-r-2);
 }

@@ -384,7 +384,7 @@
         <a href="#" class="Btn-0 is-l">
           <span class="Btn-0__inner">
             <span class="Btn-0__content">
-              <span class="Btn-0__txt">もっと見る</span>
+              <span class="Btn-0__txt">もっと見る</span><span class="Btn-0__icon Icon-arrow-r-2"></span>
             </span>
           </span>
         </a>
@@ -402,7 +402,7 @@
           <a href="#" class="Btn-0">
             <span class="Btn-0__inner">
               <span class="Btn-0__content">
-                <span class="Btn-0__txt">もっと見る</span>
+                <span class="Btn-0__txt">もっと見る</span><span class="Btn-0__icon Icon-arrow-r-2"></span>
               </span>
             </span>
           </a>
@@ -630,7 +630,7 @@
           <a href="#" class="Btn-0">
             <span class="Btn-0__inner">
               <span class="Btn-0__content">
-                <span class="Btn-0__txt">もっと見る</span>
+                <span class="Btn-0__txt">もっと見る</span><span class="Btn-0__icon Icon-arrow-r-2"></span>
               </span>
             </span>
           </a>
@@ -713,7 +713,7 @@
           <a href="#" class="Btn-0">
             <span class="Btn-0__inner">
               <span class="Btn-0__content">
-                <span class="Btn-0__txt">もっと見る</span>
+                <span class="Btn-0__txt">もっと見る</span><span class="Btn-0__icon Icon-arrow-r-2"></span>
               </span>
             </span>
           </a>

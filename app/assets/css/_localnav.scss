@@ -36,13 +36,13 @@
           text-decoration: none;/* FIX_ME */
 
           &:after {
-            @include sprite($common-icon-arrow-r-0);
+            @include sprite($common-icon-arrow-r);
           }
 
         }
 
         &:after {
-          @include sprite($common-icon-arrow-r-1);
+          @include sprite($common-icon-arrow-r-2);
           content: '';
           position: absolute;
           top: 0;

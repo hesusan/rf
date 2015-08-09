@@ -10,7 +10,7 @@
     <div class="Site-header__main">
       <div class="Container u-clrfix">
         <h1 class="Site-header__ci">
-          <a href="#">READYFOR</a>
+          <a href="/">READYFOR</a>
         </h1>
         <nav class="Site-nav">
           <ul class="Site-nav__inner">
