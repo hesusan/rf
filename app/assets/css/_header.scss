@@ -72,6 +72,10 @@
         height: inherit;
         padding-top: 20px;
         text-align: center;
+
+        &:hover {
+          text-decoration: none;
+        }
       }
         .Site-nav__link-icon {
           background-color: gray;
