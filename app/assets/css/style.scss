@@ -3,11 +3,19 @@
 @import "_version";
 @import "_variables";
 
+/* sprites */
+@import "sprite/_common-sprite-base";
+@import "sprite/_top-sprite-base";
+@import "sprite/_about-sprite-base";
+@import "sprite/_start-sprite-base";
+
+/* default */
 @import "_mixin";
 @import "_reset";
 @import "_default";
 @import "_adjustment";
 
+/* project */
 @import "_common";
 @import "_header";
 @import "_footer";
@@ -23,7 +31,7 @@
 @import "_button";
 @import "_helper";
 
-//pages
+/* pages */
 @import "pages/_top";
 @import "pages/_about";
 @import "pages/_start";

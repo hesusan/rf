@@ -5,14 +5,16 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>国内最大のクラウドファウンディングサイト READYFOR</title>
 <meta name="viewport" content="width=device-width">
-<meta name="keywords" content="">
-<meta name="description" content="国内最大のクラウドファウンディングサイトREADYFORは、誰もがやりたいことを実行できる世界を創ります">
-<meta property="og:title" content="国内最大のクラウドファウンディングサイト READYFOR">
-<meta property="og:description" content="国内最大のクラウドファウンディングサイトREADYFORは、誰もがやりたいことを実行できる世界を創ります">
+<meta name="keywords" content="READYFOR,レディーフォー,クラウドファンディング,ソーシャルファンディング,資金調達,クリエーター">
+<meta name="description" content="READYFORは日本で最初のそして最大のクラウドファンディングサービスです。共感をテーマに、社会をよくするクリエイティブな活動や新しいことに挑戦する人々を応援するプラットフォームです。">
+
+<meta property="og:title" content="READYFOR (レディーフォー)">
+<meta property="og:site_name" content="READYFOR (レディーフォー)">
 <meta property="og:type" content="website">
-<meta property="og:url" content="">
-<meta property="og:image" content="">
-<meta property="og:site_name" content="国内最大のクラウドファウンディングサイト READYFOR">
+<meta property="og:url" content="https://readyfor.jp/">
+<meta property="og:image" content="https://readyfor.jp/images/screenshot-20150417.png">
+<meta property="og:description" content="READYFORは日本で最初のそして最大のクラウドファンディングサービスです。共感をテーマに、社会をよくするクリエイティブな活動や新しいことに挑戦する人々を応援するプラットフォームです。">
+
 <link rel="stylesheet" href="css/style.css">
 <!--[if lt IE 9]>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -61,7 +63,7 @@
                 <dl class="Entry__info-category">
                   <dt class="u-d_none">カテゴリ</dt>
                   <dd class="Entry__info-category-dd">
-                    <span class="Entry__info-category-icon"></span><span>カテゴリ名</span>
+                    <span class="Entry__info-category-icon Icon-tag"></span><span>カテゴリ名</span>
                   </dd>
                 </dl>
               </div>
@@ -89,7 +91,9 @@
     </div>
 
     <div class="Top-events u-mb_40">
-      <!-- carousel -->
+      <div></div>
+      <div></div>
+      <div></div>
     </div>
 
     <section class="Container u-mb_40">
@@ -124,8 +128,7 @@
                 <dl class="Entry__info-category">
                   <dt class="u-d_none">カテゴリ</dt>
                   <dd class="Entry__info-category-dd">
-                    <span class="Entry__info-category-icon"></span>
-                    <span>カテゴリ名</span>
+                    <span class="Entry__info-category-icon Icon-tag"></span><span>カテゴリ名</span>
                   </dd>
                 </dl>
               </div>
@@ -171,8 +174,7 @@
                 <dl class="Entry__info-category">
                   <dt class="u-d_none">カテゴリ</dt>
                   <dd class="Entry__info-category-dd">
-                    <span class="Entry__info-category-icon"></span>
-                    <span>カテゴリ名</span>
+                    <span class="Entry__info-category-icon Icon-tag"></span><span>カテゴリ名</span>
                   </dd>
                 </dl>
               </div>
@@ -218,8 +220,7 @@
                 <dl class="Entry__info-category">
                   <dt class="u-d_none">カテゴリ</dt>
                   <dd class="Entry__info-category-dd">
-                    <span class="Entry__info-category-icon"></span>
-                    <span>カテゴリ名</span>
+                    <span class="Entry__info-category-icon Icon-tag"></span><span>カテゴリ名</span>
                   </dd>
                 </dl>
               </div>
@@ -267,8 +268,7 @@
                 <dl class="Entry__info-category">
                   <dt class="u-d_none">カテゴリ</dt>
                   <dd class="Entry__info-category-dd">
-                    <span class="Entry__info-category-icon"></span>
-                    <span>カテゴリ名</span>
+                    <span class="Entry__info-category-icon Icon-tag"></span><span>カテゴリ名</span>
                   </dd>
                 </dl>
               </div>
@@ -314,8 +314,7 @@
                 <dl class="Entry__info-category">
                   <dt class="u-d_none">カテゴリ</dt>
                   <dd class="Entry__info-category-dd">
-                    <span class="Entry__info-category-icon"></span>
-                    <span>カテゴリ名</span>
+                    <span class="Entry__info-category-icon Icon-tag"></span><span>カテゴリ名</span>
                   </dd>
                 </dl>
               </div>
@@ -875,9 +874,6 @@
 
 </div>
 
-<!--
-<script src="js/index.js"></script>
--->
-
+<? require_once 'php/common_script.php'; ?>
 </body>
 </html>

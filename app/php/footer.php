@@ -37,19 +37,30 @@
 
         </div>
 
-        <aside class="Site-footer__sns">
-          <h1 class="u-d_none">SNS</h1>
-          <div class="Site-footer__sns-fb"></div>
-          <div class="Site-footer__sns-mail u-clrfix">
-            <p class="Site-footer__sns-mail-txt">実行者のためのお役立ち情報を配信中！</p>
-            <div class="Site-footer__sns-mail-form">
+        <div class="Site-footer__aside">
+          <aside class="Site-footer__sns">
+            <h1 class="u-d_none">SNS</h1>
+            <div class="Site-footer__sns-inner u-clrfix">
+              <div class="Site-footer__sns-tw">
+                <a href="https://twitter.com/share" class="twitter-share-button" data-text="READYFOR?（レディーフォー）は実行者を支援する日本初のクラウドファンディングです。" data-url="https://readyfor.jp/" data-count="vertical" data-via="ready_for" data-lang="ja">Tweet</a>
+              </div>
+              <div class="Site-footer__sns-fb">
+                <div class="fb-like"></div>
+              </div>
+            </div>
+          </aside>
+
+          <aside class="Site-footer__mail u-clrfix">
+            <h1 class="u-d_none">メールサービス</h1>
+            <p class="Site-footer__mail-txt">実行者のためのお役立ち情報を配信中！</p>
+            <div class="Site-footer__mail-form">
               <form>
-                <input type="text" class="Site-footer__sns-mail-input" placeholder="メールアドレス">
-                <button class="Site-footer__sns-mail-btn">登録</button>
+                <input type="text" class="Site-footer__mail-input" placeholder="メールアドレス">
+                <button class="Site-footer__mail-btn">登録</button>
               </form>
             </div>
-          </div>
-        </aside>
+          </aside>
+        </div>
 
         <ul class="Site-footer__nav">
           <li><a href="#">プライバシーポリシー</a></li><li><a href="#">利用規約</a></li><li><a href="#">よくある質問</a></li><li><a href="#">ガイドライン</a></li><li><a href="#">特定取引法に基づく表記</a></li>

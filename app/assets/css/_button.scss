@@ -29,14 +29,17 @@
     display: table;
     height: inherit;
     width: 100%;
+    /*
     padding-left: 28px;
     padding-right: 28px;
+    */
   }
     .Btn-0__content {
       display: table-cell;
       vertical-align: middle;
       height: inherit;
       text-align: center;
+      white-space: nowrap;
     }
       .Btn-0__txt {
         color: #ff881a;

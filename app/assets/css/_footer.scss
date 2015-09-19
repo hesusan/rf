@@ -47,40 +47,49 @@
               }
             }
           }
-      /* sns */
-      .Site-footer__sns {
+
+      .Site-footer__aside {
         border-top: 1px solid #4b5565;
         padding-top: 24px;
         padding-bottom: 28px;
       }
-        .Site-footer__sns-fb {
-          background-color: black;
+
+      /* sns */
+      .Site-footer__sns {
+      }
+        .Site-footer__sns-inner {
           height: 92px;
         }
-        .Site-footer__sns-mail {
-          height: 24px;
-          line-height: 24px;
-        }
-          .Site-footer__sns-mail-txt {
+          .Site-footer__sns-tw {
             float: left;
-            color: #8895b3;
+            margin-right: 20px;
           }
-          .Site-footer__sns-mail-form {
-            float: right;
+
+
+      .Site-footer__mail {
+        height: 24px;
+        line-height: 24px;
+      }
+        .Site-footer__mail-txt {
+          float: left;
+          color: #8895b3;
+        }
+        .Site-footer__mail-form {
+          float: right;
+        }
+          .Site-footer__mail-input {
+            width: 250px;
+            height: 24px;
           }
-            .Site-footer__sns-mail-input {
-              width: 250px;
-              height: 24px;
-            }
-            .Site-footer__sns-mail-btn {
-              background-color: #3f4959;
-              border: none;
-              box-shadow: none;
-              color: #d7e1fa;
-              height: 24px;
-              margin-left: 5px;
-              width: 80px;
-            }
+          .Site-footer__mail-btn {
+            background-color: #3f4959;
+            border: none;
+            box-shadow: none;
+            color: #d7e1fa;
+            height: 24px;
+            margin-left: 5px;
+            width: 80px;
+          }
 
       /* nav */
       .Site-footer__nav {

@@ -143,10 +143,13 @@
         border-radius: 4px;
       }
     }
-    .Entry__info-founder-icon,
-    .Entry__info-category-icon {
+    .Entry__info-founder-icon {
       display: inline-block;
       margin-right: 10px;
+    }
+    .Entry__info-category-icon {
+      display: inline-block;
+      margin-right: 5px;
     }
 
 

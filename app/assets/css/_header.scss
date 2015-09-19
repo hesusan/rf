@@ -38,10 +38,7 @@
       margin-top: 18px;
 
       a {
-        display: block;
-        width: 195px;
-        height: 39px;
-        background-color: #ccc;
+        @include sprite-bg($common-ci);
       }
     }
 

@@ -22,10 +22,17 @@
   position: absolute;
   bottom: 0;
   left: 0;
+  width: 100%;
 }
+  .Top-visual__lead-item-0 {
+    @include sprite-bg($top-visual-lead-item0);
+    float: left;
+    margin-right: 30px;
+  }
   .Top-visual__lead-item-1 {
     color: $COLOR_BASE;
     font-size: 18px;
+    line-height: 65px;
   }
 
 /**
