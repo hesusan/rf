@@ -21,6 +21,7 @@ var VERSION = "";
 //どのJSを連結するかのデータ
 var JS = {
 
+/*
   "common" : [
     "js/common/lib/jquery-1.11.0.min.js",
     "js/common/lib/plugin.js",
@@ -35,6 +36,7 @@ var JS = {
     "js/common/lib/Config.js",
     "js/common/Common.js"
 	]
+*/
 
 }
 
@@ -300,5 +302,5 @@ gulp.task( "watch", ["js","css"], function(){
 
 } );
 
-gulp.task( "default", [ "sprite", "js", "css" ], function(){
+gulp.task( "default", [ "sprite", "css" ], function(){
 } );
