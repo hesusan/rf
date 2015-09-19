@@ -97,7 +97,9 @@
         <div class="Carousel__nav__n"></div>
       </div>
       <div class="Carousel__items">
-        <img src="images/top/bnr_4thanniversary.jpg" width="310" height="60" alt="" class="Carousel__item"><img src="images/top/bnr_eva.jpg" width="310" height="60" alt="" class="Carousel__item"><img src="images/top/bnr_start.jpg" width="310" height="60" alt="" class="Carousel__item">
+        <a href="#" class="Carousel__item"><img src="images/top/bnr_4thanniversary.jpg" width="310" height="60" alt=""></a>
+        <a href="#" class="Carousel__item"><img src="images/top/bnr_eva.jpg" width="310" height="60" alt=""></a>
+        <a href="#" class="Carousel__item"><img src="images/top/bnr_start.jpg" width="310" height="60" alt=""></a>
       </div>
     </aside>
 

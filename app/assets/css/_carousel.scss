@@ -39,6 +39,7 @@
     overflow: hidden;
   }
     .Carousel__item {
+      float: left;
 
       + .Carousel__item {
         margin-left: 35px;

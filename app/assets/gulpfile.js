@@ -260,9 +260,10 @@ gulp.task( "empty", function(){
 
 });
 
-gulp.task( "watch", ["js","css"], function(){
+gulp.task( "watch", ["css"], function(){
 
-	var jsDir = "js/**/*.js";
+	//var jsDir = "js/**/*.js";
+	/*
 	gulp.watch( jsDir, function( i_event ){
 
 		var jsDir = __dirname + "/js/";
@@ -294,6 +295,7 @@ gulp.task( "watch", ["js","css"], function(){
 		}
 
 	} );
+	*/
 
 
 	var cssDir = "css/**/*.scss";
