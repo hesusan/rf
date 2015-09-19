@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   Carousel
+   ========================================================================== */
+
+.Carousel {
+  position: relative;
+  width: $PAGE_WIDTH;
+  margin-left: auto;
+  margin-right: auto;
+}
+  .Carousel__nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+    .Carousel__nav__p {
+      @include sprite-bg($common_icon_arrow2_l);
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin-top: auto;
+      margin-bottom: auto;
+      left: -(get-sprite-width($common_icon_arrow2_l) + 6px);
+    }
+    .Carousel__nav__n {
+      @include sprite-bg($common_icon_arrow2_r);
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin-top: auto;
+      margin-bottom: auto;
+      right: -(get-sprite-width($common_icon_arrow2_r) + 6px);
+    }
+
+  .Carousel__items {
+    overflow: hidden;
+  }
+    .Carousel__item {
+
+      + .Carousel__item {
+        margin-left: 35px;
+      }
+
+    }

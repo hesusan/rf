@@ -33,7 +33,7 @@
 
   <div class="Page-body">
 
-    <div class="Top-visual">
+    <div class="Top-visual u-mb_40">
       <div class="Top-visual__inner Container">
 
         <div class="Top-visual__lead">
@@ -90,11 +90,16 @@
       </div>
     </div>
 
-    <div class="Top-events u-mb_40">
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
+    <aside class="Top-events Carousel u-mb_40">
+      <h1 class="u-d_none">イベント</h1>
+      <div class="Carousel-nav">
+        <div class="Carousel__nav__p"></div>
+        <div class="Carousel__nav__n"></div>
+      </div>
+      <div class="Carousel__items">
+        <img src="images/top/bnr_4thanniversary.jpg" width="310" height="60" alt="" class="Carousel__item"><img src="images/top/bnr_eva.jpg" width="310" height="60" alt="" class="Carousel__item"><img src="images/top/bnr_start.jpg" width="310" height="60" alt="" class="Carousel__item">
+      </div>
+    </aside>
 
     <section class="Container u-mb_40">
 
