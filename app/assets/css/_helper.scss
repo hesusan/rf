@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   Helper
+   ・プロジェクト単位の汎用クラス。案件に縛られないものはadjustmentへ
+   ========================================================================== */
+
+.u-fit {//@FIX_ME u-fit-imgに変更
+  width: 100%;
+  height: auto;
+}
+.u-fit-w { width: 100% !important; }
+
+.u-font-en { font-family: $DEVICE_FONT_EN !important; }
+
+.u-note { color: $COLOR_WEAK2 !important; }
+.u-link { color: $COLOR_LINK !important; }
+
+.u-link-area {
+  color: inherit;
+  display: block;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+/**
+ * font-size
+ */
+.u-fs_29 { font-size: 29px !important; }
+.u-fs_24 { font-size: 24px !important; }
+.u-fs_22 { font-size: 22px !important; }
+.u-fs_20 { font-size: 20px !important; }
+.u-fs_18 { font-size: 18px !important; }
+.u-fs_16 { font-size: 16px !important; }
+.u-fs_14 { font-size: 14px !important; }
+.u-fs_12 { font-size: 12px !important; }
+
+/**
+ * margin
+ */
+.u-mt_60 { margin-top: 50px !important;}
+.u-mb_60 { margin-bottom: 50px !important;}
+
+.u-mt_50 { margin-top: 50px !important;}
+.u-mb_50 { margin-bottom: 50px !important;}
+
+.u-mt_40 { margin-top: 40px !important;}
+.u-mb_40 { margin-bottom: 40px !important;}
+
+.u-mt_30 { margin-top: 30px !important;}
+.u-mr_30 { margin-right: 30px !important;}
+.u-mb_30 { margin-bottom: 30px !important;}
+.u-ml_30 { margin-left: 30px !important;}
+
+.u-mt_25 { margin-top: 25px !important;}
+.u-mr_25 { margin-right: 25px !important; }
+.u-mb_25 { margin-bottom: 25px !important;}
+.u-ml_25 { margin-left: 25px !important; }
+
+.u-mt_20 { margin-top: 20px !important;}
+.u-mr_20 { margin-right: 20px !important; }
+.u-mb_20 { margin-bottom: 20px !important;}
+.u-ml_20 { margin-left: 20px !important; }
+
+.u-mt_15 { margin-top: 15px !important; }
+.u-mr_15 { margin-right: 15px !important; }
+.u-mb_15 { margin-bottom: 15px !important; }
+.u-ml_15 { margin-left: 15px !important; }
+
+.u-mt_14 { margin-top: 14px !important; }
+.u-mr_14 { margin-right: 14px !important; }
+.u-mb_14 { margin-bottom: 14px !important; }
+.u-ml_14 { margin-left: 14px !important; }
+
+.u-mt_10 { margin-top: 10px !important; }
+.u-mr_10 { margin-right: 10px !important; }
+.u-mb_10 { margin-bottom: 10px !important; }
+.u-ml_10 { margin-left: 10px !important; }
+
+.u-mt_5 { margin-top: 5px !important; }
+.u-mr_5 { margin-right: 5px !important; }
+.u-mb_5 { margin-bottom: 5px !important; }
+.u-ml_5 { margin-left: 5px !important; }
+
+.u-mt_3 { margin-top: 3px !important; }
+.u-mr_3 { margin-right: 3px !important; }
+.u-mb_3 { margin-bottom: 3px !important; }
+.u-ml_3 { margin-left: 3px !important; }

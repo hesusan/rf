@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+/* ==========================================================================
+   Adjustment
+   ========================================================================== */
+
 .is-no-transition { transition: none !important; }
 .is-fixed { position: fixed !important; }
 .is-disable { pointer-events: none !important; }
