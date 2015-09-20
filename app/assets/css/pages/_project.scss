@@ -129,16 +129,87 @@
 .Project-outline {
   font-size: 16px;
   line-height: 1.6;
+  padding-top: 40px;
 }
 
 /**
  * update
  */
 .Project-update {
+  font-size: 16px;
+  line-height: 1.6;
+  padding-top: 20px;
 }
+  .Project-update__header {
+    margin-bottom: 20px;
+  }
+    .Project-update__header-date {
+      font-size: 12px;
+    }
+    .Project-update__header-h {
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 7px;
+    }
+  .Project-update__sns {
+    background-color: #f7f7f7;
+    padding: 10px 20px;
+  }
+
+
+.Project-update__related {
+
+}
+  .Project-update__related-item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    + .Project-update__related-item {
+      border-top: 1px solid #d8d8d8;
+    }
+  }
+    .Project-update__related-item-img {
+      margin-right: 20px;
+    }
+
+  .Project-update__related-item-header {
+
+  }
+    .Project-update__related-item-header-date {
+      font-size: 12px;
+      color: #888;
+    }
+    .Project-update__related-item-header-h {
+      margin-top: 2px;
+    }
+  .Project-update__related-item-body {
+    font-size: 12px;
+  }
+  .Project-update__related-item-footer {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 8px;
+  }
 
 /**
  * cheer
  */
 .Project-cheer {
 }
+  .Project-cheer__comment {
+    border-bottom: 1px solid #ebebeb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+    .Project-cheer__comment-img {
+      border-radius: 3px;
+      overflow: hidden;
+      margin-right: 20px;
+    }
+    .Project-cheer__comment-main {
+
+    }
+      .Project-cheer__comment-header {
+        margin-bottom: 8px;
+        vertical-align: middle;
+      }

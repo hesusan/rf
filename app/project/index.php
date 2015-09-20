@@ -121,7 +121,7 @@
 
       <div class="Page-main is-type0 u-fl_l" role="main">
 
-        <ul class="Tab__menu u-clrfix u-mb_40">
+        <ul class="Tab__menu u-clrfix">
           <li class="Tab__menu-i">
             <a href="#" class="Tab__menu-a is-active">
               <span class="Tab__menu-txt">プロジェクト概要</span>
@@ -141,6 +141,7 @@
         <!-- tab -->
 
         <div class="Tab__contents">
+          <!-- 概要 -->
           <section class="Project-outline Tab__content">
             <h1 class="u-d_none">プロジェクト概要</h1>
 
@@ -162,12 +163,121 @@
             <p class="u-mb_35">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
 
           </section>
+          <!-- /概要 -->
+
+          <!-- 更新情報 -->
           <section class="Project-update Tab__content">
             <h1 class="u-d_none">更新情報</h1>
+
+            <article class="Project-update__main">
+              <header class="Project-update__header">
+                <time pubdate="2015-6-16" class="Project-update__header-date">2015年6月16日</time>
+                <h1 class="Project-update__header-h u-em">大阪でのコンサートの報告です</h1>
+              </header>
+              <div class="Project-update__sns u-mb_30">
+                sns code
+              </div>
+              <div class="Project-update__content">
+                <p class="u-mb_30">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                <figure class="u-mb_30">
+                  <img src="../images/project/project_update_sample.jpg" width="610" height="408" alt="">
+                </figure>
+                <figure class="u-mb_30">
+                  <img src="../images/project/project_update_sample.jpg" width="610" height="408" alt="">
+                </figure>
+                <figure class="u-mb_30">
+                  <img src="../images/project/project_update_sample.jpg" width="610" height="408" alt="">
+                </figure>
+                <p class="u-mb_30">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              </div>
+              <div class="Project-update__sns u-mb_30">
+                sns code
+              </div>
+
+              <!-- facebook comment plugin -->
+
+            </article>
+
+            <aside class="Project-update__related">
+              <article class="Project-update__related-item Media">
+                <div class="Project-update__related-item-img Media__img">
+                  <img src="../images/project/project_update_related_sample.jpg" width="120" height="120" alt="">
+                </div>
+                <div class="Project-update__related-item-main Media__body">
+                  <header class="Project-update__related-item-header">
+                    <time pubdate="2015-6-30" class="Project-update__related-item-header-date">2015年06月30日</time>
+                    <h1 class="Project-update__related-item-header-h">
+                      <a href="#" class="u-font_b">タイトルタイトルタイトル</a>
+                    </h1>
+                  </header>
+                  <div  class="Project-update__related-item-body">
+                    <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                  </div>
+                  <footer class="Project-update__related-item-footer">
+                    <a href="#">続きを見る</a> / <a href="#">コメントする</a>
+                  </footer>
+                </div>
+              </article>
+              <article class="Project-update__related-item Media">
+                <div class="Project-update__related-item-img Media__img">
+                  <img src="../images/project/project_update_related_sample.jpg" width="120" height="120" alt="">
+                </div>
+                <div class="Project-update__related-item-main Media__body">
+                  <header class="Project-update__related-item-header">
+                    <time pubdate="2015-6-30" class="Project-update__related-item-header-date">2015年06月30日</time>
+                    <h1 class="Project-update__related-item-header-h">
+                      <a href="#" class="u-font_b">タイトルタイトルタイトル</a>
+                    </h1>
+                  </header>
+                  <div  class="Project-update__related-item-body">
+                    <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+                  </div>
+                  <footer class="Project-update__related-item-footer">
+                    <a href="#">続きを見る</a> / <a href="#">コメントする</a>
+                  </footer>
+                </div>
+              </article>
+            </aside>
+
           </section>
+          <!-- /更新情報 -->
+
+          <!-- 応援コメント -->
           <section class="Project-cheer Tab__content">
             <h1 class="u-d_none">応援コメント</h1>
+            <article class="Project-cheer__comment Media">
+              <div class="Project-cheer__comment-img Media__img">
+                <img src="../images/project/project_cheer_icon_default_0.jpg" width="60" height="60" alt="">
+              </div>
+              <div class="Project-cheer__comment-main Media__body">
+                <header class="Project-cheer__comment-header u-clrfix">
+                  <h1 class="u-d_ib"><b class="u-em">sankyoh</b>さん</h1>
+                  <time pubdate="2015-6-30">2015年06月30日</time>
+                  <div class="u-fl_r">
+                    <span class="Icon-plus u-mr_5"></span>他に5個のプロジェクトを支援中！
+                  </div>
+                </header>
+                <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              </div>
+            </article>
+            <article class="Project-cheer__comment Media">
+              <div class="Project-cheer__comment-img Media__img">
+                <img src="../images/project/project_cheer_icon_default_0.jpg" width="60" height="60" alt="">
+              </div>
+              <div class="Project-cheer__comment-main Media__body">
+                <header class="Project-cheer__comment-header u-clrfix">
+                  <h1 class="u-d_ib"><b class="u-em">sankyoh</b>さん</h1>
+                  <time pubdate="2015-6-30">2015年06月30日</time>
+                  <div class="u-fl_r">
+                    <span class="Icon-plus u-mr_5"></span>他に5個のプロジェクトを支援中！
+                  </div>
+                </header>
+                <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              </div>
+            </article>
           </section>
+          <!-- /応援コメント -->
+
         </div>
 
       </div>
@@ -215,7 +325,7 @@
               <span class="Icon-shipment u-mr_10"></span><span class="u-valign_m">2015年12月発送予定</span>
             </li>
           </ul>
-          <a href="#" class="Btn-1 u-fit-w u-mt_20">
+          <a href="#" class="Btn-1 is-no-shadow u-fit-w u-mt_20">
             <div class="Btn-1__inner">
               <div class="Btn-1__content">
                 <div class="Btn-1__txt">このリターンを購入する</div>
@@ -247,7 +357,7 @@
               <span class="Icon-shipment u-mr_10"></span><span class="u-valign_m">2015年12月発送予定</span>
             </li>
           </ul>
-          <a href="#" class="Btn-1 u-fit-w u-mt_20">
+          <a href="#" class="Btn-1 is-no-shadow u-fit-w u-mt_20">
             <div class="Btn-1__inner">
               <div class="Btn-1__content">
                 <div class="Btn-1__txt">このリターンを購入する</div>
