@@ -3,4 +3,80 @@
 /* ==========================================================================
    Project
    ========================================================================== */
+.Project-visual {
+  margin-top: 20px;
+}
+  .Project-visual__main {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 400px;
+    overflow: hidden;
+  }
+    .Project-visual__img {
+      float: left;
+      width: 610px;
+      height: 100%;
+      overflow: hidden;
 
+      img {
+        width: auto;
+        height: 100%;
+      }
+
+    }
+    .Project-visual__body {
+      overflow: hidden;
+      padding: 27px;
+    }
+
+
+  .Project-visual__title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+/**
+ * addition
+ */
+.Project-addition {
+  display: table;
+}
+  .Project-addition__item {
+    display: table-cell;
+    vertical-align: middle;
+
+    &.is-0 {
+      width: 610px;
+    }
+    &.is-1 {
+      width: 390px;
+    }
+  }
+    .Project-addition__sns {
+      background-color: #f1f1f1;
+    }
+    .Project-addition__conditon {
+      background-color: #999;
+      border-radius: 6px;
+      color: #fff;
+      font-size: 14px;
+      margin-left: 40px;
+      padding: 10px 27px;
+    }
+
+
+.Icon-num {
+  background-color: #e60013;
+  border-radius: 20px;
+  color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-size: 12px;
+  line-height: 22px;
+}

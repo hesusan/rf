@@ -31,13 +31,69 @@
     <? require_once '../php/login_modal.php'; ?>
   </div>
 
-  <div class="Page-body">
+  <article class="Page-body">
+
+    <div class="Project-visual Container u-mb_40 u-clrfix">
+      <div class="Project-visual__main u-clrfix">
+        <div class="Project-visual__img">
+          <!-- img tag -->
+        </div>
+        <div class="Project-visual__body">
+          どんどこどんどこ
+        </div>
+      </div>
+      <h1 class="Project-visual__title">
+        月刊誌「視覚障害」の廃刊危機を乗り越え継続して発刊したい！
+      </h1>
+    </div>
+
+    <footer class="Project-addition Container u-mb_30">
+      <aside class="Project-addition__item is-0 Project-addition__sns">
+        <!-- sns code -->
+      </aside>
+      <div class="Project-addition__item is-1">
+        <p class="Project-addition__conditon">
+        このプロジェクトは7月23日（木）午後11:00の時点で、12,000,000円以上集まった場合のみ、決済が完了されます。
+      </p>
+      </div>
+    </footer>
 
     <div class="Container">
 
-      <section class="Page-main is-type0 u-fl_l" role="main">
-        main
-      </section>
+      <div class="Page-main is-type0 u-fl_l" role="main">
+
+        <ul class="Tab__menu u-clrfix">
+          <li class="Tab__menu-i">
+            <a href="#" class="Tab__menu-a is-active">
+              <span class="Tab__menu-txt">プロジェクト概要</span>
+            </a>
+          </li>
+          <li class="Tab__menu-i">
+            <a href="#" class="Tab__menu-a is-inactive">
+              <span class="Tab__menu-txt">更新情報</span><span class="Tab__menu-icon Icon-num">14</span>
+            </a>
+          </li>
+          <li class="Tab__menu-i">
+            <a href="#" class="Tab__menu-a is-inactive">
+              <span class="Tab__menu-txt">応援コメント</span><span class="Tab__menu-icon Icon-num">148</span>
+            </a>
+          </li>
+        </ul>
+        <!-- tab -->
+
+        <div class="Tab__contents">
+          <div class="Tab__content">
+
+          </div>
+          <div class="Tab__content">
+
+          </div>
+          <div class="Tab__content">
+
+          </div>
+        </div>
+
+      </div>
 
       <div class="Sidebar is-type0 u-fl_r">
 
@@ -87,7 +143,7 @@
 
     </div>
 
-  </div>
+  </article>
 
   <? require_once '../php/footer.php'; ?>
 

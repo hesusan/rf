@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   Tabs
+   タブの個数やデザインが必要になったら、ここをカスタマイズ
+   ========================================================================== */
+
+/**
+ * Tabs
+ */
+.Tab__menu {
+  width: 100%;
+  height: 58px;
+  border-bottom: 1px solid #ccc;
+}
+  .Tab__menu-i {
+    float: left;
+    width: 198px;
+    height: 100%;
+
+     + .Tab__menu-i {
+      margin-left: 8px;
+     }
+
+  }
+  .Tab__menu-a {
+    border: 1px solid #ccc;
+    border-bottom: none;
+    border-radius: 6px 6px 0 0;
+    display: block;
+    font-size: 18px;
+    text-align: center;
+    height: 100%;
+    line-height: 57px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    &.is-active {
+      background-color: #fff;
+      color: #888;
+      font-weight: bold;
+      height: 101%;
+    }
+    &.is-inactive {
+      background-color: #f7f7f7;
+      color: #555;
+    }
+  }
+
+    .Tab__menu-txt {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .Tab__menu-icon {
+      margin-left: 5px;
+    }
