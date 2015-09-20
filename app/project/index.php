@@ -36,10 +36,35 @@
     <div class="Project-visual Container u-mb_40 u-clrfix">
       <div class="Project-visual__main u-clrfix">
         <div class="Project-visual__img">
-          <!-- img tag -->
+          <img src="../images/common/thumb_sample.jpg" alt="">
         </div>
         <div class="Project-visual__body">
-          どんどこどんどこ
+
+          <div class="Project-visual__conditions">
+            <dl class="Project-visual__condition">
+              <dt class="Project-visual__condition-dt">達成金額</dt>
+              <dd class="Project-visual__condition-dd">500,000円</dd>
+            </dl>
+            <dl class="Project-visual__condition">
+              <dt class="Project-visual__condition-dt">目標金額</dt>
+              <dd class="Project-visual__condition-dd">2,000,000円</dd>
+            </dl>
+            <dl class="Project-visual__condition">
+              <dt class="Project-visual__condition-dt">支援者数</dt>
+              <dd class="Project-visual__condition-dd">432人</dd>
+            </dl>
+            <dl class="Project-visual__condition">
+              <dt class="Project-visual__condition-dt">残り</dt>
+              <dd class="Project-visual__condition-dd">5日</dd>
+            </dl>
+          </div>
+
+          <div class="Project-visual__gauge Gauge">
+            <div class="Gauge__obj is-1" style="width:75%"></div>
+            <div class="Gauge__obj is-0" style="width:50%"></div>
+            <div class="Gauge__txt">124%</div>
+          </div>
+
         </div>
       </div>
       <h1 class="Project-visual__title">
@@ -62,7 +87,7 @@
 
       <div class="Page-main is-type0 u-fl_l" role="main">
 
-        <ul class="Tab__menu u-clrfix">
+        <ul class="Tab__menu u-clrfix u-mb_40">
           <li class="Tab__menu-i">
             <a href="#" class="Tab__menu-a is-active">
               <span class="Tab__menu-txt">プロジェクト概要</span>
@@ -82,15 +107,33 @@
         <!-- tab -->
 
         <div class="Tab__contents">
-          <div class="Tab__content">
+          <section class="Project-outline Tab__content">
+            <h1 class="u-d_none">プロジェクト概要</h1>
 
-          </div>
-          <div class="Tab__content">
+            <h2 class="u-font_b u-mb_35">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</h2>
+            <p class="u-mb_35">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
 
-          </div>
-          <div class="Tab__content">
+            <h2 class="u-font_b u-mb_35">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</h2>
+            <p class="u-mb_35">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
 
-          </div>
+            <h2 class="u-font_b u-mb_35">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</h2>
+            <p class="u-mb_35">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+
+            <figure class="u-mb_35">
+              <img src="../images/project/project_outline_sample.jpg" width="610" height="458" alt="">
+              <figcaption class="u-mt_15">キャプションキャプションキャプションキャプションキャプション</figcaption>
+            </figure>
+
+            <h2 class="u-font_b u-mb_35">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</h2>
+            <p class="u-mb_35">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+
+          </section>
+          <section class="Project-update Tab__content">
+            <h1 class="u-d_none">更新情報</h1>
+          </section>
+          <section class="Project-cheer Tab__content">
+            <h1 class="u-d_none">応援コメント</h1>
+          </section>
         </div>
 
       </div>

@@ -68,6 +68,9 @@
       padding: 10px 27px;
     }
 
+/**
+ * promoter
+ */
 .Project-promoter {
 
 }
@@ -84,15 +87,22 @@
 
   }
 
+/**
+ * outline
+ */
+.Project-outline {
+  font-size: 16px;
+  line-height: 1.6;
+}
 
-.Icon-num {
-  background-color: #ff9331;/*#e60013;*/
-  border-radius: 20px;
-  color: #fff;
-  display: inline-block;
-  vertical-align: middle;
-  padding-left: 6px;
-  padding-right: 6px;
-  font-size: 12px;
-  line-height: 22px;
+/**
+ * update
+ */
+.Project-update {
+}
+
+/**
+ * cheer
+ */
+.Project-cheer {
 }

@@ -158,3 +158,18 @@
   @extend %Icon;
   @include sprite-icon($common-icon-supporter);
 }
+
+/**
+ * テキストアイコン
+ */
+.Icon-num {
+  background-color: #ff9331;
+  border-radius: 20px;
+  color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-size: 12px;
+  line-height: 22px;
+}
