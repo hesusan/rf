@@ -27,8 +27,44 @@
     }
     .Project-visual__body {
       overflow: hidden;
-      padding: 27px;
+      padding: 23px 28px;
     }
+
+  /**
+   * conditions
+   */
+  .Project-visual__conditions {
+    min-height: 172px;
+  }
+    .Project-visual__condition {
+      overflow: hidden;
+      width: 100%;
+      margin-bottom: 8px;
+    }
+      .Project-visual__condition-dt {
+        float: left;
+      }
+      .Project-visual__condition-dd {
+        float: right;
+      }
+
+  .Project-visual__condition-sum {
+  }
+    .Project-visual__condition-sum-dd {
+      font-size: 32px;
+      margin-top: -0.2em;
+    }
+
+  /**
+   * alert
+   */
+  .Project-visual__alert {
+    color: #e00314;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    text-align: center;
+    padding: 24px 0 19px;
+  }
 
 
   .Project-visual__title {

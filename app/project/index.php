@@ -40,30 +40,64 @@
         </div>
         <div class="Project-visual__body">
 
+          <!-- conditions には固定の高さ -->
           <div class="Project-visual__conditions">
-            <dl class="Project-visual__condition">
-              <dt class="Project-visual__condition-dt">達成金額</dt>
-              <dd class="Project-visual__condition-dd">500,000円</dd>
+
+            <dl class="Project-visual__condition Project-visual__condition-sum u-fs_20">
+              <dt class="Project-visual__condition-dt Project-visual__condition-sum-dt">達成金額</dt>
+              <dd class="Project-visual__condition-dd Project-visual__condition-sum-dd">500,000円</dd>
             </dl>
-            <dl class="Project-visual__condition">
-              <dt class="Project-visual__condition-dt">目標金額</dt>
-              <dd class="Project-visual__condition-dd">2,000,000円</dd>
-            </dl>
-            <dl class="Project-visual__condition">
-              <dt class="Project-visual__condition-dt">支援者数</dt>
-              <dd class="Project-visual__condition-dd">432人</dd>
-            </dl>
-            <dl class="Project-visual__condition">
-              <dt class="Project-visual__condition-dt">残り</dt>
-              <dd class="Project-visual__condition-dd">5日</dd>
-            </dl>
+
+            <div>
+              <dl class="Project-visual__condition u-fs_16">
+                <dt class="Project-visual__condition-dt">
+                  <span class="Icon-notachivement u-mr_10"></span><span class="u-valign_m">目標金額</span>
+                </dt>
+                <dd class="Project-visual__condition-dd u-font-en">2,000,000円</dd>
+              </dl>
+              <dl class="Project-visual__condition u-fs_16">
+                <dt class="Project-visual__condition-dt">
+                  <span class="Icon-achivement u-mr_10"></span><span class="u-valign_m">第一目標金額</span>
+                </dt>
+                <dd class="Project-visual__condition-dd u-em u-font-en">2,000,000円</dd>
+              </dl>
+            </div>
+
+            <div class="u-mt_20">
+              <dl class="Project-visual__condition u-fs_16">
+                <dt class="Project-visual__condition-dt">支援者数</dt>
+                <dd class="Project-visual__condition-dd u-font-en">432人</dd>
+              </dl>
+              <dl class="Project-visual__condition u-fs_16">
+                <dt class="Project-visual__condition-dt">残り日数</dt>
+                <dd class="Project-visual__condition-dd u-font-en">5日</dd>
+              </dl>
+            </div>
+
           </div>
 
-          <div class="Project-visual__gauge Gauge">
+          <div class="Project-visual__gauge Gauge u-mt_20">
             <div class="Gauge__obj is-1" style="width:75%"></div>
             <div class="Gauge__obj is-0" style="width:50%"></div>
             <div class="Gauge__txt">124%</div>
           </div>
+
+          <a href="#" class="Btn-1 is-no-shadow u-fit-w u-mt_30">
+            <div class="Btn-1__inner">
+              <div class="Btn-1__content">
+                <div class="Btn-1__txt u-fs_20">このプロジェクトを支援する</div>
+              </div>
+            </div>
+          </a>
+
+          <div class="u-em u-fs_18 u-font_b u-align_c u-mt_20">+気になるリストに追加する</div>
+
+          <!-- 終了表示
+          <div class="Project-visual__alert u-mt_30">
+            <span class="u-fs_20 u-font_b">プロジェクトは終了しました</span><br>
+            <span class="u-fs_16">2015年8月31日に成立</span>
+          </div>
+          -->
 
         </div>
       </div>

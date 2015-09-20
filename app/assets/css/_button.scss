@@ -69,6 +69,9 @@
   &.is-h_l {
     height: 80px;
   }
+  &.is-no-shadow {
+    box-shadow: none;
+  }
 }
   .Btn-1__inner {
     display: table;

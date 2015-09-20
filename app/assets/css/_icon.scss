@@ -173,3 +173,12 @@
   font-size: 12px;
   line-height: 22px;
 }
+
+.Icon-achivement {
+  @extend %Icon;
+  @include sprite-icon($common-icon-achivement);
+}
+.Icon-notachivement {
+  @extend %Icon;
+  @include sprite-icon($common-icon-notachivement);
+}
