@@ -164,4 +164,20 @@ th {
     overflow: hidden;
   }
 
+/**
+ * Media
+ */
+.Media-1 {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+  .Media-1__img {
+    display: table-cell;
+  }
+  .Media-1__body {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
 

@@ -148,3 +148,13 @@
   @extend %Icon;
   @include sprite-icon($common-icon-mail);
 }
+
+.Icon-shipment {
+  @extend %Icon;
+  @include sprite-icon($common-icon-shipment);
+}
+
+.Icon-supporter {
+  @extend %Icon;
+  @include sprite-icon($common-icon-supporter);
+}

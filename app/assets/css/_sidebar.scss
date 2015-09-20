@@ -4,10 +4,6 @@
    Sidebar
    ========================================================================== */
 
-/*
-(1000 - (230 + 30)) - 31*2
-*/
-
 /**
  * Sidebar
  */
@@ -27,6 +23,7 @@
 .Side-area-0 {
   border: 1px solid #dbdbdb;
   border-radius: 6px;
+  font-size: 14px;
   padding: 25px;
 }
 
@@ -34,6 +31,7 @@
   background-color: #fffbf7;
   border: 1px solid #ff9331;
   border-radius: 6px;
+  font-size: 14px;
   padding: 25px;
   box-shadow: 0 2px rgba(0, 0, 0, 0.1);
 }

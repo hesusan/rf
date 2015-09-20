@@ -68,9 +68,25 @@
       padding: 10px 27px;
     }
 
+.Project-promoter {
+
+}
+  .Project-promoter__media {
+    margin-bottom: 20px;
+  }
+    .Project-promoter__media-img {
+      margin-right: 20px;
+    }
+    .Project-promoter__media-body {
+      padding-top: 33px;
+    }
+  .Project-promoter__outline {
+
+  }
+
 
 .Icon-num {
-  background-color: #e60013;
+  background-color: #ff9331;/*#e60013;*/
   border-radius: 20px;
   color: #fff;
   display: inline-block;

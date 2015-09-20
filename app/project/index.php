@@ -97,40 +97,80 @@
 
       <div class="Sidebar is-type0 u-fl_r">
 
-        <aside class="Side-area-0 u-mb_20">
+        <aside class="Project-promoter Side-area-0 u-mb_20">
           <h1 class="u-d_none">プロモーター</h1>
-          <div class="Media">
-            <div class="Media__img"></div>
-            <div class="Media__body">
-              <h1>今村彩子</h1>
-              <p>メッセージを送る</p>
+          <div class="Project-promoter__media Media">
+            <div class="Project-promoter__media-img Media__img">
+              <img src="../images/project/project_author_sample.jpg" width="110" height="110" alt="">
+            </div>
+            <div class="Project-promoter__media-body Media__body">
+              <a href="#">
+                <h1 class="u-fs_18 u-font_b">今村彩子</h1>
+                <p>メッセージを送る</p>
+              </a>
             </div>
           </div>
-          <p>
+          <p class="Project-promoter__outline">
             映画監督。20歳の時からドキュメンタリー映画を撮り続けている。自転車とボルダリングが好き。
           </p>
         </aside>
 
-        <section class="Side-area-1">
-          <h1>
-            <b class="u-fs_20 u-font-en">&yen;3,000</b> <span class="u-fs_16">のリターン</span>
+        <section class="Project-return Side-area-1 u-mb_20">
+          <h1 class="u-mb_15">
+            <b class="u-fs_20 u-font-en u-font_b">&yen;3,000</b> <span class="u-fs_16">のリターン</span>
           </h1>
           <p class="u-fs_16 u-mb_15">
             リターンのタイトルが入ります。リターンのタイトルが入ります。リターンのタイトルが入ります。
           </p>
           <div class="u-mb_15">
-            <img width="300" height="225" alt="">
+            <img src="../images/project/project_return_sample.jpg" width="300" height="225" alt="">
           </div>
-          <p class="u-mb_15">
+          <p class="u-mb_30">
             詳細説明が入ります。詳細説明が入ります。
             詳細説明が入ります。詳細説明が入ります。
             詳細説明が入ります。詳細説明が入ります。
           </p>
-          <ul>
-            <li>33人が支援中 / 在庫制限無し</li>
-            <li>2015年12月発送予定</li>
+          <ul class="Project-return__condition">
+            <li class="u-mb_10">
+              <span class="Icon-supporter u-mr_10"></span><span class="u-valign_m">33人が支援中 / 在庫制限無し</span>
+            </li>
+            <li class="u-mb_10">
+              <span class="Icon-shipment u-mr_10"></span><span class="u-valign_m">2015年12月発送予定</span>
+            </li>
           </ul>
-          <a href="#" class="Btn-1 u-fit-w">
+          <a href="#" class="Btn-1 u-fit-w u-mt_20">
+            <div class="Btn-1__inner">
+              <div class="Btn-1__content">
+                <div class="Btn-1__txt">このリターンを購入する</div>
+              </div>
+            </div>
+          </a>
+        </section>
+
+        <section class="Project-return Side-area-1">
+          <h1 class="u-mb_15">
+            <b class="u-fs_20 u-font-en u-font_b">&yen;3,000</b> <span class="u-fs_16">のリターン</span>
+          </h1>
+          <p class="u-fs_16 u-mb_15">
+            リターンのタイトルが入ります。リターンのタイトルが入ります。リターンのタイトルが入ります。
+          </p>
+          <div class="u-mb_15">
+            <img src="../images/project/project_return_sample.jpg" width="300" height="225" alt="">
+          </div>
+          <p class="u-mb_30">
+            詳細説明が入ります。詳細説明が入ります。
+            詳細説明が入ります。詳細説明が入ります。
+            詳細説明が入ります。詳細説明が入ります。
+          </p>
+          <ul class="Project-return__condition">
+            <li class="u-mb_10">
+              <span class="Icon-supporter u-mr_10"></span><span class="u-valign_m">33人が支援中 / 在庫制限無し</span>
+            </li>
+            <li class="u-mb_10">
+              <span class="Icon-shipment u-mr_10"></span><span class="u-valign_m">2015年12月発送予定</span>
+            </li>
+          </ul>
+          <a href="#" class="Btn-1 u-fit-w u-mt_20">
             <div class="Btn-1__inner">
               <div class="Btn-1__content">
                 <div class="Btn-1__txt">このリターンを購入する</div>
