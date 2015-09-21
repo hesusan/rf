@@ -17,7 +17,6 @@
   overflow: hidden;
   z-index: 9999;
   backface-visibility: hidden;
-  display: none;
 }
 
 /**
@@ -33,6 +32,7 @@
   margin-left: auto;
   margin-right: auto;
   z-index: 10000;
+  display: none;
 }
   .Modal__closer {
     position: absolute;
@@ -85,4 +85,5 @@
 .Login-modal {
   width: 480px;
   padding: 20px 80px 55px;
+  display: block;
 }

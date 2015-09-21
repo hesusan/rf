@@ -16,6 +16,11 @@
     //_ga.trackTwitter(); //Google Analytics tracking
   });
 </script>
+
+<!--
+  @NOTE
+  最新バージョンになっているため、旧バージョンの機能を使う場合は変更を
+-->
 <div id="fb-root"></div>
 <script>
   (function(d, s, id) {

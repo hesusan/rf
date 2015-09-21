@@ -29,7 +29,7 @@
         </p>
 
         <div class="u-align_c">
-          <input type="checkbox" id="login-checkbox" class="u-valign_m"><label for="login-checkbox" class="u-valign_m">次回から自動的にログイン</label>
+          <input type="checkbox" id="login-checkbox" class="Checkbox u-valign_m u-mr_10"><label for="login-checkbox" class="u-valign_m">次回から自動的にログイン</label>
         <div>
         <div class="u-mt_25">
           <button class="Btn-2 is-red">

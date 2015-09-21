@@ -25,3 +25,16 @@
   line-height: $BASE_LINE_HEIGHT;
   vertical-align: top;
 }
+
+.Checkbox {
+  appearance: none;
+  background-color: none;
+  border: none;
+  padding: none;
+  margin: none;
+  @include sprite-icon($common_checkbox);
+
+  &:checked {
+    @include sprite-icon($common_checkbox_checked);
+  }
+}
