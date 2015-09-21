@@ -202,7 +202,7 @@
                   sns code
                 </div>
 
-                <!-- facebook comment plugin -->
+                <div class="fb-comments" data-href="https://readyfor.jp/" data-numposts="5" data-width="100%"></div>
 
               </article>
 

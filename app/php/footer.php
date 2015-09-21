@@ -45,7 +45,7 @@
                 <a href="https://twitter.com/share" class="twitter-share-button" data-text="READYFOR?（レディーフォー）は実行者を支援する日本初のクラウドファンディングです。" data-url="https://readyfor.jp/" data-count="vertical" data-via="ready_for" data-lang="ja">Tweet</a>
               </div>
               <div class="Site-footer__sns-fb">
-                <div class="fb-like"></div>
+                <!-- @TO_DO likebox pluginは廃止されているので、別の物を入れる必要がある -->
               </div>
             </div>
           </aside>
