@@ -36,7 +36,9 @@
     <div class="Project-visual Container u-mb_40 u-clrfix">
       <div class="Project-visual__main u-clrfix">
         <div class="Project-visual__img">
-          <img src="../images/common/thumb_sample.jpg" alt="">
+          <div class="Project-visual__img-mask">
+            <img src="../images/common/thumb_sample.jpg" alt="">
+          </div>
         </div>
         <div class="Project-visual__body">
 

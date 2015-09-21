@@ -925,12 +925,7 @@
 
   </div>
 
-  <div class="Site-scroller Container">
-    <div class="Site-scroller__main is-type0">
-      <a href="#" class="Site-scroller__pagetop is-type0">このページのTOPへ</a>
-    </div>
-  </div>
-
+  <? require_once 'php/scroller.php' ?>
   <? require_once 'php/footer.php'; ?>
 
 </div>

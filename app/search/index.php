@@ -367,6 +367,7 @@
 
   </div>
 
+  <? require_once '../php/scroller.php' ?>
   <? require_once '../php/footer.php'; ?>
 
 </div>

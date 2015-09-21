@@ -29,6 +29,9 @@
   <section class="Page-body" role="main">
 
     <div class="Visual About-visual">
+      <a href="#" class="About-visual__hitarea">
+        <div class="About-visual__hitarea-txt"></div>
+      </a>
       <div class="Visual__bg About-visual__bg">
         <img src="../images/about/about_visual0.jpg" width="1440" height="340" alt="" class="u-fit">
       </div>
@@ -244,6 +247,7 @@
 
   </section>
 
+  <? require_once '../php/scroller.php' ?>
   <? require_once '../php/footer.php'; ?>
 
 </div>
