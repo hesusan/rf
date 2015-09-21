@@ -375,7 +375,7 @@
   </article>
 
   <div class="Site-scroller Container">
-    <div class="Site-scroller__main">
+    <div class="Site-scroller__main is-type1">
       <div class="Site-scroller__set">
         <a href="#" class="Site-scroller__return">リターンを選択</a>
 
@@ -392,7 +392,7 @@
         </div>
 
       </div>
-      <a href="#" class="Site-scroller__pagetop">このページのTOPへ</a>
+      <a href="#" class="Site-scroller__pagetop is-type1">このページのTOPへ</a>
     </div>
   </div>
 

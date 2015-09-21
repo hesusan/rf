@@ -191,13 +191,18 @@ th {
     border-bottom: 3px solid #ebebeb;
     border-radius: 6px;
     overflow: hidden;
-    width: 100px;
     /*height: 270px;*/
     margin-left: $PAGE_WIDTH + 28px;
     position: fixed;
     bottom: 30px;
     z-index: 500;
     padding: 9px;
+  }
+  .Site-scroller__main.is-type0 {
+    width: 60px;
+  }
+  .Site-scroller__main.is-type1 {
+    width: 100px;
   }
     .Site-scroller__set {
       border-bottom: 1px solid #ebebeb;
@@ -220,7 +225,13 @@ th {
 
       }
     .Site-scroller__pagetop {
-      @include sprite-bg($common-icon-pagetop);
       margin-left: auto;
       margin-right: auto;
+
+      &.is-type0 {
+        @include sprite-bg($common-btn-pagetop);
+      }
+      &.is-type1 {
+        @include sprite-bg($common-btn-pagetop2);
+      }
     }

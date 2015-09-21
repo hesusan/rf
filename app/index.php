@@ -878,8 +878,8 @@
   </div>
 
   <div class="Site-scroller Container">
-    <div class="Site-scroller__main">
-      <a href="#" class="Site-scroller__pagetop">このページのTOPへ</a>
+    <div class="Site-scroller__main is-type0">
+      <a href="#" class="Site-scroller__pagetop is-type0">このページのTOPへ</a>
     </div>
   </div>
 
