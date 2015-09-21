@@ -45,7 +45,9 @@
           <a href="#" class="u-link-area u-clrfix">
 
             <div class="Entry__img">
-              <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              <div class="Entry__img-mask">
+                <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              </div>
             </div>
 
             <div class="Entry__body">
@@ -116,7 +118,9 @@
         <article class="Entry is-type0 Grid__col3">
           <a href="#" class="u-link-area">
             <div class="Entry__img">
-              <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              <div class="Entry__img-mask">
+                <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              </div>
             </div>
             <div class="Entry__body">
               <h1 class="Entry__h is-l is-hide-line2">
@@ -162,7 +166,9 @@
         <article class="Entry is-type0 Grid__col3">
           <a href="#" class="u-link-area">
             <div class="Entry__img">
-              <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              <div class="Entry__img-mask">
+                <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              </div>
             </div>
             <div class="Entry__body">
               <h1 class="Entry__h is-l is-hide-line2">
@@ -208,7 +214,9 @@
         <article class="Entry is-type0 Grid__col3">
           <a href="#" class="u-link-area">
             <div class="Entry__img">
-              <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              <div class="Entry__img-mask">
+                <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              </div>
             </div>
             <div class="Entry__body">
               <h1 class="Entry__h is-l is-hide-line2">
@@ -258,7 +266,9 @@
         <article class="Entry is-type0 Grid__col3">
           <a href="#" class="u-link-area">
             <div class="Entry__img">
-              <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              <div class="Entry__img-mask">
+                <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              </div>
             </div>
             <div class="Entry__body">
               <h1 class="Entry__h is-l is-hide-line2">
@@ -302,7 +312,9 @@
         <article class="Entry is-type0 Grid__col3">
           <a href="#" class="u-link-area">
             <div class="Entry__img">
-              <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              <div class="Entry__img-mask">
+                <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              </div>
             </div>
             <div class="Entry__body">
               <h1 class="Entry__h is-l is-hide-line2">
@@ -348,7 +360,9 @@
         <article class="Entry is-type0 Grid__col3">
           <a href="#" class="u-link-area">
             <div class="Entry__img">
-              <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              <div class="Entry__img-mask">
+                <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              </div>
             </div>
             <div class="Entry__body">
               <h1 class="Entry__h is-l is-hide-line2">
@@ -425,7 +439,9 @@
         <article class="Entry is-type1 is-challenge Grid__col4">
           <a href="#" class="u-link-area">
             <div class="Entry__img">
-              <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              <div class="Entry__img-mask">
+                <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              </div>
             </div>
             <div class="Entry__body">
 
@@ -455,7 +471,9 @@
         <article class="Entry is-type1 is-complete Grid__col4">
           <a href="#" class="u-link-area">
             <div class="Entry__img">
-              <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              <div class="Entry__img-mask">
+                <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              </div>
             </div>
             <div class="Entry__body">
 
@@ -485,7 +503,9 @@
         <article class="Entry is-type1 is-new Grid__col4">
           <a href="#" class="u-link-area">
             <div class="Entry__img">
-              <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              <div class="Entry__img-mask">
+                <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              </div>
             </div>
             <div class="Entry__body">
 
@@ -515,7 +535,9 @@
         <article class="Entry is-type1 Grid__col4">
           <a href="#" class="u-link-area">
             <div class="Entry__img">
-              <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              <div class="Entry__img-mask">
+                <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              </div>
             </div>
             <div class="Entry__body">
 
@@ -653,7 +675,9 @@
         <article class="Entry is-type3 Grid__col4">
           <a href="#" class="u-link-area">
             <div class="Entry__img">
-              <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              <div class="Entry__img-mask">
+                <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              </div>
             </div>
             <div class="Entry__body">
 
@@ -668,7 +692,9 @@
         <article class="Entry is-type3 Grid__col4">
           <a href="#" class="u-link-area">
             <div class="Entry__img">
-              <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              <div class="Entry__img-mask">
+                <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              </div>
             </div>
             <div class="Entry__body">
 
@@ -683,7 +709,9 @@
         <article class="Entry is-type3 Grid__col4">
           <a href="#" class="u-link-area">
             <div class="Entry__img">
-              <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              <div class="Entry__img-mask">
+                <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              </div>
             </div>
             <div class="Entry__body">
 
@@ -698,7 +726,9 @@
         <article class="Entry is-type3 Grid__col4">
           <a href="#" class="u-link-area">
             <div class="Entry__img">
-              <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              <div class="Entry__img-mask">
+                <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              </div>
             </div>
             <div class="Entry__body">
 
@@ -736,7 +766,9 @@
         <article class="Entry is-type3 Grid__col4">
           <a href="#" class="u-link-area">
             <div class="Entry__img">
-              <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              <div class="Entry__img-mask">
+                <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              </div>
             </div>
             <div class="Entry__body">
 
@@ -749,7 +781,9 @@
         <article class="Entry is-type3 Grid__col4">
           <a href="#" class="u-link-area">
             <div class="Entry__img">
-              <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              <div class="Entry__img-mask">
+                <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              </div>
             </div>
             <div class="Entry__body">
 
@@ -762,7 +796,9 @@
         <article class="Entry is-type3 Grid__col4">
           <a href="#" class="u-link-area">
             <div class="Entry__img">
-              <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              <div class="Entry__img-mask">
+                <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              </div>
             </div>
             <div class="Entry__body">
 
@@ -775,7 +811,9 @@
         <article class="Entry is-type3 Grid__col4">
           <a href="#" class="u-link-area">
             <div class="Entry__img">
-              <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              <div class="Entry__img-mask">
+                <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+              </div>
             </div>
             <div class="Entry__body">
 
@@ -801,7 +839,9 @@
       <article class="Entry is-type4 Grid__col5">
         <a href="#" class="u-link-area">
           <div class="Entry__img">
-            <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+            <div class="Entry__img-mask">
+              <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+            </div>
           </div>
           <div class="Entry__body">
             <p class="Entry__dsc is-xs u-align_c u-mb_5 is-hide-line2">幻の国産車「くろがね四起」 を復元中</p>
@@ -816,7 +856,9 @@
       <article class="Entry is-type4 Grid__col5">
         <a href="#" class="u-link-area">
           <div class="Entry__img">
-            <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+            <div class="Entry__img-mask">
+              <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+            </div>
           </div>
           <div class="Entry__body">
             <p class="Entry__dsc is-xs u-align_c u-mb_5 is-hide-line2">幻の国産車「くろがね四起」 を復元中</p>
@@ -831,7 +873,9 @@
       <article class="Entry is-type4 Grid__col5">
         <a href="#" class="u-link-area">
           <div class="Entry__img">
-            <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+            <div class="Entry__img-mask">
+              <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+            </div>
           </div>
           <div class="Entry__body">
             <p class="Entry__dsc is-xs u-align_c u-mb_5 is-hide-line2">幻の国産車「くろがね四起」 を復元中</p>
@@ -846,7 +890,9 @@
       <article class="Entry is-type4 Grid__col5">
         <a href="#" class="u-link-area">
           <div class="Entry__img">
-            <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+            <div class="Entry__img-mask">
+              <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+            </div>
           </div>
           <div class="Entry__body">
             <p class="Entry__dsc is-xs u-align_c u-mb_5">幻の国産車「くろがね四起」 を復元中</p>
@@ -861,7 +907,9 @@
       <article class="Entry is-type4 Grid__col5">
         <a href="#" class="u-link-area">
           <div class="Entry__img">
-            <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+            <div class="Entry__img-mask">
+              <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+            </div>
           </div>
           <div class="Entry__body">
             <p class="Entry__dsc is-xs u-align_c u-mb_5 is-hide-line2">幻の国産車「くろがね四起」 を復元中</p>

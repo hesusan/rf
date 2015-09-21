@@ -8,14 +8,14 @@
   border: 1px solid #ebebeb;
   border-bottom: 3px solid #ebebeb;
   border-radius: 6px;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 %Entry {
   border: 1px solid #ebebeb;
   border-bottom: 3px solid #ebebeb;
   border-radius: 6px;
-  overflow: hidden;
+  /*overflow: hidden; 仕様変更により削除 */
   position: relative;
 }
 
@@ -72,6 +72,11 @@
     width: 100%;
     height: auto;
   }
+}
+
+.Entry__img-mask {
+  overflow: hidden;
+  border-radius: 6px 6px 0 0;
 }
 
 .Entry__body {
@@ -293,7 +298,7 @@
   .Entry__img {
     display: table-cell;
     vertical-align: top;
-    height: inherit;
+    height: 120px;
 
     img {
       width: auto;
@@ -301,9 +306,9 @@
     }
   }
     .Entry__img-mask {
+      border-radius: 6px 0 0 6px;
       width: 140px;
       height: inherit;
-      overflow: hidden;
     }
 
   .Entry__body {

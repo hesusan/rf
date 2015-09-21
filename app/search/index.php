@@ -46,7 +46,9 @@
           <article class="Entry is-type1 Grid__col3">
             <a href="#" class="u-link-area">
               <div class="Entry__img">
-                <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+                <div class="Entry__img-mask">
+                  <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+                </div>
               </div>
               <div class="Entry__body">
 
@@ -76,7 +78,9 @@
           <article class="Entry is-type1 Grid__col3">
             <a href="#" class="u-link-area">
               <div class="Entry__img">
-                <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+                <div class="Entry__img-mask">
+                  <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+                </div>
               </div>
               <div class="Entry__body">
 
@@ -106,7 +110,9 @@
           <article class="Entry is-type1 Grid__col3">
             <a href="#" class="u-link-area">
               <div class="Entry__img">
-                <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+                <div class="Entry__img-mask">
+                  <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+                </div>
               </div>
               <div class="Entry__body">
 
@@ -140,7 +146,9 @@
           <article class="Entry is-type1 Grid__col3">
             <a href="#" class="u-link-area">
               <div class="Entry__img">
-                <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+                <div class="Entry__img-mask">
+                  <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+                </div>
               </div>
               <div class="Entry__body">
 
@@ -170,7 +178,9 @@
           <article class="Entry is-type1 Grid__col3">
             <a href="#" class="u-link-area">
               <div class="Entry__img">
-                <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+                <div class="Entry__img-mask">
+                  <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+                </div>
               </div>
               <div class="Entry__body">
 
@@ -200,7 +210,9 @@
           <article class="Entry is-type1 Grid__col3">
             <a href="#" class="u-link-area">
               <div class="Entry__img">
-                <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+                <div class="Entry__img-mask">
+                  <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
+                </div>
               </div>
               <div class="Entry__body">
 
