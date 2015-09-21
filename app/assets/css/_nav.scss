@@ -46,6 +46,11 @@
           overflow: hidden;
           border-radius: 24px;
           margin: 0 auto 8px;
+
+          &.is-my {
+            border-radius: 12px;
+          }
+
         }
         .Site-nav__link-txt {
           font-weight: bold;

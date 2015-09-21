@@ -46,7 +46,10 @@
             </li>
             <li class="Site-nav__item">
               <a href="#" class="Site-nav__link">
-                <div class="Site-nav__link-icon Icon-signin"></div>
+                <div class="Site-nav__link-icon is-my">
+                  <!-- @TO_DO 各ユーザーの画像を配置 -->
+                  <img src="/images/common/thumb24x24.jpg" width="24" height="24" alt="">
+                </div>
                 <div class="Site-nav__link-txt">マイアカウント</div>
               </a>
 
