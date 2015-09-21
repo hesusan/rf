@@ -109,7 +109,7 @@
     </div>
 
     <footer class="Project-addition Container u-mb_30">
-      <aside class="Project-addition__item is-0 Project-addition__sns">
+      <aside class="Project-addition__item is-0 Project-addition__sns u-clrfix">
         <!-- sns code -->
       </aside>
       <div class="Project-addition__item is-1">
@@ -176,7 +176,7 @@
                 <time pubdate="2015-6-16" class="Project-update__header-date">2015年6月16日</time>
                 <h1 class="Project-update__header-h u-em">大阪でのコンサートの報告です</h1>
               </header>
-              <div class="Project-update__sns u-mb_30">
+              <div class="Project-update__sns u-mb_30 u-clrfix">
                 sns code
               </div>
               <div class="Project-update__content">
@@ -192,7 +192,7 @@
                 </figure>
                 <p class="u-mb_30">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
               </div>
-              <div class="Project-update__sns u-mb_30">
+              <div class="Project-update__sns u-mb_30 u-clrfix">
                 sns code
               </div>
 

@@ -44,6 +44,43 @@
                 <div class="Site-nav__link-txt">新規登録</div>
               </a>
             </li>
+            <li class="Site-nav__item">
+              <a href="#" class="Site-nav__link">
+                <div class="Site-nav__link-icon Icon-signin"></div>
+                <div class="Site-nav__link-txt">マイアカウント</div>
+              </a>
+
+              <div class="Site-nav__myaccount">
+                <ul class="Site-nav__myaccount-menu">
+                  <li class="Site-nav__myaccount-menu-item">
+                    <a href="#" class="Site-nav__myaccount-menu-a">
+                      <span class="Icon-msg u-mr_20"></span><span class="u-valign_m">メッセージ</span>
+                    </a>
+                  </li>
+                  <li class="Site-nav__myaccount-menu-item">
+                    <a href="#" class="Site-nav__myaccount-menu-a">
+                      <span class="Icon-history u-mr_20"></span><span class="u-valign_m">購入履歴</span>
+                    </a>
+                  </li>
+                  <li class="Site-nav__myaccount-menu-item">
+                    <a href="#" class="Site-nav__myaccount-menu-a">
+                      <span class="Icon-profile u-mr_20"></span><span class="u-valign_m">プロフィール編集</span>
+                    </a>
+                  </li>
+                  <li class="Site-nav__myaccount-menu-item">
+                    <a href="#" class="Site-nav__myaccount-menu-a">
+                      <span class="Icon-watchlist u-mr_20"></span><span class="u-valign_m">気になるリスト</span>
+                    </a>
+                  </li>
+                  <li class="Site-nav__myaccount-menu-item is-logout">
+                    <a href="#" class="Site-nav__myaccount-menu-a">
+                      <span class="Icon-logout u-mr_20"></span><span class="u-valign_m">ログアウト</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
+            </li>
           </ul>
         </nav>
       </div>

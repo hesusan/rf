@@ -188,3 +188,28 @@
   @extend %Icon;
   @include sprite-icon($common-icon-plus);
 }
+
+.Icon-msg {
+  @extend %Icon;
+  @include sprite-icon($common-icon-msg);
+}
+
+.Icon-history {
+  @extend %Icon;
+  @include sprite-icon($common-icon-history);
+}
+
+.Icon-profile {
+  @extend %Icon;
+  @include sprite-icon($common-icon-profile);
+}
+
+.Icon-watchlist {
+  @extend %Icon;
+  @include sprite-icon($common-icon-watchlist);
+}
+
+.Icon-logout {
+  @extend %Icon;
+  @include sprite-icon($common-icon-logout);
+}

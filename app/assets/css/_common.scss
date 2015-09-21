@@ -93,7 +93,7 @@ th {
   }
 
 }
-  .Page-h {/* @FIX_ME これ微妙 */
+  .Page-h {/* @FIX_ME デザイン展開によっては削除 */
     font-size: 20px;
     /*color: #444;*/
     line-height: 34px;
@@ -123,62 +123,6 @@ th {
   overflow: hidden;
   line-height: 1;
 }
-
-/**
- * Heading
- */
-.Heading {
-  color: #4d4d4d;
-  font-size: 20px;
-  font-weight: bold;
-  float: left;
-  line-height: 1.9;/* 38px */
-}
-  .Heading__txt {
-  }
-
-.Heading.is-s {/* @FIX_ME */
-  font-size: 16px;
-}
-
-.Heading-1 {
-  background: #fff linear-gradient(to bottom, #fff, #f5f5f5) repeat-x;
-  border-top: 2px solid $COLOR_FOCUS;
-  color: $COLOR_BASE;
-  font-size: 28px;
-  height: 90px;
-  text-align: center;
-  line-height: 90px;
-}
-
-/**
- * Media
- */
-.Media {
-  @include clrfix();
-}
-  .Media__img {
-    float: left;
-  }
-  .Media__body {
-    overflow: hidden;
-  }
-
-/**
- * Media
- */
-.Media-1 {
-  display: table;
-  width: 100%;
-  table-layout: fixed;
-}
-  .Media-1__img {
-    display: table-cell;
-  }
-  .Media-1__body {
-    display: table-cell;
-    vertical-align: middle;
-  }
 
 /**
  * Site-scroller
