@@ -46,14 +46,13 @@
       }
       .Project-visual__condition-dd {
         float: right;
-      }
 
-  .Project-visual__condition-sum {
-  }
-    .Project-visual__condition-sum-dd {
-      font-size: 32px;
-      margin-top: -0.2em;
-    }
+        &.is-sum {
+          font-size: 32px;
+          margin-top: -0.2em;
+        }
+
+      }
 
   /**
    * alert

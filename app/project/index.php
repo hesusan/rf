@@ -40,12 +40,11 @@
         </div>
         <div class="Project-visual__body">
 
-          <!-- conditions には固定の高さ -->
           <div class="Project-visual__conditions">
 
             <dl class="Project-visual__condition Project-visual__condition-sum u-fs_20">
-              <dt class="Project-visual__condition-dt Project-visual__condition-sum-dt">達成金額</dt>
-              <dd class="Project-visual__condition-dd Project-visual__condition-sum-dd">500,000円</dd>
+              <dt class="Project-visual__condition-dt is-sum">達成金額</dt>
+              <dd class="Project-visual__condition-dd is-sum">500,000円</dd>
             </dl>
 
             <div>

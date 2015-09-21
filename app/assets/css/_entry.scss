@@ -16,6 +16,7 @@
   border-bottom: 3px solid #ebebeb;
   border-radius: 6px;
   overflow: hidden;
+  position: relative;
 }
 
 /**
@@ -24,6 +25,47 @@
 .Entry {
   @extend %Entry;
 }
+
+/**
+ * label
+ */
+.Entry {
+
+  &.is-challenge {
+    &:after {
+      @include sprite-bg($common-label-challenge);
+      content: '';
+      position: absolute;
+      top: 5px;
+      left: -6px;
+      z-index: 10;
+    }
+  }
+
+  &.is-new {
+    &:after {
+      @include sprite-bg($common-label-new);
+      content: '';
+      position: absolute;
+      top: 5px;
+      left: -6px;
+      z-index: 10;
+    }
+  }
+
+  &.is-complete {
+    &:after {
+      @include sprite-bg($common-label-complete);
+      content: '';
+      position: absolute;
+      top: 5px;
+      left: -6px;
+      z-index: 10;
+    }
+  }
+
+}
+
 
 .Entry__img {
   img {

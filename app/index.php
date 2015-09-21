@@ -422,7 +422,7 @@
 
       <div class="Grid u-mb_40">
 
-        <article class="Entry is-type1 is-complete Grid__col4">
+        <article class="Entry is-type1 is-challenge Grid__col4">
           <a href="#" class="u-link-area">
             <div class="Entry__img">
               <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
@@ -482,7 +482,7 @@
           </a>
         </article>
 
-        <article class="Entry is-type1 is-complete Grid__col4">
+        <article class="Entry is-type1 is-new Grid__col4">
           <a href="#" class="u-link-area">
             <div class="Entry__img">
               <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
@@ -512,7 +512,7 @@
           </a>
         </article>
 
-        <article class="Entry is-type1 is-complete Grid__col4">
+        <article class="Entry is-type1 Grid__col4">
           <a href="#" class="u-link-area">
             <div class="Entry__img">
               <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
@@ -650,7 +650,7 @@
 
       <div class="Grid">
 
-        <article class="Entry is-type3 is-complete Grid__col4">
+        <article class="Entry is-type3 Grid__col4">
           <a href="#" class="u-link-area">
             <div class="Entry__img">
               <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
@@ -665,7 +665,7 @@
           </a>
         </article>
 
-        <article class="Entry is-type3 is-complete Grid__col4">
+        <article class="Entry is-type3 Grid__col4">
           <a href="#" class="u-link-area">
             <div class="Entry__img">
               <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
@@ -680,7 +680,7 @@
           </a>
         </article>
 
-        <article class="Entry is-type3 is-complete Grid__col4">
+        <article class="Entry is-type3 Grid__col4">
           <a href="#" class="u-link-area">
             <div class="Entry__img">
               <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
@@ -695,7 +695,7 @@
           </a>
         </article>
 
-        <article class="Entry is-type3 is-complete Grid__col4">
+        <article class="Entry is-type3 Grid__col4">
           <a href="#" class="u-link-area">
             <div class="Entry__img">
               <img src="/images/common/thumb310x180.jpg" width="310" height="180" alt="">
