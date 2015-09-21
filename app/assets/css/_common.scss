@@ -41,7 +41,7 @@
    ----------------------------------------------------------------- */
 
 a {
-  color: #ff881a;
+  color: $COLOR_LINK;
   text-decoration: none;
 
   &:hover {
@@ -134,6 +134,7 @@ th {
     border: 1px solid #ebebeb;
     border-bottom: 3px solid #ebebeb;
     border-radius: 6px;
+    display: block;
     overflow: hidden;
     /*height: 270px;*/
     margin-left: $PAGE_WIDTH + 28px;

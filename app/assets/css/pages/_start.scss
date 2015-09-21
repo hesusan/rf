@@ -161,13 +161,12 @@
    * voice.is-clr_0
    */
   .Start-voice.is-clr_0 {
-    $color: #e60013;
 
     .Start-voice__h__b {
-      color: $color;
+      color: $COLOR_FOCUS;
     }
     .Start-voice__img {
-      border-color: $color;
+      border-color: $COLOR_FOCUS;
     }
 
   }

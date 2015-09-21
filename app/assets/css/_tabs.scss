@@ -38,9 +38,15 @@
 
     &.is-active {
       background-color: #fff;
-      color: #888;
+      color: $COLOR_WEAK2;
       font-weight: bold;
       height: 101%;
+
+      /* @FIX_ME */
+      .Icon-num {
+        background-color: #888;
+      }
+
     }
     &.is-inactive {
       background-color: #f7f7f7;

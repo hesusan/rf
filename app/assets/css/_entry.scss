@@ -8,14 +8,12 @@
   border: 1px solid #ebebeb;
   border-bottom: 3px solid #ebebeb;
   border-radius: 6px;
-  /*overflow: hidden;*/
 }
 
 %Entry {
   border: 1px solid #ebebeb;
   border-bottom: 3px solid #ebebeb;
   border-radius: 6px;
-  /*overflow: hidden; 仕様変更により削除 */
   position: relative;
 }
 
@@ -151,11 +149,11 @@
   text-align: center;
   font-size: 24px;
   font-family: $DEVICE_FONT_EN;
-  margin-bottom: 14px;/* @FIX_ME */
+  margin-bottom: 14px;/* @NOTE 必要に応じて汎用クラスで代替 */
 
   &.is-s {
     font-size: 20px;
-    margin-bottom: 12px;/* @FIX_ME */
+    margin-bottom: 12px;/* @NOTE 必要に応じて汎用クラスで代替 */
   }
 }
 
@@ -163,7 +161,7 @@
  * Entry__gauge
  */
 .Entry__gauge {
-  margin-top: 12px;/* @FIX_ME */
+  margin-top: 12px;/* @NOTE 必要に応じて汎用クラスで代替 */
 }
 
 /**
@@ -185,7 +183,7 @@
     color: $COLOR_WEAK;
     text-align: right;
   }
-    .Entry__info-founder-icon {/* @FIX_ME */
+    .Entry__info-founder-icon {
       img {
         border-radius: 4px;
       }
@@ -207,7 +205,7 @@
   line-height: 1;
   display: table;
   width: 100%;
-  margin-top: 12px;/* @FIX_ME */
+  margin-top: 12px;/* @NOTE 必要に応じて汎用クラスで代替 */
 }
   .Entry__condition-sum,
   .Entry__condition-remain {
@@ -247,7 +245,7 @@
     padding: 20px;
   }
     .Entry__info {
-      margin-top: 20px;/* @FIX_ME */
+      margin-top: 20px;/* @NOTE 必要に応じて汎用クラスで代替 */
     }
 
 }
@@ -261,7 +259,7 @@
     padding: 15px;
   }
     .Entry__gauge {
-      margin-top: 17px;/* @FIX_ME */
+      margin-top: 17px;/* @NOTE 必要に応じて汎用クラスで代替 */
     }
 
     .Entry__conditon {

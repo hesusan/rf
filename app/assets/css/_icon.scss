@@ -38,7 +38,7 @@
  */
 .Icon-optional {
   @extend %Icon;
-  color: #888;
+  color: $COLOR_WEAK2;
   background-color: #fff;
   border: 1px solid #888;
   border-radius: 2px;
@@ -163,7 +163,7 @@
  * テキストアイコン
  */
 .Icon-num {
-  background-color: #ff9331;
+  background-color: $COLOR_FOCUS;
   border-radius: 20px;
   color: #fff;
   display: inline-block;
