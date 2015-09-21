@@ -877,6 +877,12 @@
 
   </div>
 
+  <div class="Site-scroller Container">
+    <div class="Site-scroller__main">
+      <a href="#" class="Site-scroller__pagetop">このページのTOPへ</a>
+    </div>
+  </div>
+
   <? require_once 'php/footer.php'; ?>
 
 </div>

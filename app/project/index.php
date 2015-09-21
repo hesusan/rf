@@ -90,7 +90,9 @@
             </div>
           </a>
 
-          <div class="u-em u-fs_18 u-font_b u-align_c u-mt_20">+気になるリストに追加する</div>
+          <div class="u-em u-fs_18 u-font_b u-align_c u-mt_20">
+            <span class="Icon-plus u-mr_5"></span><span class="u-valign_m">気になるリストに追加する</span>
+          </div>
 
           <!-- 終了表示
           <div class="Project-visual__alert u-mt_30">
@@ -371,6 +373,28 @@
     </div>
 
   </article>
+
+  <div class="Site-scroller Container">
+    <div class="Site-scroller__main">
+      <div class="Site-scroller__set">
+        <a href="#" class="Site-scroller__return">リターンを選択</a>
+
+        <div class="Site-scroller__sns">
+          <!-- @FIX_ME 該当ページのURLを指定してください -->
+          <div class="Site-scroller__sns-fb">
+            <a class="fb-like" data-href="https://readyfor.jp/" data-layout="box_count" data-action="like" data-show-faces="false" data-share="false">
+              facebookでシェア
+            </a>
+          </div>
+          <div class="Site-scroller__sns-tw">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-text="READYFOR?（レディーフォー）は実行者を支援する日本初のクラウドファンディングです。" data-url="https://readyfor.jp/" data-count="vertical" data-via="ready_for" data-lang="ja">Tweet</a>
+          </div>
+        </div>
+
+      </div>
+      <a href="#" class="Site-scroller__pagetop">このページのTOPへ</a>
+    </div>
+  </div>
 
   <? require_once '../php/footer.php'; ?>
 
