@@ -58,6 +58,16 @@
           margin-top: -0.2em;
         }
 
+        &.is-nosupporter {
+          font-size: 32px;
+          margin-top: -0.2em;
+
+          a {
+            color: #f53544;
+            text-decoration: underline;
+          }
+        }
+
       }
 
   /**
@@ -69,6 +79,15 @@
     border-radius: 6px;
     text-align: center;
     padding: 24px 0 19px;
+
+    /* 失敗時 */
+    &.is-miss {
+
+    }
+    /* 成功時 */
+    &.is-complete {
+      border: 2px solid #e00314;
+    }
   }
 
 

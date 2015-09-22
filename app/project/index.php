@@ -44,10 +44,21 @@
 
           <div class="Project-visual__conditions">
 
-            <dl class="Project-visual__condition Project-visual__condition-sum u-fs_20">
+            <!-- サポーターありの場合
+            <dl class="Project-visual__condition u-fs_20">
               <dt class="Project-visual__condition-dt is-sum">達成金額</dt>
               <dd class="Project-visual__condition-dd is-sum">500,000円</dd>
             </dl>
+            -->
+
+            <!-- サポーター無の場合 -->
+            <dl class="Project-visual__condition u-fs_20">
+              <dt class="Project-visual__condition-dt is-sum">達成金額</dt>
+              <dd class="Project-visual__condition-dd is-nosupporter">
+                <a href="#">支援者になる</a>
+              </dd>
+            </dl>
+            <!-- /サポーター無の場合 -->
 
             <div>
               <dl class="Project-visual__condition u-fs_16">
@@ -95,8 +106,15 @@
             <span class="Icon-plus u-mr_5"></span><span class="u-valign_m">気になるリストに追加する</span>
           </div>
 
-          <!-- 終了表示
-          <div class="Project-visual__alert u-mt_30">
+          <!--
+          失敗時
+          <div class="Project-visual__alert is-miss u-mt_30">
+            <span class="u-fs_20 u-font_b">プロジェクトは終了しました</span><br>
+            <span class="u-fs_16">2015年8月31日に成立</span>
+          </div>
+
+          成功時
+          <div class="Project-visual__alert is-complete u-mt_30">
             <span class="u-fs_20 u-font_b">プロジェクトは終了しました</span><br>
             <span class="u-fs_16">2015年8月31日に成立</span>
           </div>
