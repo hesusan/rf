@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   Nav
+   ========================================================================== */
+
+
+/**
+ * Site-nav
+ */
+.Site-nav {
+  padding-top: 7px;
+  width: 100%;
+}
+  .Site-nav__inner {
+    width: 100%;
+    display: flex;
+  }
+    .Site-nav__item {
+      flex: 1;
+      width: 100%;
+
+      &.is-active {
+
+        .Site-nav__link-icon {
+          background-color: #e60013;
+        }
+
+      }
+
+    }
+      .Site-nav__link {
+        width: 100%;
+        display: block;
+        text-align: center;
+      }
+        .Site-nav__link-icon {
+          background-color: #666;
+          width: 20px;
+          height: 20px;
+          overflow: hidden;
+          border-radius: 20px;
+          margin: 0 auto 5px;
+
+          &.is-my {
+            border-radius: 20px;
+          }
+        }
+        .Site-nav__link-txt {
+          color: $COLOR_WEAK;
+          line-height: 1;
+          font-weight: bold;
+          transform: scale(0.9);
+          font-size: 10px;
+        }
+
+  /**
+   * my account
+   */
+  .Site-nav__myaccount {
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 200px;
+    position: absolute;
+    padding: 10px 15px;
+    top: 46px;
+    right: 3px;
+    z-index: 5;
+  }
+    .Site-nav__myaccount-menu {
+    }
+      .Site-nav__myaccount-menu-i {
+        font-size: 1.4rem;
+
+        &.is-logout {
+          border-top: 1px solid #ccc;
+          padding-top: 8px;
+          margin-top: 8px;
+        }
+
+      }
+        .Site-nav__myaccount-menu-a {
+          color: $COLOR_WEAK;
+          display: block;
+          padding-top: 6px;
+          padding-bottom: 6px;
+        }

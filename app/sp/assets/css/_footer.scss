@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+.Site-footer {
+  background-color: #363b47;
+}
+  /**
+   * nav
+   */
+  .Site-footer__nav {
+  }
+    .Site-footer__nav-row {
+      border-bottom: 1px solid #4b5565;
+      line-height: 1;
+      display: flex;
+    }
+      .Site-footer__nav-i {
+        flex: 1;
+        width: 100%;
+
+        + .Site-footer__nav-i {
+          border-left: 1px solid #4b5565;
+        }
+      }
+        .Site-footer__nav-a {
+          color: #fff;
+          display: block;
+          display: flex;
+          font-size: 1.2rem;
+          height: 50px;
+          align-items: center;
+          justify-content: center;
+        }
+
+  /**
+   * nav-2
+   */
+  .Site-footer__nav-2 {
+    text-align: center;
+    padding-top: 35px;
+    margin-bottom: 38px;
+  }
+    .Site-footer__nav-2-i {
+      display: inline-block;
+
+       + .Site-footer__nav-2-i {
+        margin-left: 55px;
+       }
+    }
+      .Site-footer__nav-2-a {
+        color: #8895b3;
+        font-size: 1rem;
+      }
+
+  /**
+   * copyright
+   */
+  .Site-footer__copy {
+    margin-top: 38px;
+    padding-bottom: 38px;
+    text-align: center;
+    line-height: 1.2;
+  }
+    .Site-footer__copy-txt {
+      color: #fff;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }

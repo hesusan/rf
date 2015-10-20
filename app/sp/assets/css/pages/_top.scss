@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   Top
+   ========================================================================== */
+
+/**
+ * entry
+ */
+.Top-entry {
+  height: 170px;
+  overflow: hidden;
+  position: relative;
+}
+  .Top-entry__inner {
+
+  }
+    .Top-entry__img {
+    }
+
+    .Top-entry__overlay {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background: rgba(118,118,118,0);
+      background: linear-gradient(to bottom, rgba(118,118,118,0) 15.3%, rgba(81,81,81,0.7) 100%);
+    }
+
+    .Top-entry__body {
+      color: #fff;
+      padding: 0 20px 8px;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+    }
+      .Top-entry__h {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 8px;
+      }
+
+      .Top-entry__condition {
+        margin-bottom: 8px;
+      }
+        .Top-entry__condition-sum {
+          display: flex;
+          align-items: baseline;
+          line-height: 1;
+        }
+          .Top-entry__condition-sum-dt {
+            font-size: 1.2rem;
+            margin-right: 15px;
+          }
+          .Top-entry__condition-sum-dd {
+            flex: 1;
+            font-size: 1.6rem;
+            font-family: $DEVICE_FONT_EN;
+          }
+
+/**
+ * events
+ */
+.Top-events {
+}
+  .Top-events__carousel-item {
+  }
+
+/**
+ * sns
+ */
+.Top-sns {
+  padding-top: 20px;
+  padding-bottom: 35px;
+}

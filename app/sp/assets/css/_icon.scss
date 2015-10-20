@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   Icon
+   ========================================================================== */
+
+/**
+ * icon
+ */
+%Icon {
+  display: inline-block;
+  vertical-align: middle;
+/*
+  &:after {
+    content: '';
+  }
+  */
+}
+
+/**
+ * 必須
+ */
+.Icon-require {
+  @extend %Icon;
+  color: #fff;
+  background-color: $COLOR_FOCUS;
+  border-radius: 2px;
+  border: 1px solid transparent;
+  font-size: 12px;
+  line-height: 24px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/**
+ * 任意
+ */
+.Icon-optional {
+  @extend %Icon;
+  color: $COLOR_WEAK2;
+  background-color: #fff;
+  border: 1px solid #888;
+  border-radius: 2px;
+  font-size: 12px;
+  line-height: 24px;
+  height: 24px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.Icon-search {
+  @extend %Icon;
+  @include sprite-icon($common-icon-search);
+}
+
+.Icon-search2 {
+  @extend %Icon;
+  @include sprite-icon($common-icon-search2);
+}
+
+.Icon-start {
+  @extend %Icon;
+  @include sprite-icon($common-icon-start);
+}
+
+.Icon-about {
+  @extend %Icon;
+  @include sprite-icon($common-icon-about);
+}
+
+.Icon-login {
+  @extend %Icon;
+  @include sprite-icon($common-icon-login);
+}
+
+.Icon-signin {
+  @extend %Icon;
+  @include sprite-icon($common-icon-signin);
+}
+
+.Icon-readyfor {
+  @extend %Icon;
+  @include sprite-icon($common-icon-readyfor);
+}
+.Icon-readyfor2 {
+  @extend %Icon;
+  @include sprite-icon($common-icon-readyfor2);
+}
+
+.Icon-onepush {
+  @extend %Icon;
+  @include sprite-icon($common-icon-onepush);
+}
+
+.Icon-ranking {
+  @extend %Icon;
+  @include sprite-icon($common-icon-ranking);
+}
+
+.Icon-return {
+  @extend %Icon;
+  @include sprite-icon($common-icon-return);
+}
+
+.Icon-money {
+  @extend %Icon;
+  @include sprite-icon($common-icon-money);
+}
+
+.Icon-new {
+  @extend %Icon;
+  @include sprite-icon($common-icon-new);
+}
+
+.Icon-success {
+  @extend %Icon;
+  @include sprite-icon($common-icon-success);
+}
+
+.Icon-interview {
+  @extend %Icon;
+  @include sprite-icon($common-icon-interview);
+}
+
+.Icon-tag {
+  @extend %Icon;
+  @include sprite-icon($common-icon-tag);
+}
+
+.Icon-tag-2 {
+  @extend %Icon;
+  @include sprite-icon($common-icon-tag-2);
+}
+
+.Icon-arrow-r {
+  @extend %Icon;
+  @include sprite-icon($common-icon-arrow-r);
+}
+
+.Icon-arrow-r-2 {
+  @extend %Icon;
+  @include sprite-icon($common-icon-arrow-r-2);
+}
+
+.Icon-fb {
+  @extend %Icon;
+  @include sprite-icon($common-icon-fb);
+}
+
+.Icon-mail {
+  @extend %Icon;
+  @include sprite-icon($common-icon-mail);
+}
+
+.Icon-shipment {
+  @extend %Icon;
+  @include sprite-icon($common-icon-shipment);
+}
+
+.Icon-supporter {
+  @extend %Icon;
+  @include sprite-icon($common-icon-supporter);
+}
+
+/**
+ * テキストアイコン
+ */
+.Icon-num {
+  background-color: $COLOR_FOCUS;
+  border-radius: 20px;
+  color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+.Icon-achivement {
+  @extend %Icon;
+  @include sprite-icon($common-icon-achivement);
+}
+
+.Icon-notachivement {
+  @extend %Icon;
+  @include sprite-icon($common-icon-notachivement);
+}
+
+.Icon-plus {
+  @extend %Icon;
+  @include sprite-icon($common-icon-plus);
+}
+
+.Icon-msg {
+  @extend %Icon;
+  @include sprite-icon($common-icon-msg);
+}
+
+.Icon-history {
+  @extend %Icon;
+  @include sprite-icon($common-icon-history);
+}
+
+.Icon-profile {
+  @extend %Icon;
+  @include sprite-icon($common-icon-profile);
+}
+
+.Icon-watchlist {
+  @extend %Icon;
+  @include sprite-icon($common-icon-watchlist);
+}
+
+.Icon-logout {
+  @extend %Icon;
+  @include sprite-icon($common-icon-logout);
+}

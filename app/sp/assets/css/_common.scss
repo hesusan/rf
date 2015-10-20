@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   Common
+   ========================================================================== */
+
+/* Mixin
+   ----------------------------------------------------------------- */
+
+/**
+ * 基本コンテナ
+ */
+@mixin container() {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/**
+ * テキストを$wordNum行で隠す
+ * @param $line-height 行間
+ * @param $wordNum 文字数
+ */
+@mixin hideText($line-height, $wordNum, $fixed: false) {
+
+  @if($fixed) {
+    height: $line-height * $wordNum;
+  }
+  @else {
+    max-height: $line-height * $wordNum;
+  }
+  overflow: hidden;
+
+}
+
+/**
+ * clearfix
+ */
+@mixin clrfix() {
+  &:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+}
+
+/* Basement
+   ----------------------------------------------------------------- */
+
+a {
+  color: $COLOR_LINK;
+  text-decoration: none;
+}
+
+
+/* Component
+   ----------------------------------------------------------------- */
+
+.Site-container {
+  background-color: #fff;
+  color: $COLOR_BASE;
+  font-size: 1.2rem;
+  font-family: $DEVICE_FONT_JP;
+  line-height: $BASE_LINE_HEIGHT;
+  min-width: $MIN_PAGE_WIDTH;
+  padding-top: 50px;
+  position: relative;
+}
+
+/**
+ * body
+ */
+.Page-body {
+}
+
+/**
+ * 可変コンテナ
+ */
+.Container {
+  @include container();
+  @include clrfix();
+}
+
+/**
+ * 固定サイズコンテナ
+ */
+.Container-2 {
+  @include container();
+  @include clrfix();
+  width: $MIN_PAGE_WIDTH;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Bg-0 {
+  background-color: #fafafa;
+}
+
+.Sns-list {
+  text-align: center;
+}
+  .Sns-list__i {
+    display: inline-block;
+    vertical-align: bottom;
+
+    + .Sns-list__i {
+      margin-left: 30px;
+    }
+  }

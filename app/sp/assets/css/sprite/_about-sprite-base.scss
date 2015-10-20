@@ -1,0 +1,52 @@
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+
+At the bottom of this section, we provide information about the spritesheet itself
+$spritesheet: width height image $spritesheet-sprites;
+*/
+$about_circle-name: 'about_circle';
+$about_circle-x: 0px;
+$about_circle-y: 70px;
+$about_circle-offset-x: 0px;
+$about_circle-offset-y: -70px;
+$about_circle-width: 214px;
+$about_circle-height: 84px;
+$about_circle-total-width: 998px;
+$about_circle-total-height: 154px;
+$about_circle-image: '../images/about/sprite/base.png';
+$about_circle: 0px 70px 0px -70px 214px 84px 998px 154px '../images/about/sprite/base.png' 'about_circle';
+$about_circle_num-name: 'about_circle_num';
+$about_circle_num-x: 218px;
+$about_circle_num-y: 70px;
+$about_circle_num-offset-x: -218px;
+$about_circle_num-offset-y: -70px;
+$about_circle_num-width: 20px;
+$about_circle_num-height: 44px;
+$about_circle_num-total-width: 998px;
+$about_circle_num-total-height: 154px;
+$about_circle_num-image: '../images/about/sprite/base.png';
+$about_circle_num: 218px 70px -218px -70px 20px 44px 998px 154px '../images/about/sprite/base.png' 'about_circle_num';
+$about_visual_txt-name: 'about_visual_txt';
+$about_visual_txt-x: 0px;
+$about_visual_txt-y: 0px;
+$about_visual_txt-offset-x: 0px;
+$about_visual_txt-offset-y: 0px;
+$about_visual_txt-width: 998px;
+$about_visual_txt-height: 66px;
+$about_visual_txt-total-width: 998px;
+$about_visual_txt-total-height: 154px;
+$about_visual_txt-image: '../images/about/sprite/base.png';
+$about_visual_txt: 0px 0px 0px 0px 998px 66px 998px 154px '../images/about/sprite/base.png' 'about_visual_txt';
+$spritesheet-width: 998px;
+$spritesheet-height: 154px;
+$spritesheet-image: '../images/about/sprite/base.png';
+$spritesheet-sprites: $about_circle $about_circle_num $about_visual_txt;
+$spritesheet: 998px 154px '../images/about/sprite/base.png' $spritesheet-sprites;
+

@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   Gauge
+   ========================================================================== */
+
+.Gauge-set {
+  display: flex;
+  align-items: center;
+}
+  .Gauge-set__txt {
+    font-size: 1rem;
+    font-family: $DEVICE_FONT_EN;
+    margin-right: 8px;
+  }
+  .Gauge-set__gauge {
+    flex: 1;
+    width: 100%;
+  }
+
+/**
+ * Gauge
+ */
+.Gauge {
+  background-color: #ccc;
+  border-radius: 10px;
+  height: 6px;
+  overflow: hidden;
+  position: relative;
+}
+  .Gauge__obj {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+  .Gauge__obj.is-0 {
+    background-color: #ee6400;
+  }
+  .Gauge__obj.is-1 {
+    background-color: #e00314;
+  }

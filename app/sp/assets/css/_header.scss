@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+/**
+ * Site-header
+ */
+.Site-header {
+  background-color: #fff;
+  border-bottom: 1px solid #ff0015;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  backface-visibility: hidden;
+}
+
+/**
+ * Header
+ */
+ /*
+.Header {
+  background-color: #fff;
+  border-top: 1px solid #f0f0f0;
+  border-bottom: 1px solid #f0f0f0;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-height: 49px;
+}
+*/

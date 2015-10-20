@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+/* ==========================================================================
+   Entry
+   ========================================================================== */
+
+@mixin Entry() {
+  background-color: #fafafa;
+  border-bottom: 1px solid #f0f0f0;
+  position: relative;
+  padding: 10px;
+}
+
+%Entry {
+  background-color: #fafafa;
+  border-bottom: 1px solid #f0f0f0;
+  position: relative;
+  padding: 10px;
+}
+
+/**
+ * Entry
+ */
+.Entry {
+  @extend %Entry;
+}
+
+/**
+ * label
+ */
+.Entry {
+
+  &.is-challenge {
+    &:after {
+      @include sprite-bg($common-label-challenge);
+      content: '';
+      position: absolute;
+      top: 5px;
+      left: -6px;
+      z-index: 10;
+    }
+  }
+
+  &.is-new {
+    &:after {
+      @include sprite-bg($common-label-new);
+      content: '';
+      position: absolute;
+      top: 5px;
+      left: -6px;
+      z-index: 10;
+    }
+  }
+
+  &.is-complete {
+    &:after {
+      @include sprite-bg($common-label-complete);
+      content: '';
+      position: absolute;
+      top: 5px;
+      left: -6px;
+      z-index: 10;
+    }
+  }
+
+}
+
+  /**
+   * inner
+   */
+  .Entry__inner {
+    color: inherit;
+    display: flex;
+
+    &.is-valign_c {
+      align-items: center;
+    }
+
+  }
+    .Entry__img {
+      margin-right: 15px;
+      overflow: hidden;
+      border-radius: 2px;
+
+      /*
+      img {
+        width: 100%;
+        height: auto;
+      }
+      */
+      &.is-type0 {
+        height: 70px;
+        width: 90px;
+      }
+      &.is-type1 {
+        height: 40px;
+        width: 70px;
+      }
+
+    }
+
+    /**
+     * body
+     */
+    .Entry__body {
+      flex: 1;
+    }
+
+      /**
+       * heading
+       */
+      .Entry__h {
+        font-size: 1.2rem;
+
+        &.is-hide-line2 {
+          @include hideText($BASE_LINE_HEIGHT, 2em);
+        }
+        &.is-hide-line2-fixed {
+          @include hideText($BASE_LINE_HEIGHT, 2em, true);
+        }
+        &.is-hide-line3 {
+          @include hideText($BASE_LINE_HEIGHT, 3em);
+        }
+        &.is-hide-line3-fixed {
+          @include hideText($BASE_LINE_HEIGHT, 3em, true);
+        }
+
+        &.is-l {
+          /*font-size: 16px;*/
+        }
+        &.is-s {
+          /*font-size: 12px;*/
+        }
+        &.is-xs {
+          /*font-size: 10px;*/
+        }
+
+      }
+
+      /**
+       * gauge
+       */
+      .Entry__gauge {
+        margin-top: 8px;/* @NOTE 必要に応じて汎用クラスで代替 */
+      }
+
+      /**
+       * condition
+       */
+      .Entry__condition {
+        margin-top: 4px;
+      }
+        .Entry__condition-sum {
+          display: flex;
+          align-items: baseline;
+          justify-content: flex-end;
+          line-height: 1;
+        }
+          .Entry__condition-sum-dt {
+            color: $COLOR_WEAK2;
+            font-size: 1rem;
+            margin-right: 18px;
+          }
+          .Entry__condition-sum-dd {
+            font-size: 1.2rem;
+            font-family: $DEVICE_FONT_EN;
+          }
