@@ -26,6 +26,10 @@ $SEARCH-NAV_Z-INDEX: 100;
   display: flex;
   align-items: center;
 }
+  .Search-heading__icon {
+    @include sprite-icon($common-icon-arrow-b);
+    margin-left: 14px;
+  }
 
 /**
  * body
@@ -116,7 +120,7 @@ $SEARCH-NAV_Z-INDEX: 100;
           align-items: center;
 
           &:after {
-            @include sprite($common-icon-arrow-r-2);
+            //@include sprite($common-icon-arrow-r-2);
             content: '';
             margin-left: 10px;
           }

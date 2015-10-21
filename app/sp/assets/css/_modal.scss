@@ -17,6 +17,7 @@
   overflow: hidden;
   z-index: 9999;
   backface-visibility: hidden;
+
   display: none;
 }
 
@@ -25,20 +26,18 @@
  */
 .Modal {
   background-color: #fff;
-  border-radius: 6px;
-  position: fixed;
-  top: 20px;
+  border-radius: 4px;
+  position: absolute;
   right: 0;
   left: 0;
   margin-left: auto;
   margin-right: auto;
   z-index: 10000;
-  display: none;
 }
   .Modal__closer {
     position: absolute;
-    top: 12px;
-    right: 12px;
+    top: 15px;
+    right: 16px;
   }
 
   .Modal__part-0 {
@@ -58,32 +57,72 @@
       margin-bottom: auto;
     }
   }
-    .Modal__part-0__circle {
-      background-color: #fff;
-      border: 1px solid #ebebeb;
-      border-radius: 21px;
-      font-size: 10px;
-      height: 42px;
-      width: 42px;
-      line-height: 42px;
-      overflow: hidden;
-      display: inline-block;
-      vertical-align: middle;
-      position: relative;
-    }
 
 /**
  * Signup
  */
 .Signup-modal {
-  width: 480px;
-  padding: 20px 80px 55px;
+  top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: none;
 }
+  .Signup-modal__container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .Signup-modal__h {
+    border-bottom: 1px solid #ebebeb;
+    line-height: 45px;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+  }
+  .Signup-modal__form {
+    border-top: 1px solid #ebebeb;
+    padding-top: 20px;
+  }
+  .Signup-modal__btn {
+    border-top: 1px solid #ebebeb;
+  }
+    .Signup-modal__btn-a {
+      display: block;
+      text-align: center;
+      font-size: 1.6rem;
+      line-height: 43px;
+    }
+
 
 /**
  * Login
  */
 .Login-modal {
-  width: 480px;
-  padding: 20px 80px 55px;
+  top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: none;
 }
+  .Login-modal__container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .Login-modal__h {
+    border-bottom: 1px solid #ebebeb;
+    line-height: 45px;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+  }
+  .Login-modal__form {
+    border-top: 1px solid #ebebeb;
+    padding-top: 20px;
+  }
+  .Login-modal__btn {
+    border-top: 1px solid #ebebeb;
+  }
+    .Login-modal__btn-a {
+      display: block;
+      text-align: center;
+      font-size: 1.6rem;
+      line-height: 43px;
+    }

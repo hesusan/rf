@@ -30,6 +30,8 @@
     width: 100%;
   }
     .Btn-0__content {
+      color: $COLOR_EM;
+      font-size: 1.4rem;
       display: table-cell;
       vertical-align: middle;
       height: inherit;
@@ -37,8 +39,6 @@
       white-space: nowrap;
     }
       .Btn-0__txt {
-        color: $COLOR_EM;
-        font-size: 1.4rem;
         vertical-align: middle;
       }
       .Btn-0__icon {
@@ -88,9 +88,9 @@
  */
 .Btn-2 {
   @extend %Btn;
-  border-radius: 6px;
+  border-radius: 2px;
   height: 40px;
-  width: 320px;
+  width: 100%;
   line-height: 1;
 
   &.is-blue {
@@ -107,7 +107,7 @@
   }
     .Btn-2__content {
       color: #fff;
-      font-size: 16px;
+      font-size: 1.4rem;
       display: table-cell;
       vertical-align: middle;
       height: inherit;

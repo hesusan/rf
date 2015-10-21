@@ -7,6 +7,10 @@
 .Start-container {
 }
 
+.Start-visual {
+  min-height: 120px;
+}
+
 /**
  * reasons
  */
@@ -70,12 +74,9 @@
 
         &:after {
           content: '';
+          @include sprite($common-icon-serif);
           position: absolute;
-          top: -15px;
-          background-color: red;
-          height: 16px;
-          width: 32px;
-          /*@include sprite($common-icon-serif-l);*/
+          bottom: 100%;
         }
 
       }
@@ -109,7 +110,7 @@
   .Start-voice.is-pos_l {
 
     .Start-voice__desc:after {
-      left: 23px;
+      left: 32px;
     }
     .Start-voice__img {
       float: left;

@@ -30,7 +30,7 @@
   <section class="Page-body Bg-0">
 
     <h1 class="Search-heading">
-      <div class="Search-heading__txt">支援金額の多いプロジェクト</div>
+      <div class="Search-heading__txt">（プロジェクト名）</div>
       <div class="Search-heading__icon"></div>
     </h1>
 
@@ -319,8 +319,7 @@
       <a href="#" class="Btn-0 is-l">
         <span class="Btn-0__inner">
           <span class="Btn-0__content">
-            <span class="Btn-0__icon Icon-arrow-r-2"></span>
-            <span class="Btn-0__txt">もっと見る</span>
+            <span class="Btn-0__txt">&gt;&gt; もっと見る</span>
           </span>
         </span>
       </a>

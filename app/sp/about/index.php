@@ -32,16 +32,9 @@
     <h1 class="u-d_none">READYFORとは？</h1>
 
     <div class="Visual About-visual">
-      <!--
-      <a href="#" class="About-visual__hitarea">
-        <div class="About-visual__hitarea-txt"></div>
+      <a href="#" target="_blank">
+        <img src="../images/about/about_visual0.jpg" width="320" height="120" alt="だれもがやりたいことを 実現できる世界を創る" class="u-fit-img-w">
       </a>
-      <div class="Visual__bg About-visual__bg">
-      -->
-      <img src="../images/about/about_visual0.jpg" width="320" alt="" class="u-fit-img-w">
-      <!--
-      </div>
-      -->
     </div>
 
     <section>

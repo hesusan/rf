@@ -25,6 +25,15 @@
         .Site-nav__link-icon {
           background-color: #e60013;
         }
+        .Icon-readyfor2 {
+          @include sprite-icon($common-icon-readyfor2-active);
+        }
+        .Icon-search2 {
+          @include sprite-icon($common-icon-search2-active);
+        }
+        .Icon-start {
+          @include sprite-icon($common-icon-start-active);
+        }
 
       }
 

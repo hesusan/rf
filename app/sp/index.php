@@ -22,9 +22,9 @@
 
   <? require_once 'php/header.php'; ?>
 
-  <div class="Overlay u-d_none">
-    <? require_once '../php/signup_modal.php'; ?>
-    <? require_once '../php/login_modal.php'; ?>
+  <div class="Overlay">
+    <? require_once 'php/signup_modal.php'; ?>
+    <? require_once 'php/login_modal.php'; ?>
   </div>
 
   <div class="Page-body Bg-0">
@@ -78,7 +78,7 @@
     </aside>
 
     <p class="u-mb_15 u-fs_10 u-align_c">
-      国内最大のクラウドファンディングサービス <a href="#" class="u-link2">READYFORとは</a>
+      国内最大のクラウドファンディングサービス <a href="about/" class="u-link2">READYFORとは</a>
     </p>
 
     <div class="Container u-mb_15">
@@ -151,7 +151,7 @@
       <a href="#" class="Btn-0 is-l">
         <span class="Btn-0__inner">
           <span class="Btn-0__content">
-            <span class="Btn-0__icon Icon-arrow-r-2"></span><span class="Btn-0__txt">もっと見る</span>
+            <span class="Btn-0__txt">&gt;&gt; もっと見る</span>
           </span>
         </span>
       </a>
@@ -217,7 +217,7 @@
       <a href="#" class="Btn-0 is-l">
         <span class="Btn-0__inner">
           <span class="Btn-0__content">
-            <span class="Btn-0__icon Icon-arrow-r-2"></span><span class="Btn-0__txt">もっと見る</span>
+            <span class="Btn-0__txt">&gt;&gt; もっと見る</span>
           </span>
         </span>
       </a>
