@@ -222,11 +222,10 @@
 }
   .Project-cheer__comment {
     border-bottom: 1px solid #ebebeb;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 10px;
   }
     .Project-cheer__comment-img {
-      border-radius: 3px;
+      border-radius: 4px;
       overflow: hidden;
       margin-right: 20px;
     }
@@ -237,3 +236,12 @@
         margin-bottom: 8px;
         vertical-align: middle;
       }
+        .Project-cheer__comment-name,
+        .Project-cheer__comment-date,
+        .Project-cheer__comment-support {
+          font-size: 1rem;
+        }
+        .Project-cheer__comment-support {
+          margin-top: 10px;
+          text-align: right;
+        }
