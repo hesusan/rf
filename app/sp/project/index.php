@@ -84,28 +84,56 @@
           <h1 class="u-d_none">更新情報</h1>
 
           <article class="Project-update__main">
+          
             <header class="Project-update__header">
               <time pubdate="2015-6-16" class="Project-update__header-date">2015年6月16日</time>
-              <h1 class="Project-update__header-h u-em">大阪でのコンサートの報告です</h1>
+              <h1 class="Project-update__header-h">タイトルタイトル</h1>
             </header>
-            <div class="Project-update__sns u-mb_30 u-clrfix">
-              sns code
-            </div>
+            
             <div class="Project-update__content">
-              <p class="u-mb_30">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-              <figure class="u-mb_30">
+            
+              <div class="Project-update__sns u-clrfix u-mt_15 u-mb_25">
+                <div class="Project-update__sns-i">
+                  <div class="fb-like" data-href="https://readyfor.jp/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+                </div><div class="Project-update__sns-i">
+                  <a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-dnt="true">ツイート</a>
+                </div>
+              </div>
+            
+              <p class="u-mb_15">
+                テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+              </p>
+              
+              <figure class="u-mb_10">
                 <img src="../images/project/project_update_sample.jpg" style="width:100%;" alt="">
               </figure>
-              <figure class="u-mb_30">
+              <figure class="u-mb_10">
                 <img src="../images/project/project_update_sample.jpg" style="width:100%;" alt="">
               </figure>
-              <figure class="u-mb_30">
+              <figure class="u-mb_10">
                 <img src="../images/project/project_update_sample.jpg" style="width:100%;" alt="">
               </figure>
-              <p class="u-mb_30">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
-            </div>
-            <div class="Project-update__sns u-mb_30 u-clrfix">
-              sns code
+              
+              <p class="u-mb_15">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            
+              <div class="Project-update__sns u-clrfix u-mt_20">
+                <div class="Project-update__sns-i">
+                  <div class="fb-like" data-href="https://readyfor.jp/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+                </div><div class="Project-update__sns-i">
+                  <a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-dnt="true">ツイート</a>
+                </div>
+              </div>
+              
+              <div class="Project-update__support u-mt_60 u-align_c">
+                <a href="#" class="Btn-1 is-h_l">
+                  <div class="Btn-1__inner">
+                    <div class="Btn-1__content">
+                      <div class="Btn-1__txt u-fs_16">このプロジェクトを支援する</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            
             </div>
 
           </article>
