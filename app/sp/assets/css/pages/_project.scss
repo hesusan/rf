@@ -3,6 +3,24 @@
 /* ==========================================================================
    Project
    ========================================================================== */
+
+/**
+ * sns
+ */
+.Project-sns {
+  text-align: center;
+  min-height: 20px;
+}
+  .Project-sns__i {
+    display: inline-block;
+    vertical-align: bottom;
+    
+    + .Project-sns__i {
+      margin-left: 32px;
+    }
+  }
+   
+
 .Project-visual {
   margin-top: 20px;
 }
@@ -151,13 +169,23 @@
  * outline
  */
 .Project-outline {
-  /*
-  font-size: 16px;
-  line-height: 1.6;
-  padding-top: 40px;
-  */
-  
 }
+  /**
+   * main
+   */
+  .Project-outline__main {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 10px 10px 0;
+  }
+  
+  /**
+   * sub
+   */
+  .Project-outline__sub {
+    line-height: 2;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
 /**
  * update
@@ -165,6 +193,7 @@
 .Project-update {
 }
   .Projct-update__main {
+  
   }
     /**
      * header
@@ -182,29 +211,13 @@
         margin-top: 12px;
         text-align: center;
       }
-      
-    /**
-     * sns
-     */
-    .Project-update__sns {
-      text-align: center;
-      min-height: 20px;
-    }
-      .Project-update__sns-i {
-        display: inline-block;
-        vertical-align: bottom;
-        
-        + .Project-update__sns-i {
-          margin-left: 32px;
-        }
-      }
     
     /**
      * content
      */
     .Project-update__content {
       padding: 0 10px 28px;
-      line-height: 1.667;
+      line-height: 2;/* 1.667 */
     }
     
     .Project-update__support {
