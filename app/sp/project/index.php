@@ -193,8 +193,15 @@
               </div>
             </div>
           </article>
-          
-          
+          <div class="Project-cheer__more">
+            <a href="javascript:void(0)" class="Btn-3">
+              <div class="Btn-3__inner">
+                <div class="Btn-3__content">
+                  もっと見る
+                </div>
+              </div>
+            </a>
+          </div>
         </section>
         <!-- /応援コメント -->
 

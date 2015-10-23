@@ -11,7 +11,7 @@
 }
 
 /**
- * もっと見る系
+ * もっと見る1
  */
 .Btn-0 {
   @extend %Btn;
@@ -120,6 +120,31 @@
       margin-right: 14px;
     }
 
+/**
+ * もっと見る
+ */
+.Btn-3 {
+  @extend %Btn;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  height: 44px;
+  width: 100%;
+}
+  .Btn-3__inner {
+    display: flex;
+    height: 42px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+    .Btn-3__content {
+      color: $COLOR_WEAK2;
+      font-weight: bold;
+    }
+    .Btn-3__txt {
+    }
+    
 /**
  * btns
  */

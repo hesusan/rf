@@ -233,6 +233,7 @@
 
     }
       .Project-cheer__comment-header {
+        color: $COLOR_WEAK2;
         margin-bottom: 8px;
         vertical-align: middle;
       }
@@ -241,7 +242,17 @@
         .Project-cheer__comment-support {
           font-size: 1rem;
         }
+        .Project-cheer__comment-date {
+        }
         .Project-cheer__comment-support {
+          color: $COLOR_WEAK2;
           margin-top: 10px;
           text-align: right;
         }
+  
+  /**
+   * more
+   */
+  .Project-cheer__more {
+    padding: 20px 20px 30px;
+  }
