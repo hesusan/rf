@@ -163,7 +163,23 @@
                 <header class="Project-update__related-item-header">
                   <time pubdate="2015-6-30" class="Project-update__related-item-header-date">2015年06月30日</time>
                   <h1 class="Project-update__related-item-header-h">
-                    テキストテキスト
+                    テキストテキストテキストテキストテキストテキスト
+                  </h1>
+                </header>
+                <footer class="Project-update__related-item-footer">
+                  <a href="#">&gt;&gt;続きを見る</a>
+                </footer>
+              </div>
+            </article>
+            <article class="Project-update__related-item Media">
+              <div class="Project-update__related-item-img Media__img">
+                <img src="../images/project/project_update_related_sample.jpg" width="90" height="70" alt="">
+              </div>
+              <div class="Project-update__related-item-main Media__body">
+                <header class="Project-update__related-item-header">
+                  <time pubdate="2015-6-30" class="Project-update__related-item-header-date">2015年06月30日</time>
+                  <h1 class="Project-update__related-item-header-h">
+                    テキストテキストテキストテキストテキストテキスト
                   </h1>
                 </header>
                 <footer class="Project-update__related-item-footer">
