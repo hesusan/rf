@@ -160,60 +160,75 @@
  * update
  */
 .Project-update {
-  font-size: 16px;
-  line-height: 1.6;
   padding-top: 20px;
 }
-  .Project-update__header {
-    margin-bottom: 20px;
+  .Projct-update__main {
+    /*
+    font-size: 16px;
+    line-height: 1.6;
+    */
   }
-    .Project-update__header-date {
-      font-size: 12px;
+    /**
+     * header
+     */
+    .Project-update__header {
+      margin-bottom: 20px;
     }
-    .Project-update__header-h {
-      font-size: 20px;
-      font-weight: bold;
-      margin-top: 7px;
+      .Project-update__header-date {
+        font-size: 12px;
+      }
+      .Project-update__header-h {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 7px;
+      }
+      
+    /**
+     * sns(@FIX_ME contentに含める)
+     */
+    .Project-update__sns {
+      background-color: #f7f7f7;
+      padding: 10px 20px;
     }
-  .Project-update__sns {
-    background-color: #f7f7f7;
-    padding: 10px 20px;
+    
+    /**
+     * content
+     */
+    .Project-update__content {
+      padding: 15px 10px 28px;
+    }
+
+  /**
+   * related
+   */
+  .Project-update__related {
+    border-top: 1px solid #d8d8d8;
   }
-
-
-.Project-update__related {
-
-}
-  .Project-update__related-item {
-    padding-top: 30px;
-    padding-bottom: 30px;
-
-    + .Project-update__related-item {
-      border-top: 1px solid #d8d8d8;
+    .Project-update__related-item {
+      border-bottom: 1px solid #d8d8d8;
+      padding: 10px;
     }
-  }
-    .Project-update__related-item-img {
-      margin-right: 20px;
-    }
+      .Project-update__related-item-img {
+        margin-right: 16px;
+      }
 
-  .Project-update__related-item-header {
+    .Project-update__related-item-header {
 
-  }
-    .Project-update__related-item-header-date {
-      font-size: 12px;
-      color: $COLOR_WEAK2;
     }
-    .Project-update__related-item-header-h {
-      margin-top: 2px;
+      .Project-update__related-item-header-date {
+        color: $COLOR_WEAK2;
+        font-size: 1.1rem;
+      }
+      .Project-update__related-item-header-h {
+        margin-top: 2px;
+        min-height: $BASE_LINE_HEIGHT * 2em;
+      }
+    .Project-update__related-item-body {
     }
-  .Project-update__related-item-body {
-    font-size: 12px;
-  }
-  .Project-update__related-item-footer {
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 8px;
-  }
+    .Project-update__related-item-footer {
+      text-align: right;
+      margin-top: 4px;
+    }
 
 /**
  * cheer
