@@ -29,13 +29,13 @@
 
   <section class="Page-body">
 
-    <h1 class="u-d_none">READYFORとは？</h1>
-
     <div class="Visual About-visual">
       <a href="#" target="_blank">
         <img src="../images/about/about_visual0.jpg" width="320" height="120" alt="だれもがやりたいことを 実現できる世界を創る" class="u-fit-img-w">
       </a>
     </div>
+
+    <h1 class="About-heading">日本No.1 クラウドファンディング　READYFORとは？</h1>
 
     <section>
       <h1 class="Heading-1 u-mb_20">クラウドファンディングとは？</h1>
@@ -168,7 +168,9 @@
       </div>
 
       <div class="Container">
-        <p class="u-fs_20 u-mb_30 u-align_c">誰もが夢を実現できる、よりよい社会作りのために
+        <p class="u-fs_20 u-mb_30 u-align_c">
+          誰もが夢を実現できる、<br>
+          よりよい社会作りのために
         </p>
       </div>
 

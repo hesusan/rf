@@ -17,6 +17,7 @@
   width: 100%;
   min-height: 120px;
 }
+/*
   .About-visual__hitarea {
     position: absolute;
     top: 0;
@@ -35,44 +36,16 @@
       margin: auto;
       pointer-events: none;
     }
+    */
 
 /**
- * header
+ * heading
  */
-.About-header {
-  color: $COLOR_FOCUS;
-  text-align: center;
-  margin-bottom: 40px;
+.About-heading {
+  @include sprite-bg($about_h);
+  margin: -24px auto 15px;
+  position: relative;
 }
-  .About-header__heading {
-    border-bottom: 1px solid $COLOR_FOCUS;
-    display: inline-block;
-    padding: 0 4px 7px;
-  }
-    .About-header__heading-obj {
-      @include sprite($about-circle);
-      position: relative;
-      margin: -($about-circle-height) auto 0;
-    }
-    .About-header__heading-obj-num {
-      @include sprite($about-circle-num);
-      font-size: 58px;
-      font-weight: bold;
-      margin: 30px auto 0;
-    }
-
-    .About-header__heading-txt-0 {
-      margin-top: 7px;
-      font-size: 16px;
-    }
-    .About-header__heading-txt-1 {
-      margin-top: 12px;
-      font-size: 34px;
-    }
-  .About-header__dsc {
-    font-size: 24px;
-    margin-top: 30px;
-  }
 
 /**
  * case

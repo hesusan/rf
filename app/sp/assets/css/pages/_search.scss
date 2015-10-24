@@ -120,7 +120,7 @@ $SEARCH-NAV_Z-INDEX: 100;
           align-items: center;
 
           &:after {
-            //@include sprite($common-icon-arrow-r-2);
+            @include sprite($common-icon-arrow-r-2);
             content: '';
             margin-left: 10px;
           }

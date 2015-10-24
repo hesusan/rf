@@ -57,7 +57,7 @@
       <div class="Tab__contents">
 
         <!-- 概要 -->
-        <section class="Project-outline Tab__content u-d_none">
+        <section class="Project-outline Tab__content">
 
           <h1 class="u-d_none">プロジェクト概要</h1>
 
@@ -72,11 +72,14 @@
           <div class="Project-outline__sub">
 
             <div class="Project-sns u-clrfix u-mt_15 u-mb_25">
-              <div class="Project-sns__i">
-                <div class="fb-like" data-href="https://readyfor.jp/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
-              </div><div class="Project-sns__i">
-                <a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-dnt="true">ツイート</a>
-              </div>
+              <ul class="Sns-list">
+                <li class="Sns-list__i is-fb">
+                  <div class="fb-like" data-href="https://readyfor.jp/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+                </li>
+                <li class="Sns-list__i is-tw">
+                  <a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-dnt="true">ツイート</a>
+                </li>
+              </ul>
             </div>
 
             <h2 class="u-font_b u-mb_25">視覚障害者と晴眼者の橋渡を担ってきた月刊誌「視覚障害」の廃刊危機を乗り切り、発展させる。 </h2>
@@ -89,7 +92,7 @@
             <p class="u-mb_25">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
 
             <figure class="u-mb_25">
-              <img src="../images/project/project_outline_sample.jpg" alt="" style="width:100%;">
+              <img src="../images/project/project_outline_sample.jpg" alt="" class="u-fit-img-w">
               <figcaption class="u-mt_15">キャプションキャプションキャプションキャプションキャプション</figcaption>
             </figure>
 
@@ -114,11 +117,14 @@
             <div class="Project-update__content">
 
               <div class="Project-sns u-clrfix u-mt_15 u-mb_25">
-                <div class="Project-sns__i">
-                  <div class="fb-like" data-href="https://readyfor.jp/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
-                </div><div class="Project-sns__i">
-                  <a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-dnt="true">ツイート</a>
-                </div>
+                <ul class="Sns-list">
+                  <li class="Sns-list__i is-fb">
+                    <div class="fb-like" data-href="https://readyfor.jp/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+                  </li>
+                  <li class="Sns-list__i is-tw">
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-dnt="true">ツイート</a>
+                  </li>
+                </ul>
               </div>
 
               <p class="u-mb_15">
@@ -126,23 +132,26 @@
               </p>
 
               <figure class="u-mb_10">
-                <img src="../images/project/project_update_sample.jpg" style="width:100%;" alt="">
+                <img src="../images/project/project_update_sample.jpg" class="u-fit-img-w" alt="">
               </figure>
               <figure class="u-mb_10">
-                <img src="../images/project/project_update_sample.jpg" style="width:100%;" alt="">
+                <img src="../images/project/project_update_sample.jpg" class="u-fit-img-w" alt="">
               </figure>
               <figure class="u-mb_10">
-                <img src="../images/project/project_update_sample.jpg" style="width:100%;" alt="">
+                <img src="../images/project/project_update_sample.jpg" class="u-fit-img-w" alt="">
               </figure>
 
               <p class="u-mb_15">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
 
               <div class="Project-sns u-clrfix u-mt_20">
-                <div class="Project-sns__i">
-                  <div class="fb-like" data-href="https://readyfor.jp/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
-                </div><div class="Project-sns__i">
-                  <a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-dnt="true">ツイート</a>
-                </div>
+                <ul class="Sns-list">
+                  <li class="Sns-list__i is-fb">
+                    <div class="fb-like" data-href="https://readyfor.jp/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+                  </li>
+                  <li class="Sns-list__i is-tw">
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-dnt="true">ツイート</a>
+                  </li>
+                </ul>
               </div>
 
               <div class="Project-update__support u-mt_60 u-align_c">
@@ -214,7 +223,7 @@
         <!-- /更新情報 -->
 
         <!-- 応援コメント -->
-        <section class="Project-cheer Tab__content">
+        <section class="Project-cheer Tab__content u-d_none">
           <h1 class="u-d_none">応援コメント</h1>
           <article class="Project-cheer__comment Media">
             <div class="Project-cheer__comment-img Media__img">

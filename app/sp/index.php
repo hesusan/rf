@@ -411,8 +411,12 @@
 
     <aside class="Top-sns">
       <ul class="Sns-list">
-        <li class="Sns-list__i is-fb">facebook</li>
-        <li class="Sns-list__i is-tw">twitter</li>
+        <li class="Sns-list__i is-fb">
+          <div class="fb-like" data-href="https://readyfor.jp/" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>
+        </li>
+        <li class="Sns-list__i is-tw">
+          <a href="https://twitter.com/share" class="twitter-share-button" data-lang="ja" data-dnt="true">ツイート</a>
+        </li>
       </ul>
     </aside>
 
