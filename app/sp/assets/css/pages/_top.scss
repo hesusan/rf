@@ -8,7 +8,7 @@
  * entry
  */
 .Top-entry {
-  height: 170px;
+  min-height: 170px;
   overflow: hidden;
   position: relative;
 }
@@ -16,6 +16,10 @@
 
   }
     .Top-entry__img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
     }
 
     .Top-entry__overlay {
@@ -26,6 +30,7 @@
       left: 0;
       background: rgba(118,118,118,0);
       background: linear-gradient(to bottom, rgba(118,118,118,0) 15.3%, rgba(81,81,81,0.7) 100%);
+      z-index: 3;
     }
 
     .Top-entry__body {
@@ -35,6 +40,7 @@
       position: absolute;
       left: 0;
       bottom: 0;
+      z-index: 4;
     }
       .Top-entry__h {
         font-size: 1.2rem;

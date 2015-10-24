@@ -30,11 +30,11 @@
   <div class="Page-body Bg-0">
 
     <article class="Top-entry">
-      <a href="#" class="Top-entry__inner u-link-area u-clrfix">
+      <a href="#" class="Top-entry__inner u-link-area">
 
-        <div class="Top-entry__img">
-          <img src="images/top/top_visual_sample.jpg" width="320" height="170" alt="" class="u-fit-img-w">
-        </div>
+        <img src="images/common/common_img320x170.png" class="u-fit-img-w">
+
+        <img src="images/top/top_visual_sample.jpg" width="320" height="170" alt="" class="Top-entry__img u-fit-img-w">
 
         <div class="Top-entry__overlay">
         </div>
@@ -45,7 +45,7 @@
 
           <div class="Top-entry__condition">
             <dl class="Top-entry__condition-sum">
-              <dt class="Top-entry__condition-sum-dt">達成金額</dt><dd class=" Top-entry__condition-sum-dd">5,081,000円</dd>
+              <dt class="Top-entry__condition-sum-dt">達成金額</dt><dd class="Top-entry__condition-sum-dd">5,081,000円</dd>
             </dl>
           </div>
 
@@ -96,7 +96,7 @@
         <span class="Heading__icon Icon-readyfor"></span>
         <span class="Heading__txt">注目のプロジェクト</span>
       </h1>
-      <article class="Entry">
+      <article class="Entry is-complete">
         <a href="#" class="Entry__inner">
           <div class="Entry__img is-type0">
             <img src="images/common/thumb310x180.jpg" alt="" class="u-fit-img-h">
@@ -122,7 +122,33 @@
           </div>
         </a>
       </article>
-      <article class="Entry">
+      <article class="Entry is-challenge">
+        <a href="#" class="Entry__inner">
+          <div class="Entry__img is-type0">
+            <img src="images/common/thumb310x180.jpg" alt="" class="u-fit-img-h">
+          </div>
+          <div class="Entry__body">
+            <h1 class="Entry__h is-hide-line2-fixed">
+              2行を超えると消える&&2行の高さが保証されますようにしてあります。必要ない場合は所定のクラスを外してください。
+            </h1>
+            <div class="Entry__condition">
+              <dl class="Entry__condition-sum">
+                <dt class="Entry__condition-sum-dt">達成金額</dt><dd class="Entry__condition-sum-dd">5,081,000円</dd>
+              </dl>
+            </div>
+
+            <dl class="Entry__gauge Gauge-set">
+              <dt class="Gauge-set__txt">124%</dt>
+              <dd class="Gauge-set__gauge Gauge">
+                <div class="Gauge__obj is-1" style="width:75%"></div>
+                <div class="Gauge__obj is-0" style="width:50%"></div>
+              </dd>
+            </dl>
+
+          </div>
+        </a>
+      </article>
+      <article class="Entry is-new">
         <a href="#" class="Entry__inner">
           <div class="Entry__img is-type0">
             <img src="images/common/thumb310x180.jpg" alt="" class="u-fit-img-h">

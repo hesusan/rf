@@ -178,16 +178,6 @@
   line-height: 14px;
 }
 
-.Icon-achivement {
-  @extend %Icon;
-  @include sprite-icon($common-icon-achivement);
-}
-
-.Icon-notachivement {
-  @extend %Icon;
-  @include sprite-icon($common-icon-notachivement);
-}
-
 .Icon-plus {
   @extend %Icon;
   @include sprite-icon($common-icon-plus);
