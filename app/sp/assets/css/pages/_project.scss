@@ -3,6 +3,24 @@
 /* ==========================================================================
    Project
    ========================================================================== */
+
+/**
+ * sns
+ */
+.Project-sns {
+  text-align: center;
+  min-height: 20px;
+}
+  .Project-sns__i {
+    display: inline-block;
+    vertical-align: bottom;
+    
+    + .Project-sns__i {
+      margin-left: 32px;
+    }
+  }
+   
+
 .Project-visual {
   margin-top: 20px;
 }
@@ -151,69 +169,93 @@
  * outline
  */
 .Project-outline {
-  font-size: 16px;
-  line-height: 1.6;
-  padding-top: 40px;
 }
+  /**
+   * main
+   */
+  .Project-outline__main {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 10px 10px 0;
+  }
+  
+  /**
+   * sub
+   */
+  .Project-outline__sub {
+    line-height: 2;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 
 /**
  * update
  */
 .Project-update {
-  font-size: 16px;
-  line-height: 1.6;
-  padding-top: 20px;
 }
-  .Project-update__header {
-    margin-bottom: 20px;
+  .Projct-update__main {
+  
   }
-    .Project-update__header-date {
-      font-size: 12px;
+    /**
+     * header
+     */
+    .Project-update__header {
+      padding: 20px;
+      border-bottom: 1px solid #f0f0f0;
     }
-    .Project-update__header-h {
-      font-size: 20px;
-      font-weight: bold;
-      margin-top: 7px;
+      .Project-update__header-date {
+        color: $COLOR_WEAK2;
+        font-size: 1.1rem;
+      }
+      .Project-update__header-h {
+        font-size: 1.4rem;
+        margin-top: 12px;
+        text-align: center;
+      }
+    
+    /**
+     * content
+     */
+    .Project-update__content {
+      padding: 0 10px 28px;
+      line-height: 2;/* 1.667 */
     }
-  .Project-update__sns {
-    background-color: #f7f7f7;
-    padding: 10px 20px;
+    
+    .Project-update__support {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+
+  /**
+   * related
+   */
+  .Project-update__related {
+    border-top: 1px solid #d8d8d8;
   }
-
-
-.Project-update__related {
-
-}
-  .Project-update__related-item {
-    padding-top: 30px;
-    padding-bottom: 30px;
-
-    + .Project-update__related-item {
-      border-top: 1px solid #d8d8d8;
+    .Project-update__related-item {
+      border-bottom: 1px solid #d8d8d8;
+      padding: 10px;
     }
-  }
-    .Project-update__related-item-img {
-      margin-right: 20px;
-    }
+      .Project-update__related-item-img {
+        margin-right: 16px;
+      }
 
-  .Project-update__related-item-header {
+    .Project-update__related-item-header {
 
-  }
-    .Project-update__related-item-header-date {
-      font-size: 12px;
-      color: $COLOR_WEAK2;
     }
-    .Project-update__related-item-header-h {
-      margin-top: 2px;
+      .Project-update__related-item-header-date {
+        color: $COLOR_WEAK2;
+        font-size: 1.1rem;
+      }
+      .Project-update__related-item-header-h {
+        margin-top: 2px;
+        min-height: $BASE_LINE_HEIGHT * 2em;
+      }
+    .Project-update__related-item-body {
     }
-  .Project-update__related-item-body {
-    font-size: 12px;
-  }
-  .Project-update__related-item-footer {
-    font-size: 14px;
-    font-weight: bold;
-    margin-top: 8px;
-  }
+    .Project-update__related-item-footer {
+      text-align: right;
+      margin-top: 4px;
+    }
 
 /**
  * cheer
@@ -222,11 +264,10 @@
 }
   .Project-cheer__comment {
     border-bottom: 1px solid #ebebeb;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 10px;
   }
     .Project-cheer__comment-img {
-      border-radius: 3px;
+      border-radius: 4px;
       overflow: hidden;
       margin-right: 20px;
     }
@@ -234,6 +275,26 @@
 
     }
       .Project-cheer__comment-header {
+        color: $COLOR_WEAK2;
         margin-bottom: 8px;
         vertical-align: middle;
       }
+        .Project-cheer__comment-name,
+        .Project-cheer__comment-date,
+        .Project-cheer__comment-support {
+          font-size: 1rem;
+        }
+        .Project-cheer__comment-date {
+        }
+        .Project-cheer__comment-support {
+          color: $COLOR_WEAK2;
+          margin-top: 10px;
+          text-align: right;
+        }
+  
+  /**
+   * more
+   */
+  .Project-cheer__more {
+    padding: 20px 20px 30px;
+  }
