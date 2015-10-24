@@ -200,7 +200,7 @@
             <section class="Project-outline__return">
               <div class="Project-outline__return-toggle">開く/閉じる</div>
 
-              <header class="Project-outline__return-header">
+              <header class="Project-outline__return-header" style="display:none;">
                 <a href="javascript:void(0)" class="u-link-area">
                   <h1 class="Project-outline__return-h-0">
                     <img width="40" height="40" class="Project-outline__return-h-0-img">
@@ -214,7 +214,7 @@
                   </ul>
                 </a>
               </header>
-              <div class="Project-outline__return-body" style="display:none;">
+              <div class="Project-outline__return-body">
                 <p class="Project-outline__return-h-1">リターンのタイトルが入ります。</p>
                 <p class="Project-outline__return-img">
                   <img src="../images/project/project_return_sample.jpg" width="260" height="160" alt="" class="u-fit-img-w">

@@ -5,36 +5,6 @@
    ========================================================================== */
 
 /**
- * addition
- */
-.Project-addition {
-  display: table;
-}
-  .Project-addition__item {
-    display: table-cell;
-    vertical-align: middle;
-
-    &.is-0 {
-      width: 610px;
-    }
-    &.is-1 {
-      width: 390px;
-    }
-  }
-    .Project-addition__sns {
-      background-color: #f1f1f1;
-    }
-    .Project-addition__conditon {
-      background-color: #999;
-      border-radius: 6px;
-      color: #fff;
-      font-size: 14px;
-      margin-left: 40px;
-      padding: 10px 27px;
-    }
-
-
-/**
  * outline
  */
 .Project-outline {
@@ -258,8 +228,10 @@
           }
 
         .Project-outline__return-condition-0 {
-          overflow: hidden;
           line-height: 1;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
         }
           .Project-outline__return-condition-0-i {
 
