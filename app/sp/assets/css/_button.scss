@@ -58,9 +58,9 @@
   box-shadow: 0 1px 2px 0 rgba(0,0,0,0.3);
   line-height: 1;
 
-  &.is-h_l {
-    height: 44px;
-  }
+  &.is-h_l { height: 44px; }
+  &.is-h_l-2 { height: 48px; }
+
   &.is-no-shadow {
     box-shadow: none;
   }
@@ -144,7 +144,7 @@
     }
     .Btn-3__txt {
     }
-    
+
 /**
  * btns
  */

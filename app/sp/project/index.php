@@ -129,7 +129,7 @@
               </div>
 
               <div class="Project-outline__alert is-complete u-mt_20">
-                <span class="Project-outline__alert-h">プロジェクトは達成しました</span><br>
+                <span class="Project-outline__alert-h">プロジェクトは達成されました</span><br>
                 <span class="Project-outline__alert-txt">2015年8月31日に成立</span>
               </div>
 
@@ -151,6 +151,16 @@
 
           <div class="Project-outline__sub">
 
+            <div class="Project-outline__more">
+              <a href="javascript:void(0)" class="Btn-3">
+                <div class="Btn-3__inner">
+                  <div class="Btn-3__content">
+                    もっと見る
+                  </div>
+                </div>
+              </a>
+            </div>
+
             <div class="Project-sns u-clrfix u-mt_15 u-mb_25">
               <ul class="Sns-list">
                 <li class="Sns-list__i is-fb">
@@ -162,29 +172,188 @@
               </ul>
             </div>
 
-            <h2 class="u-font_b u-mb_25">視覚障害者と晴眼者の橋渡を担ってきた月刊誌「視覚障害」の廃刊危機を乗り切り、発展させる。 </h2>
-            <p class="u-mb_25">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            <div>
+              <h2 class="u-font_b u-mb_25">視覚障害者と晴眼者の橋渡を担ってきた月刊誌「視覚障害」の廃刊危機を乗り切り、発展させる。 </h2>
+              <p class="u-mb_25">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
 
-            <h2 class="u-font_b u-mb_25">視覚障害者と晴眼者の橋渡を担ってきた月刊誌「視覚障害」の廃刊危機を乗り切り、発展させる。 </h2>
-            <p class="u-mb_25">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              <h2 class="u-font_b u-mb_25">視覚障害者と晴眼者の橋渡を担ってきた月刊誌「視覚障害」の廃刊危機を乗り切り、発展させる。 </h2>
+              <p class="u-mb_25">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
 
-            <h2 class="u-font_b u-mb_25">視覚障害者と晴眼者の橋渡を担ってきた月刊誌「視覚障害」の廃刊危機を乗り切り、発展させる。 </h2>
-            <p class="u-mb_25">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              <h2 class="u-font_b u-mb_25">視覚障害者と晴眼者の橋渡を担ってきた月刊誌「視覚障害」の廃刊危機を乗り切り、発展させる。 </h2>
+              <p class="u-mb_25">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
 
-            <figure class="u-mb_25">
-              <img src="../images/project/project_outline_sample.jpg" alt="" class="u-fit-img-w">
-              <figcaption class="u-mt_15">キャプションキャプションキャプションキャプションキャプション</figcaption>
-            </figure>
+              <figure class="u-mb_25">
+                <img src="../images/project/project_outline_sample.jpg" alt="" class="u-fit-img-w">
+                <figcaption class="u-mt_15">キャプションキャプションキャプションキャプションキャプション</figcaption>
+              </figure>
 
-            <h2 class="u-font_b u-mb_25">視覚障害者と晴眼者の橋渡を担ってきた月刊誌「視覚障害」の廃刊危機を乗り切り、発展させる。 </h2>
-            <p class="u-mb_25">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+              <h2 class="u-font_b u-mb_25">視覚障害者と晴眼者の橋渡を担ってきた月刊誌「視覚障害」の廃刊危機を乗り切り、発展させる。 </h2>
+              <p class="u-mb_25">テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+
           </div>
+
+          <section class="Project-outline__sub-2">
+
+            <h1 class="u-d_none">リターン</h1>
+
+            <section class="Project-outline__return">
+              <div class="Project-outline__return-toggle">開く/閉じる</div>
+
+              <header class="Project-outline__return-header">
+                <a href="javascript:void(0)" class="u-link-area">
+                  <h1 class="Project-outline__return-h-0">
+                    <img width="40" height="40" class="Project-outline__return-h-0-img">
+                    リターンのタイトルが入ります。
+                  </h1>
+                  <ul class="Project-outline__return-condition-0">
+                    <li class="Project-outline__return-condition-0-i is-num">
+                      <span class="Icon-supporter u-mr_10"></span>33人/制限なし
+                    </li>
+                    <li class="Project-outline__return-condition-0-i u-font-en is-yen">&yen;3,000</li>
+                  </ul>
+                </a>
+              </header>
+              <div class="Project-outline__return-body" style="display:none;">
+                <p class="Project-outline__return-h-1">リターンのタイトルが入ります。</p>
+                <p class="Project-outline__return-img">
+                  <img src="../images/project/project_return_sample.jpg" width="260" height="160" alt="" class="u-fit-img-w">
+                </p>
+                <p class="Project-outline__return-desc">
+                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                </p>
+
+                <ul class="Project-outline__return-condition-1">
+                  <li class="Project-outline__return-condition-1-i">
+                    <span class="Icon-supporter u-mr_10"></span>13人/15個
+                  </li>
+                  <li class="Project-outline__return-condition-1-i">
+                    <span class="Icon-shipment u-mr_10"></span>2015年12月発送予定
+                  </li>
+                </ul>
+
+                <p class="Project-outline__return-yen u-font-en">&yen;40,000</p>
+
+                <div class="u-align_c">
+                  <a href="#" class="Btn-1 is-h_l-2">
+                    <div class="Btn-1__inner">
+                      <div class="Btn-1__content">
+                        <div class="Btn-1__txt u-fs_18">購入する</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+              </div>
+            </section>
+
+            <section class="Project-outline__return">
+              <div class="Project-outline__return-toggle">開く/閉じる</div>
+
+              <header class="Project-outline__return-header">
+                <a href="javascript:void(0)" class="u-link-area">
+                  <h1 class="Project-outline__return-h-0">
+                    <img width="40" height="40" class="Project-outline__return-h-0-img">
+                    リターンのタイトルが入ります。
+                  </h1>
+                  <ul class="Project-outline__return-condition-0">
+                    <li class="Project-outline__return-condition-0-i is-num">
+                      <span class="Icon-supporter u-mr_10"></span>33人/制限なし
+                    </li>
+                    <li class="Project-outline__return-condition-0-i u-font-en is-yen">&yen;3,000</li>
+                  </ul>
+                </a>
+              </header>
+              <div class="Project-outline__return-body" style="display:none;">
+                <p class="Project-outline__return-h-1">リターンのタイトルが入ります。</p>
+                <p class="Project-outline__return-img">
+                  <img src="../images/project/project_return_sample.jpg" width="260" height="160" alt="" class="u-fit-img-w">
+                </p>
+                <p class="Project-outline__return-desc">
+                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                </p>
+
+                <ul class="Project-outline__return-condition-1">
+                  <li class="Project-outline__return-condition-1-i">
+                    <span class="Icon-supporter u-mr_10"></span>13人/15個
+                  </li>
+                  <li class="Project-outline__return-condition-1-i">
+                    <span class="Icon-shipment u-mr_10"></span>2015年12月発送予定
+                  </li>
+                </ul>
+
+                <p class="Project-outline__return-yen u-font-en">&yen;40,000</p>
+
+                <div class="u-align_c">
+                  <a href="#" class="Btn-1 is-h_l-2">
+                    <div class="Btn-1__inner">
+                      <div class="Btn-1__content">
+                        <div class="Btn-1__txt u-fs_18">購入する</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+              </div>
+            </section>
+
+            <section class="Project-outline__return">
+              <div class="Project-outline__return-toggle">開く/閉じる</div>
+
+              <header class="Project-outline__return-header">
+                <a href="javascript:void(0)" class="u-link-area">
+                  <h1 class="Project-outline__return-h-0">
+                    <img width="40" height="40" class="Project-outline__return-h-0-img">
+                    リターンのタイトルが入ります。
+                  </h1>
+                  <ul class="Project-outline__return-condition-0">
+                    <li class="Project-outline__return-condition-0-i is-num">
+                      <span class="Icon-supporter u-mr_10"></span>33人/制限なし
+                    </li>
+                    <li class="Project-outline__return-condition-0-i u-font-en is-yen">&yen;3,000</li>
+                  </ul>
+                </a>
+              </header>
+              <div class="Project-outline__return-body" style="display:none;">
+                <p class="Project-outline__return-h-1">リターンのタイトルが入ります。</p>
+                <p class="Project-outline__return-img">
+                  <img src="../images/project/project_return_sample.jpg" width="260" height="160" alt="" class="u-fit-img-w">
+                </p>
+                <p class="Project-outline__return-desc">
+                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                </p>
+
+                <ul class="Project-outline__return-condition-1">
+                  <li class="Project-outline__return-condition-1-i">
+                    <span class="Icon-supporter u-mr_10"></span>13人/15個
+                  </li>
+                  <li class="Project-outline__return-condition-1-i">
+                    <span class="Icon-shipment u-mr_10"></span>2015年12月発送予定
+                  </li>
+                </ul>
+
+                <p class="Project-outline__return-yen u-font-en">&yen;40,000</p>
+
+                <div class="u-align_c">
+                  <a href="#" class="Btn-1 is-h_l-2">
+                    <div class="Btn-1__inner">
+                      <div class="Btn-1__content">
+                        <div class="Btn-1__txt u-fs_18">購入する</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+              </div>
+            </section>
+
+          </section>
 
         </section>
         <!-- /概要 -->
 
         <!-- 更新情報 -->
-        <section class="Project-update Tab__content">
+        <section class="Project-update Tab__content u-d_none">
           <h1 class="u-d_none">更新情報</h1>
 
           <article class="Project-update__main">
@@ -303,7 +472,7 @@
         <!-- /更新情報 -->
 
         <!-- 応援コメント -->
-        <section class="Project-cheer Tab__content">
+        <section class="Project-cheer Tab__content u-d_none">
           <h1 class="u-d_none">応援コメント</h1>
           <article class="Project-cheer__comment Media">
             <div class="Project-cheer__comment-img Media__img">

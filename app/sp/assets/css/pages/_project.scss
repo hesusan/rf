@@ -43,7 +43,6 @@
    * main
    */
   .Project-outline__main {
-    border-bottom: 1px solid #f0f0f0;
     padding: 10px 10px 20px;
   }
 
@@ -191,10 +190,132 @@
    * sub
    */
   .Project-outline__sub {
+    border-top: 1px solid #f0f0f0;
     line-height: 2;
     padding-left: 10px;
     padding-right: 10px;
+    overflow: hidden;
+    height: 260px;
+    position: relative;
   }
+    .Project-outline__more {
+      background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 75%);
+      padding: 90px 20px 0;
+      position:absolute;
+      left: 0;
+      bottom: 0;
+      height: 152px;
+      width: 100%;
+      text-align: center;
+    }
+
+  .Project-outline__sub-2 {
+    border-top: 1px solid #f0f0f0;
+    padding: 10px 10px 35px;
+  }
+
+    /**
+     * return
+     */
+    .Project-outline__return {
+      background-color: #f7f7f7;
+      border: 1px solid #b4b4b4;
+      border-radius: 2px;
+      box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+      position: relative;
+
+      + .Project-outline__return {
+        margin-top: 10px;
+      }
+    }
+
+      /**
+       * toggle
+       */
+      .Project-outline__return-toggle {
+        @include sprite-bg($common_icon_accordion_b);
+        position: absolute;
+        top: 9px;
+        right: 9px;
+        cursor: pointer;
+      }
+
+      /**
+       * header
+       */
+      .Project-outline__return-header {
+        padding: 10px;
+      }
+        .Project-outline__return-h-0 {
+          display: flex;
+          align-items: center;
+          font-size: 1.3rem;
+          color: #555;
+          margin-bottom: 14px;
+        }
+          .Project-outline__return-h-0-img {
+            margin-right: 10px;
+          }
+
+        .Project-outline__return-condition-0 {
+          overflow: hidden;
+          line-height: 1;
+        }
+          .Project-outline__return-condition-0-i {
+
+            display: flex;
+            align-items: center;
+
+            &.is-num {
+              float: left;
+              font-size: 1.4rem;
+            }
+            &.is-yen {
+              float: right;
+              font-size: 2rem;
+              font-weight: bold;
+            }
+
+          }
+
+        /**
+         * body
+         */
+        .Project-outline__return-body {
+          padding: 25px 20px 20px;
+        }
+          .Project-outline__return-h-1 {
+            font-size: 1.3rem;
+            text-align: center;
+            margin-bottom: 20px;
+          }
+          .Project-outline__return-img {
+            margin-bottom: 10px;
+          }
+          .Project-outline__return-desc {
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+          }
+
+          .Project-outline__return-condition-1 {
+          }
+            .Project-outline__return-condition-1-i {
+              display: flex;
+              align-items: center;
+              font-size: 1.4rem;
+
+              + .Project-outline__return-condition-1-i {
+                margin-top: 6px;
+              }
+            }
+
+          .Project-outline__return-yen {
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: center;
+            margin-top: 15px;
+            margin-bottom: 15px;
+          }
 
 /**
  * update
