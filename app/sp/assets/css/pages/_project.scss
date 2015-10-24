@@ -5,119 +5,6 @@
    ========================================================================== */
 
 /**
- * sns
- */
-.Project-sns {
-  text-align: center;
-  min-height: 20px;
-}
-  .Project-sns__i {
-    display: inline-block;
-    vertical-align: bottom;
-    
-    + .Project-sns__i {
-      margin-left: 32px;
-    }
-  }
-   
-
-.Project-visual {
-  margin-top: 20px;
-}
-  .Project-visual__main {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-    height: 400px;
-    overflow: hidden;
-  }
-    .Project-visual__img {
-      float: left;
-      width: 610px;
-      height: 100%;
-      overflow: hidden;
-
-      img {
-        width: auto;
-        height: 100%;
-      }
-
-    }
-      .Project-visual__img-mask {
-        overflow: hidden;
-        height: 100%;
-        border-radius: 6px 0 0 6px;
-      }
-
-    .Project-visual__body {
-      overflow: hidden;
-      padding: 23px 28px;
-    }
-
-  /**
-   * conditions
-   */
-  .Project-visual__conditions {
-    min-height: 172px;
-  }
-    .Project-visual__condition {
-      overflow: hidden;
-      width: 100%;
-      margin-bottom: 8px;
-    }
-      .Project-visual__condition-dt {
-        float: left;
-      }
-      .Project-visual__condition-dd {
-        float: right;
-
-        &.is-sum {
-          font-size: 32px;
-          margin-top: -0.2em;
-        }
-
-        &.is-nosupporter {
-          font-size: 32px;
-          margin-top: -0.2em;
-
-          a {
-            color: #f53544;
-            text-decoration: underline;
-          }
-        }
-
-      }
-
-  /**
-   * alert
-   */
-  .Project-visual__alert {
-    color: #e00314;
-    border: 2px solid #ccc;
-    border-radius: 6px;
-    text-align: center;
-    padding: 24px 0 19px;
-
-    /* 失敗時 */
-    &.is-miss {
-
-    }
-    /* 成功時 */
-    &.is-complete {
-      border: 2px solid #e00314;
-    }
-  }
-
-
-  .Project-visual__title {
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
-
-/**
  * addition
  */
 .Project-addition {
@@ -146,24 +33,6 @@
       padding: 10px 27px;
     }
 
-/**
- * promoter
- */
-.Project-promoter {
-
-}
-  .Project-promoter__media {
-    margin-bottom: 20px;
-  }
-    .Project-promoter__media-img {
-      margin-right: 20px;
-    }
-    .Project-promoter__media-body {
-      padding-top: 33px;
-    }
-  .Project-promoter__outline {
-
-  }
 
 /**
  * outline
@@ -175,9 +44,149 @@
    */
   .Project-outline__main {
     border-bottom: 1px solid #f0f0f0;
-    padding: 10px 10px 0;
+    padding: 10px 10px 20px;
   }
-  
+
+    .Project-outline__visual {
+      overflow: hidden;
+      min-height: 180px;
+      position: relative;
+      margin-bottom: 7px;
+
+      &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: linear-gradient(to bottom, rgba(76,76,76,0) 15.3%, rgba(51,51,51,0.7) 100%);
+        z-index: 3;
+      }
+    }
+      .Project-outline__visual-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+      }
+      .Project-outline__visual-body {
+        color: #fff;
+        text-align: center;
+        font-size: 1.6rem;
+        padding: 0 10px 15px;
+        width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        z-index: 4;
+      }
+
+    /**
+     * alert
+     */
+    .Project-outline__alert {
+      color: $COLOR_FOCUS;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      text-align: center;
+      padding: 24px 0 19px;
+
+      .Project-outline__alert-h {
+        font-size: 1.8rem;
+        font-weight: bold;
+      }
+      .Project-outline__alert-txt {
+        font-size: 1.4rem;
+      }
+
+      /* 失敗時 */
+      &.is-miss {
+
+        .Project-outline__alert-h,
+        .Project-outline__alert-txt {
+          color: $COLOR_WEAK;
+        }
+
+      }
+      /* 成功時 */
+      &.is-complete {
+        border: 1px solid #e00314;
+      }
+
+    }
+
+    /**
+     * conditions
+     */
+    .Project-outline__conditions {
+    }
+      .Project-outline__condition {
+        overflow: hidden;
+        width: 100%;
+        display: flex;
+        align-items: baseline;
+
+        + .Project-outline__condition {
+          margin-top: 3px;
+        }
+
+      }
+        .Project-outline__condition-dt {
+          color: $COLOR_WEAK2;
+        }
+        .Project-outline__condition-dd {
+          font-size: 1.6rem;
+          display: flex;
+          flex: 1;
+          justify-content: flex-end;
+        }
+
+    /**
+     * gauge
+     */
+    .Project-outline__gauge-set {
+      margin-top: 15px;
+      margin-bottom: 25px;
+    }
+      .Project-outline__gauge-set__txt {
+        font-size: 1.4rem;
+      }
+      .Project-outline__gauge-set__gauge {
+        height: 14px;
+      }
+
+    .Project-outline__watch {
+      color: $COLOR_EM;
+      margin-top: 20px;
+      margin-bottom: 25px;
+      font-size: 1.6rem;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    /**
+     * promoter
+     */
+    .Project-outline__promoter {
+      margin-top: 25px;
+    }
+      .Project-outline__promoter-img {
+        margin-right: 13px;
+      }
+      .Project-outline__promoter-body {
+      }
+        .Project-outline__promoter-name {
+          color: #808080;
+          font-size: 1.4rem;
+          font-weight: bold;
+        }
+        .Project-outline__promoter-desc {
+          color: #808080;
+          margin-top: 2px;
+        }
+
+
   /**
    * sub
    */
@@ -193,7 +202,7 @@
 .Project-update {
 }
   .Projct-update__main {
-  
+
   }
     /**
      * header
@@ -211,7 +220,7 @@
         margin-top: 12px;
         text-align: center;
       }
-    
+
     /**
      * content
      */
@@ -219,7 +228,7 @@
       padding: 0 10px 28px;
       line-height: 2;/* 1.667 */
     }
-    
+
     .Project-update__support {
       padding-left: 20px;
       padding-right: 20px;
@@ -291,7 +300,7 @@
           margin-top: 10px;
           text-align: right;
         }
-  
+
   /**
    * more
    */

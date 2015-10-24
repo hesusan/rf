@@ -62,11 +62,91 @@
           <h1 class="u-d_none">プロジェクト概要</h1>
 
           <div class="Project-outline__main">
-            あああああああああああああああああああああああ<br>
-            あああああああああああああああああああああああ<br>
-            あああああああああああああああああああああああ<br>
-            あああああああああああああああああああああああ<br>
-            あああああああああああああああああああああああ<br>
+
+            <div class="Project-outline__visual">
+              <!-- エントリーイメージ -->
+              <img src="../images/project/project_outline_sample.jpg" class="Project-outline__visual-img u-fit-img-w">
+              <!-- リサイズに使用 -->
+              <img src="../images/common/common_img300x180.png" class="u-fit-img-w">
+              <div class="Project-outline__visual-body">
+                月刊誌「視覚障害」の廃刊危機を乗り越え継続して発刊したい！
+              </div>
+            </div>
+
+            <div class="Container">
+              <dl class="Project-outline__condition">
+                <dt class="Project-outline__condition-dt">達成金額</dt>
+                <dd class="Project-outline__condition-dd u-font-en u-fs_22">
+                  <a href="#" class="u-link2">支援者になる</a>
+                </dd>
+              </dl>
+              <dl class="Project-outline__condition">
+                <dt class="Project-outline__condition-dt">達成金額</dt>
+                <dd class="Project-outline__condition-dd u-font-en u-fs_22">
+                  5,081,000円
+                </dd>
+              </dl>
+              <dl class="Project-outline__condition">
+                <dt class="Project-outline__condition-dt">目標金額</dt>
+                <dd class="Project-outline__condition-dd u-font-en">
+                  5,081,000円
+                </dd>
+              </dl>
+               <dl class="Project-outline__condition">
+                <dt class="Project-outline__condition-dt">第一目標金額</dt>
+                <dd class="Project-outline__condition-dd u-font-en u-em">
+                  5,081,000円
+                </dd>
+              </dl>
+
+              <dl class="Project-outline__gauge-set Gauge-set">
+                <dt class="Project-outline__gauge-set__txt Gauge-set__txt">124%</dt>
+                <dd class="Project-outline__gauge-set__gauge Gauge-set__gauge Gauge">
+                  <div class="Gauge__obj is-1" style="width:75%"></div>
+                  <div class="Gauge__obj is-0" style="width:50%"></div>
+                </dd>
+              </dl>
+
+              <div class="u-align_c">
+                <a href="#" class="Btn-1 is-h_l">
+                  <div class="Btn-1__inner">
+                    <div class="Btn-1__content">
+                      <div class="Btn-1__txt u-fs_16">このプロジェクトを支援する</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="Project-outline__watch">
+                <a href="javascript:void(0)">
+                  <span class="Icon-plus u-mr_5"></span><span class="u-valign_m">気になるリストに追加する</span>
+                </a>
+              </div>
+
+              <div class="Project-outline__alert is-miss u-mt_20">
+                <span class="Project-outline__alert-h">プロジェクトは終了しました</span><br>
+                <span class="Project-outline__alert-txt">2015年8月31日に終了</span>
+              </div>
+
+              <div class="Project-outline__alert is-complete u-mt_20">
+                <span class="Project-outline__alert-h">プロジェクトは達成しました</span><br>
+                <span class="Project-outline__alert-txt">2015年8月31日に成立</span>
+              </div>
+
+              <aside class="Project-outline__promoter Media">
+                <h1 class="u-d_none">プロモーター</h1>
+                <div class="Project-outline__promoter-img Media-img">
+                  <img src="../images/project/project_author_sample.jpg" width="50" height="50" alt="">
+                </div>
+                <div class="Project-outline__promoter-body Media-body">
+                  <p class="Project-outline__promoter-name">今村彩子</p>
+                  <p class="Project-outline__promoter-desc">
+                    映画監督。２０歳の時からドキュメンタリー映画を撮り続けている。自転車と
+                  </p>
+                </div>
+              </aside>
+            </div>
+
           </div>
 
           <div class="Project-outline__sub">
@@ -104,7 +184,7 @@
         <!-- /概要 -->
 
         <!-- 更新情報 -->
-        <section class="Project-update Tab__content u-d_none">
+        <section class="Project-update Tab__content">
           <h1 class="u-d_none">更新情報</h1>
 
           <article class="Project-update__main">
@@ -223,7 +303,7 @@
         <!-- /更新情報 -->
 
         <!-- 応援コメント -->
-        <section class="Project-cheer Tab__content u-d_none">
+        <section class="Project-cheer Tab__content">
           <h1 class="u-d_none">応援コメント</h1>
           <article class="Project-cheer__comment Media">
             <div class="Project-cheer__comment-img Media__img">

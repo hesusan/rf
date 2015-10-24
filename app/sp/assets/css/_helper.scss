@@ -21,6 +21,7 @@
 .u-font-en { font-family: $DEVICE_FONT_EN !important; }
 
 .u-em { color: $COLOR_EM; }
+.u-focus { color: $COLOR_FOCUS; }
 .u-note { color: $COLOR_WEAK2 !important; }
 .u-link {
   color: $COLOR_LINK !important;
@@ -53,6 +54,7 @@
 /**
  * font-size
  */
+.u-fs_22 { font-size: 2.2rem !important; }
 .u-fs_20 { font-size: 2rem !important; }
 .u-fs_18 { font-size: 1.8rem !important; }
 .u-fs_16 { font-size: 1.6rem !important; }
