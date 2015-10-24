@@ -16,7 +16,7 @@
         <div class="Signup-modal__form">
           <form>
             <div class="u-mb_10">
-              <input type="text" placeholder="メールアドレス" class="Input u-fit-w">
+              <input type="email" placeholder="メールアドレス" class="Input u-fit-w">
             </div>
             <div class="u-mb_10">
               <input type="text" placeholder="パスワード(英数字6～12文字)" class="Input u-fit-w">

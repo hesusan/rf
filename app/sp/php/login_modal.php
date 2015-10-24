@@ -17,10 +17,10 @@
         <div class="Login-modal__form">
           <form>
             <div class="u-mb_10">
-              <input type="text" placeholder="メールアドレスを入力" class="Input u-fit-w">
+              <input type="email" placeholder="メールアドレスを入力" class="Input u-fit-w">
             </div>
             <div class="u-mb_10">
-              <input type="text" placeholder="パスワードを入力" class="Input u-fit-w">
+              <input type="password" placeholder="パスワードを入力" class="Input u-fit-w">
             </div>
 
             <div class="u-mb_25">
