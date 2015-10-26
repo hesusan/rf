@@ -35,10 +35,7 @@
       //ナビゲーション
       Nav.init();
 
-      //タブ
-
-
-      //アカウント
+      //アカウントモーダル
       AccountModalManager.init();
 
       AccountModalManager.add(
@@ -48,6 +45,10 @@
       AccountModalManager.add(
         new AccountModal($('[data-account-modal=signup]'))
       );
+
+      //タブ
+
+      //アコーディオン
 
     }
 
