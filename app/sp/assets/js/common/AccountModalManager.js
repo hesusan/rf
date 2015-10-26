@@ -4,7 +4,7 @@
 
   /**
    * アカウントモーダル
-   * @name AccountModalManager
+   * @class AccountModalManager
    */
   var AccountModalManager = (function() {
 

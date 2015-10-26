@@ -31,22 +31,22 @@
 
     <h1 class="u-d_none">プロジェクト</h1><!-- @TO_DO プロジェクトのタイトルを入れてください -->
 
-    <div class="Project-tab Tab">
+    <div class="Project-tab Tab" data-tab>
 
       <!-- Tab__menu -->
-      <ul class="Project-tab__menu Tab__menu u-clrfix">
+      <ul class="Project-tab__menu Tab__menu u-clrfix" data-tab-menu>
         <li class="Tab__menu-i">
-          <a href="#" class="Tab__menu-a is-active">
+          <a href="#" class="Tab__menu-a is-active" data-tab-menu-a="outline">
             <span class="Tab__menu-txt">概要</span>
           </a>
         </li>
         <li class="Tab__menu-i">
-          <a href="#" class="Tab__menu-a is-inactive">
+          <a href="#" class="Tab__menu-a is-inactive" data-tab-menu-a="update">
             <span class="Tab__menu-txt">更新情報</span><span class="Tab__menu-icon Icon-num">14</span>
           </a>
         </li>
         <li class="Tab__menu-i">
-          <a href="#" class="Tab__menu-a is-inactive">
+          <a href="#" class="Tab__menu-a is-inactive" data-tab-menu-a="cheer">
             <span class="Tab__menu-txt">コメント</span><span class="Tab__menu-icon Icon-num">148</span>
           </a>
         </li>
@@ -54,10 +54,10 @@
       <!-- /Tab__menu -->
 
       <!-- Tab__contents -->
-      <div class="Tab__contents">
+      <div class="Tab__contents" data-tab-contents>
 
         <!-- 概要 -->
-        <section class="Project-outline Tab__content">
+        <section class="Project-outline Tab__content" data-tab-content="outline">
 
           <h1 class="u-d_none">プロジェクト概要</h1>
 
@@ -353,7 +353,7 @@
         <!-- /概要 -->
 
         <!-- 更新情報 -->
-        <section class="Project-update Tab__content u-d_none">
+        <section class="Project-update Tab__content" data-tab-content="update">
           <h1 class="u-d_none">更新情報</h1>
 
           <article class="Project-update__main">
@@ -472,7 +472,7 @@
         <!-- /更新情報 -->
 
         <!-- 応援コメント -->
-        <section class="Project-cheer Tab__content u-d_none">
+        <section class="Project-cheer Tab__content" data-tab-content="cheer">
           <h1 class="u-d_none">応援コメント</h1>
           <article class="Project-cheer__comment Media">
             <div class="Project-cheer__comment-img Media__img">

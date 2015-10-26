@@ -4,7 +4,7 @@
 
   /**
    * アカウントモーダル
-   * @name AccountModal
+   * @class AccountModal
    * @param {jQuery} $elm
    */
   var AccountModal = function($elm) {

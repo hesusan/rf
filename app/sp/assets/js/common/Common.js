@@ -4,9 +4,7 @@
 
   /**
    * 共通スクリプト
-   * @name Common
-   * @requires Util
-   *
+   * @class Common
    */
   var Common = (function() {
 
@@ -20,7 +18,9 @@
       //エンターフレーム
       //EnterFrameManager.init();
 
-      //@NOTE タップ速度を高速化したい場合はこちらを有効にする
+      //@NOTE
+      //タップ速度を高速化したい場合はこれを有効にする
+      //有効にするとPC上からのタップ操作は受け付けなくなる
       //FastClick.attach(document.body);
 
       //スライダー
@@ -33,7 +33,7 @@
       });
 
       //ナビゲーション
-      Nav.init();
+      GlobalNav.init();
 
       //アカウントモーダル
       AccountModalManager.init();
@@ -47,8 +47,9 @@
       );
 
       //タブ
+      new Tab($('[data-tab]'));
 
-      //アコーディオン
+      //アコーディオン, トグル
 
     }
 

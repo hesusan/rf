@@ -32,7 +32,8 @@ var JS = {
     "js/common/lib/fastclick.js",
     "js/common/AccountModalManager.js",
     "js/common/AccountModal.js",
-    "js/common/Nav.js",
+    "js/common/GlobalNav.js",
+    "js/common/Tab.js",
     "js/common/Common.js"
   ]
 

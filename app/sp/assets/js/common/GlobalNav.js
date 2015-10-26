@@ -7,7 +7,7 @@
    * @name Nav
    *
    */
-  var Nav = (function() {
+  var GlobalNav = (function() {
 
     var $elm,
         $navItems,
@@ -60,7 +60,7 @@
 
       e.preventDefault();
 
-      window.scrollTo(0,1);
+      window.scrollTo(0,0);
 
       $.publish('show.AccountModalManager', 'login');
 
@@ -110,6 +110,6 @@
 
   })();
 
-  window.Nav = Nav;
+  window.GlobalNav = GlobalNav;
 
 })(window, document, jQuery, Util);
