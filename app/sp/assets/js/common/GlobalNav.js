@@ -3,9 +3,8 @@
   'use strict';
 
   /**
-   * ナビゲーション
-   * @name Nav
-   *
+   * グローバルナビゲーション
+   * @name GlobalNav
    */
   var GlobalNav = (function() {
 
