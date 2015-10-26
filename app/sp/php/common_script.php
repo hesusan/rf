@@ -31,3 +31,5 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
 </script>
+
+<script src="/sp/js/common.js"></script>

@@ -1,5 +1,5 @@
-    <aside class="Modal Login-modal">
-      <a href="javascript:void(0)" class="Modal__closer">閉じる</a>
+    <aside class="Modal Login-modal" data-account-modal="login">
+      <a href="javascript:void(0)" class="Modal__closer" data-account-modal-trigger='{ "modalName":"login", "action":"hide"}'>閉じる</a>
       <h1 class="Login-modal__h">ログイン</h1>
 
       <div class="Login-modal__container">
@@ -49,7 +49,7 @@
       </p>
 
       <div class="Login-modal__btn">
-        <a href="javascript:void(0)" class="Login-modal__btn-a">&gt;&gt; 新規登録</a>
+        <a href="javascript:void(0)" class="Login-modal__btn-a"  data-account-modal-trigger='{"modalName":"signup", "action":"change"}'>&gt;&gt; 新規登録</a>
       </div>
 
     </aside>

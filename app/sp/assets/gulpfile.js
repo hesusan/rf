@@ -21,22 +21,20 @@ var VERSION = "";
 //どのJSを連結するかのデータ
 var JS = {
 
-/*
   "common" : [
-    "js/common/lib/jquery-1.11.0.min.js",
+    "js/common/lib/jquery-2.1.3.min.js",
+    "js/common/lib/jquery.flexslider.js",
     "js/common/lib/plugin.js",
     "js/common/lib/Version.js",
-    "js/common/lib/UAManager.js",
     "js/common/lib/Util.js",
-    "js/common/lib/EnterFrameManager.js",
-    "js/common/lib/ResizeManager.js",
-    "js/common/lib/ScrollManager.js",
-    "js/common/lib/PageScroller.js",
-    //"js/lib/PageNav.js",
-    "js/common/lib/Config.js",
+    //"js/common/lib/EnterFrameManager.js",
+    //"js/common/lib/ResizeManager.js",
+    "js/common/lib/fastclick.js",
+    "js/common/AccountModalManager.js",
+    "js/common/AccountModal.js",
+    "js/common/Nav.js",
     "js/common/Common.js"
   ]
-*/
 
 }
 
@@ -262,8 +260,8 @@ gulp.task( "empty", function(){
 
 gulp.task( "watch", ["css"], function(){
 
-  //var jsDir = "js/**/*.js";
-  /*
+  var jsDir = "js/**/*.js";
+
   gulp.watch( jsDir, function( i_event ){
 
     var jsDir = __dirname + "/js/";
@@ -295,7 +293,6 @@ gulp.task( "watch", ["css"], function(){
     }
 
   } );
-  */
 
 
   var cssDir = "css/**/*.scss";

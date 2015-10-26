@@ -29,9 +29,11 @@
 @import "_entry";
 @import "_gauge";
 @import "_button";
-@import "_carousel";
 @import "_tabs";
 @import "_helper";
+
+/* vendor */
+@import "vendor/_flexslider";
 
 /* pages */
 @import "pages/_top";

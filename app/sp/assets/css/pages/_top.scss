@@ -71,8 +71,16 @@
  */
 .Top-events {
 }
-  .Top-events__carousel-item {
+  .Top-events__list {
+    overflow: hidden;
+    min-height: 50px;
   }
+    .Top-events__list-i {
+    }
+      .Top-events__list-a {
+        display: block;
+        padding: 0 5px;
+      }
 
 /**
  * sns

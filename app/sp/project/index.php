@@ -22,7 +22,7 @@
 
   <? require_once '../php/header.php'; ?>
 
-  <div class="Overlay u-d_none">
+  <div class="Overlay Account-overlay" data-account-modal-overlay>
     <? require_once '../php/signup_modal.php'; ?>
     <? require_once '../php/login_modal.php'; ?>
   </div>

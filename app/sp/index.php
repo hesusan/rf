@@ -22,7 +22,7 @@
 
   <? require_once 'php/header.php'; ?>
 
-  <div class="Overlay">
+  <div class="Overlay Account-overlay" data-account-modal-overlay>
     <? require_once 'php/signup_modal.php'; ?>
     <? require_once 'php/login_modal.php'; ?>
   </div>
@@ -61,20 +61,19 @@
       </a>
     </article>
 
-    <aside class="Top-events Carousel u-mt_10 u-mb_25">
+    <aside class="Top-events u-mt_10 u-mb_25 flexslider" data-top-events>
       <h1 class="u-d_none">イベント</h1>
-      <div class="Carousel__mask">
-        <div class="Carousel__items">
-          <a href="#" class="Carousel__item"><img src="images/top/bnr_4thanniversary.jpg" width="300" height="50" alt=""></a>
-          <a href="#" class="Carousel__item"><img src="images/top/bnr_eva.jpg" width="300" height="50" alt=""></a>
-          <a href="#" class="Carousel__item"><img src="images/top/bnr_start.jpg" width="300" height="50" alt=""></a>
-        </div>
-      </div>
-      <div class="Carousel__indicator">
-        <div class="Carousel__indicator-i is-active"></div>
-        <div class="Carousel__indicator-i"></div>
-        <div class="Carousel__indicator-i"></div>
-      </div>
+      <ul class="Top-events__list slides" data-top-events-list>
+        <li class="Top-events__list-i">
+          <a href="#" class="Top-events__list-a"><img src="images/top/bnr_4thanniversary.jpg" width="300" height="50" alt="" class="Top-events__list-img u-fit-img-w"></a>
+        </li>
+        <li class="Top-events__list-i">
+          <a href="#" class="Top-events__list-a"><img src="images/top/bnr_eva.jpg" width="300" height="50" alt="" class="Top-events__list-img u-fit-img-w"></a>
+        </li>
+        <li class="Top-events__list-i">
+          <a href="#" class="Top-events__list-a"><img src="images/top/bnr_start.jpg" width="300" height="50" alt="" class="Top-events__list-img u-fit-img-w"></a>
+        </li>
+      </ul>
     </aside>
 
     <p class="u-mb_15 u-fs_10 u-align_c">

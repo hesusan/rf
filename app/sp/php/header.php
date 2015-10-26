@@ -1,29 +1,29 @@
   <header class="Site-header" data-page-header>
     <h1 class="Site-header__ci u-d_none">READYFOR</h1>
     <p class="Site-header__desc u-d_none">国内最大のクラウドファウンディングサイトREADYFORは、誰もがやりたいことを実行できる世界を創ります</p>
-    <nav class="Site-nav">
+    <nav class="Site-nav" data-gnav>
       <ul class="Site-nav__inner">
-        <li class="Site-nav__item">
+        <li class="Site-nav__item is-active" data-gnav-i>
           <a href="/sp/" class="Site-nav__link">
             <div class="Site-nav__link-icon Icon-readyfor2"></div>
             <div class="Site-nav__link-txt">READYFOR</div>
           </a>
         </li>
-        <li class="Site-nav__item">
+        <li class="Site-nav__item" data-gnav-i>
           <a href="/sp/search/" class="Site-nav__link">
             <div class="Site-nav__link-icon Icon-search2"></div>
             <div class="Site-nav__link-txt">みつける</div>
           </a>
         </li>
-        <li class="Site-nav__item">
+        <li class="Site-nav__item" data-gnav-i>
           <a href="/sp/start/" class="Site-nav__link">
             <div class="Site-nav__link-icon Icon-start"></div>
             <div class="Site-nav__link-txt">はじめる</div>
           </a>
         </li>
 
-        <li class="Site-nav__item">
-          <a href="#" class="Site-nav__link">
+        <li class="Site-nav__item" data-gnav-i="login">
+          <a href="javascript:void(0)" class="Site-nav__link" data-gnav-a>
             <div class="Site-nav__link-icon Icon-login"></div>
             <div class="Site-nav__link-txt">ログイン</div>
           </a>
@@ -31,15 +31,15 @@
 
         <!-- @NOTE マイアカウントと切り替え -->
 
-        <li class="Site-nav__item" style="display: none">
-          <a href="#" class="Site-nav__link">
+        <li class="Site-nav__item" data-gnav-i="my" style="display: none;">
+          <a href="javascript:void(0)" class="Site-nav__link" data-gnav-a>
             <div class="Site-nav__link-icon is-my">
               <img src="/sp/images/common/thumb24x24.jpg" width="20" height="20" alt="">
             </div>
             <div class="Site-nav__link-txt">マイアカウント</div>
           </a>
 
-          <div class="Site-nav__myaccount">
+          <div class="Site-nav__myaccount" data-gnav-sub>
             <ul class="Site-nav__myaccount-menu">
               <li class="Site-nav__myaccount-menu-i">
                 <a href="#" class="Site-nav__myaccount-menu-a">
