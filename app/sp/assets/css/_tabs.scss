@@ -23,6 +23,7 @@
 
   }
   .Tab__menu-a {
+    background-color: #f0f0f0;
     color: $COLOR_WEAK;
     display: flex;
     align-items: center;
@@ -30,7 +31,7 @@
     height: 32px;
 
     &.is-active {
-      background-color: #f0f0f0;
+      background-color: #fff;
 
       /* @NOTE 例外的なケースのため許容 */
       .Icon-num {
@@ -38,9 +39,7 @@
       }
 
     }
-    &.is-inactive {
-      background-color: #fff;
-    }
+
   }
 
     .Tab__menu-txt {

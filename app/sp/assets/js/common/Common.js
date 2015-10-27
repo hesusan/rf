@@ -13,10 +13,10 @@
     init = function() {
 
       //画面のリサイズ
-      //ResizeManager.init();
+      ResizeManager.init();
 
       //エンターフレーム
-      //EnterFrameManager.init();
+      EnterFrameManager.init();
 
       //@NOTE
       //タップ速度を高速化したい場合はこれを有効にする
@@ -46,8 +46,11 @@
         new AccountModal($('[data-account-modal=signup]'))
       );
 
+      //Project
+      //@NOTE 構造によっては別scriptに分離
+
       //タブ
-      new Tab($('[data-tab]'));
+      new Tab($('[data-project-tab]'));
 
       //アコーディオン, トグル
 

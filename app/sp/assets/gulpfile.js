@@ -27,8 +27,8 @@ var JS = {
     "js/common/lib/plugin.js",
     "js/common/lib/Version.js",
     "js/common/lib/Util.js",
-    //"js/common/lib/EnterFrameManager.js",
-    //"js/common/lib/ResizeManager.js",
+    "js/common/lib/EnterFrameManager.js",
+    "js/common/lib/ResizeManager.js",
     "js/common/lib/fastclick.js",
     "js/common/AccountModalManager.js",
     "js/common/AccountModal.js",
@@ -77,7 +77,7 @@ function createJs( i_name ) {
   //連結
   data = src.pipe( concat( fileName ) );
   //圧縮
-  data = data.pipe( uglify( { "preserveComments":"some" } ) );
+  //data = data.pipe( uglify( { "preserveComments":"some" } ) );
 
   //書き出し
   data.pipe( gulp.dest( "../js/" ) );

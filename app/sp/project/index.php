@@ -31,22 +31,22 @@
 
     <h1 class="u-d_none">プロジェクト</h1><!-- @TO_DO プロジェクトのタイトルを入れてください -->
 
-    <div class="Project-tab Tab" data-tab>
+    <div class="Project-tab Tab" data-project-tab>
 
       <!-- Tab__menu -->
       <ul class="Project-tab__menu Tab__menu u-clrfix" data-tab-menu>
         <li class="Tab__menu-i">
-          <a href="#" class="Tab__menu-a is-active" data-tab-menu-a="outline">
+          <a href="#outline" class="Tab__menu-a is-active" data-tab-menu-a>
             <span class="Tab__menu-txt">概要</span>
           </a>
         </li>
         <li class="Tab__menu-i">
-          <a href="#" class="Tab__menu-a is-inactive" data-tab-menu-a="update">
+          <a href="#update" class="Tab__menu-a is-inactive" data-tab-menu-a>
             <span class="Tab__menu-txt">更新情報</span><span class="Tab__menu-icon Icon-num">14</span>
           </a>
         </li>
         <li class="Tab__menu-i">
-          <a href="#" class="Tab__menu-a is-inactive" data-tab-menu-a="cheer">
+          <a href="#cheer" class="Tab__menu-a is-inactive" data-tab-menu-a>
             <span class="Tab__menu-txt">コメント</span><span class="Tab__menu-icon Icon-num">148</span>
           </a>
         </li>
@@ -57,7 +57,7 @@
       <div class="Tab__contents" data-tab-contents>
 
         <!-- 概要 -->
-        <section class="Project-outline Tab__content" data-tab-content="outline">
+        <section id="outline" class="Project-outline Tab__content" data-tab-content>
 
           <h1 class="u-d_none">プロジェクト概要</h1>
 
@@ -197,11 +197,11 @@
 
             <h1 class="u-d_none">リターン</h1>
 
-            <section class="Project-outline__return">
-              <div class="Project-outline__return-toggle">開く/閉じる</div>
+            <section class="Project-outline__return" data-project-outline-return>
+              <div class="Project-outline__return-toggle" data-toggle>開く/閉じる</div>
 
-              <header class="Project-outline__return-header" style="display:none;">
-                <a href="javascript:void(0)" class="u-link-area">
+              <header class="Project-outline__return-header" data-header>
+                <a href="javascript:void(0)" class="u-link-area" data-header-a>
                   <h1 class="Project-outline__return-h-0">
                     <img width="40" height="40" class="Project-outline__return-h-0-img">
                     リターンのタイトルが入ります。
@@ -214,107 +214,7 @@
                   </ul>
                 </a>
               </header>
-              <div class="Project-outline__return-body">
-                <p class="Project-outline__return-h-1">リターンのタイトルが入ります。</p>
-                <p class="Project-outline__return-img">
-                  <img src="../images/project/project_return_sample.jpg" width="260" height="160" alt="" class="u-fit-img-w">
-                </p>
-                <p class="Project-outline__return-desc">
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                </p>
-
-                <ul class="Project-outline__return-condition-1">
-                  <li class="Project-outline__return-condition-1-i">
-                    <span class="Icon-supporter u-mr_10"></span>13人/15個
-                  </li>
-                  <li class="Project-outline__return-condition-1-i">
-                    <span class="Icon-shipment u-mr_10"></span>2015年12月発送予定
-                  </li>
-                </ul>
-
-                <p class="Project-outline__return-yen u-font-en">&yen;40,000</p>
-
-                <div class="u-align_c">
-                  <a href="#" class="Btn-1 is-h_l-2">
-                    <div class="Btn-1__inner">
-                      <div class="Btn-1__content">
-                        <div class="Btn-1__txt u-fs_18">購入する</div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-
-              </div>
-            </section>
-
-            <section class="Project-outline__return">
-              <div class="Project-outline__return-toggle">開く/閉じる</div>
-
-              <header class="Project-outline__return-header">
-                <a href="javascript:void(0)" class="u-link-area">
-                  <h1 class="Project-outline__return-h-0">
-                    <img width="40" height="40" class="Project-outline__return-h-0-img">
-                    リターンのタイトルが入ります。
-                  </h1>
-                  <ul class="Project-outline__return-condition-0">
-                    <li class="Project-outline__return-condition-0-i is-num">
-                      <span class="Icon-supporter u-mr_10"></span>33人/制限なし
-                    </li>
-                    <li class="Project-outline__return-condition-0-i u-font-en is-yen">&yen;3,000</li>
-                  </ul>
-                </a>
-              </header>
-              <div class="Project-outline__return-body" style="display:none;">
-                <p class="Project-outline__return-h-1">リターンのタイトルが入ります。</p>
-                <p class="Project-outline__return-img">
-                  <img src="../images/project/project_return_sample.jpg" width="260" height="160" alt="" class="u-fit-img-w">
-                </p>
-                <p class="Project-outline__return-desc">
-                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-                </p>
-
-                <ul class="Project-outline__return-condition-1">
-                  <li class="Project-outline__return-condition-1-i">
-                    <span class="Icon-supporter u-mr_10"></span>13人/15個
-                  </li>
-                  <li class="Project-outline__return-condition-1-i">
-                    <span class="Icon-shipment u-mr_10"></span>2015年12月発送予定
-                  </li>
-                </ul>
-
-                <p class="Project-outline__return-yen u-font-en">&yen;40,000</p>
-
-                <div class="u-align_c">
-                  <a href="#" class="Btn-1 is-h_l-2">
-                    <div class="Btn-1__inner">
-                      <div class="Btn-1__content">
-                        <div class="Btn-1__txt u-fs_18">購入する</div>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-
-              </div>
-            </section>
-
-            <section class="Project-outline__return">
-              <div class="Project-outline__return-toggle">開く/閉じる</div>
-
-              <header class="Project-outline__return-header">
-                <a href="javascript:void(0)" class="u-link-area">
-                  <h1 class="Project-outline__return-h-0">
-                    <img width="40" height="40" class="Project-outline__return-h-0-img">
-                    リターンのタイトルが入ります。
-                  </h1>
-                  <ul class="Project-outline__return-condition-0">
-                    <li class="Project-outline__return-condition-0-i is-num">
-                      <span class="Icon-supporter u-mr_10"></span>33人/制限なし
-                    </li>
-                    <li class="Project-outline__return-condition-0-i u-font-en is-yen">&yen;3,000</li>
-                  </ul>
-                </a>
-              </header>
-              <div class="Project-outline__return-body" style="display:none;">
+              <div class="Project-outline__return-body" data-body>
                 <p class="Project-outline__return-h-1">リターンのタイトルが入ります。</p>
                 <p class="Project-outline__return-img">
                   <img src="../images/project/project_return_sample.jpg" width="260" height="160" alt="" class="u-fit-img-w">
@@ -353,7 +253,7 @@
         <!-- /概要 -->
 
         <!-- 更新情報 -->
-        <section class="Project-update Tab__content" data-tab-content="update">
+        <section id="update" class="Project-update Tab__content" data-tab-content>
           <h1 class="u-d_none">更新情報</h1>
 
           <article class="Project-update__main">
@@ -472,7 +372,7 @@
         <!-- /更新情報 -->
 
         <!-- 応援コメント -->
-        <section class="Project-cheer Tab__content" data-tab-content="cheer">
+        <section id="cheer" class="Project-cheer Tab__content" data-tab-content>
           <h1 class="u-d_none">応援コメント</h1>
           <article class="Project-cheer__comment Media">
             <div class="Project-cheer__comment-img Media__img">
