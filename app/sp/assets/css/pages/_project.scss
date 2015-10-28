@@ -201,13 +201,25 @@
       + .Project-outline__return {
         margin-top: 10px;
       }
+
+      /**
+       * 展開時
+       */
+      &.is-open {
+
+        .Project-outline__return-toggle {
+          @include sprite-bg($common_icon_accordion_b);
+        }
+
+      }
+
     }
 
       /**
        * toggle
        */
       .Project-outline__return-toggle {
-        @include sprite-bg($common_icon_accordion_b);
+        @include sprite-bg($common_icon_accordion_a);
         position: absolute;
         top: 9px;
         right: 9px;

@@ -3,7 +3,7 @@
   'use strict';
 
   /**
-   * アカウントモーダル
+   * アカウントモーダル管理
    * @class AccountModalManager
    */
   var AccountModalManager = (function() {
@@ -14,7 +14,7 @@
         modals = {},
         currentModalName,
         _bindAll,
-        _onShowModal, _onChangeModal, _onHideModal, _handleTriggerClick,
+        _onShowModal, _onChangeModal, _onHideModal, _onTriggerClick,
         init, add, show, change, hide;
 
     /**
@@ -36,7 +36,7 @@
      */
     _bindAll = function() {
 
-      $trigger.on('click.AccountModalManager', _handleTriggerClick);
+      $trigger.on('click.AccountModalManager', _onTriggerClick);
 
       $.subscribe('show.AccountModalManager', _onShowModal);
       $.subscribe('change.AccountModalManager', _onChangeModal);
@@ -45,9 +45,10 @@
     }
 
     /**
-     * @name _handleTriggerClick
+     * トリガーのクリックイベントハンドラ
+     * @name _onTriggerClick
      */
-    _handleTriggerClick = function(e) {
+    _onTriggerClick = function(e) {
 
       var $target = $(e.currentTarget),
           data = $target.data('account-modal-trigger'),
@@ -73,6 +74,8 @@
 
     /**
      * @name _onShowModal
+     * @param {Event} e
+     * @param {String} name
      */
     _onShowModal = function(e, name) {
 
@@ -82,6 +85,8 @@
 
     /**
      * @name _onHideModal
+     * @param {Event} e
+     * @param {String} name
      */
     _onHideModal = function(e, name) {
 
@@ -109,6 +114,8 @@
 
     /**
      * @name _onChangeModal
+     * @param {Event} e
+     * @param {String} name
      */
     _onChangeModal = function(e, name) {
 
@@ -135,7 +142,7 @@
     /**
      * 登録
      * @name add
-     * @param {Modal} modal
+     * @param {AccountModal} modal
      */
     add = function(modal) {
 

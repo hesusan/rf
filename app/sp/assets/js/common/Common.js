@@ -52,7 +52,10 @@
       //タブ
       new Tab($('[data-project-tab]'));
 
-      //アコーディオン, トグル
+      //リターン
+      $('[data-project-outline-return]').each(function() {
+        new ProjectReturn($(this));
+      })
 
     }
 

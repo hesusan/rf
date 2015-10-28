@@ -34,6 +34,7 @@ var JS = {
     "js/common/AccountModal.js",
     "js/common/GlobalNav.js",
     "js/common/Tab.js",
+    "js/common/ProjectReturn.js",
     "js/common/Common.js"
   ]
 

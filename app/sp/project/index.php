@@ -197,8 +197,58 @@
 
             <h1 class="u-d_none">リターン</h1>
 
-            <section class="Project-outline__return" data-project-outline-return>
-              <div class="Project-outline__return-toggle" data-toggle>開く/閉じる</div>
+            <section class="Project-outline__return" data-project-outline-return="0">
+              <div class="Project-outline__return-toggle" data-trigger>開く/閉じる</div>
+
+              <header class="Project-outline__return-header" data-header>
+                <a href="javascript:void(0)" class="u-link-area" data-header-a>
+                  <h1 class="Project-outline__return-h-0">
+                    <img width="40" height="40" class="Project-outline__return-h-0-img">
+                    リターンのタイトルが入ります。
+                  </h1>
+                  <ul class="Project-outline__return-condition-0">
+                    <li class="Project-outline__return-condition-0-i is-num">
+                      <span class="Icon-supporter u-mr_10"></span>33人/制限なし
+                    </li>
+                    <li class="Project-outline__return-condition-0-i u-font-en is-yen">&yen;3,000</li>
+                  </ul>
+                </a>
+              </header>
+              <div class="Project-outline__return-body" data-body>
+                <p class="Project-outline__return-h-1">リターンのタイトルが入ります。</p>
+                <p class="Project-outline__return-img">
+                  <img src="../images/project/project_return_sample.jpg" width="260" height="160" alt="" class="u-fit-img-w">
+                </p>
+                <p class="Project-outline__return-desc">
+                  テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                </p>
+
+                <ul class="Project-outline__return-condition-1">
+                  <li class="Project-outline__return-condition-1-i">
+                    <span class="Icon-supporter u-mr_10"></span>13人/15個
+                  </li>
+                  <li class="Project-outline__return-condition-1-i">
+                    <span class="Icon-shipment u-mr_10"></span>2015年12月発送予定
+                  </li>
+                </ul>
+
+                <p class="Project-outline__return-yen u-font-en">&yen;40,000</p>
+
+                <div class="u-align_c">
+                  <a href="#" class="Btn-1 is-h_l-2">
+                    <div class="Btn-1__inner">
+                      <div class="Btn-1__content">
+                        <div class="Btn-1__txt u-fs_18">購入する</div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+
+              </div>
+            </section>
+
+            <section class="Project-outline__return" data-project-outline-return="1">
+              <div class="Project-outline__return-toggle" data-trigger>開く/閉じる</div>
 
               <header class="Project-outline__return-header" data-header>
                 <a href="javascript:void(0)" class="u-link-area" data-header-a>
