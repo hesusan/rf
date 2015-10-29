@@ -13,8 +13,9 @@
 	display: block;
 	width: $width;
   height: 0;
-	background-image: url( #{$path}#{$version} );
-	background-repeat: no-repeat;
+  //background-image: url( #{$path}#{$version} );
+  background-image: url( #{$path} );
+  background-repeat: no-repeat;
   @if ($i_pixelRatio != 1) {
     background-size: $total_width auto;
   }
@@ -33,14 +34,15 @@
   $total_height : nth( $i_sprite, 8 ) / $i_pixelRatio;
   $path: nth( $i_sprite, 9 );
 
-	display: inline-block;
+  display: inline-block;
   /*vertical-align: middle;*/
-	width: $width;
+  width: $width;
   overflow: hidden;
   text-indent: -100%;
   height: $height;
-	background-image: url( #{$path}#{$version} );
-	background-repeat: no-repeat;
+  //background-image: url( #{$path}#{$version} );
+  background-image: url( #{$path} );
+  background-repeat: no-repeat;
 
   @if ($i_pixelRatio != 1) {
     background-size: $total_width auto;
@@ -65,7 +67,8 @@
 
 @mixin sprite-image($sprite) {
   $sprite-image: nth($sprite, 9);
-  background-image: url(#{$sprite-image}#{$version});
+  //background-image: url(#{$sprite-image}#{$version});
+  background-image: url(#{$sprite-image});
 }
 
 @mixin sprite-size($sprite, $i_pixelRatio:2) {
@@ -83,7 +86,8 @@
 }
 
 @function image-url($path) {
-  @return url($imagePath + $path + $version);
+  //@return url($imagePath + $path + $version);
+  @return url($imagePath + $path);
 }
 
 @function get-sprite-width($sprite, $i_pixelRatio:2) {

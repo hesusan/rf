@@ -17,8 +17,6 @@
 
     this.options = $.extend({}, defaults, options);
 
-    console.log(this.options);
-
     this.$elm = $elm;
     this.$menu = this.$elm.find('[data-tab-menu]');
     this.$menuAnchors = this.$menu.find('[data-tab-menu-a]');

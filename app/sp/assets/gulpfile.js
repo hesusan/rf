@@ -16,27 +16,31 @@ var exec = require( "child_process" ).execSync;
 //var jpegoptim = require( "imagemin-jpegoptim" );
 
 //バージョン
-var VERSION = "";
+//var VERSION = "";
 
 //どのJSを連結するかのデータ
 var JS = {
 
-  "common" : [
-    "js/common/lib/jquery-2.1.3.min.js",
-    "js/common/lib/jquery.flexslider.js",
-    "js/common/lib/plugin.js",
-    "js/common/lib/Version.js",
-    "js/common/lib/Util.js",
-    "js/common/lib/EnterFrameManager.js",
-    "js/common/lib/ResizeManager.js",
-    "js/common/lib/fastclick.js",
+  "all" : [
+    "js/lib/jquery-2.1.3.min.js",
+    "js/lib/jquery.flexslider.js",
+    "js/lib/plugin.js",
+    "js/lib/Version.js",
+    "js/lib/Util.js",
+    "js/lib/EnterFrameManager.js",
+    "js/lib/ResizeManager.js",
+    "js/lib/fastclick.js",
+    "js/common/Common.js",
     "js/common/AccountModalManager.js",
     "js/common/AccountModal.js",
     "js/common/GlobalNav.js",
     "js/common/Tab.js",
-    "js/common/ProjectSub.js",
-    "js/common/ProjectReturn.js",
-    "js/common/Common.js"
+    "js/search/Search.js",
+    "js/search/SearchNav.js",
+    "js/project/Project.js",
+    "js/project/ProjectSub.js",
+    "js/project/ProjectReturn.js",
+    "js/Main.js",
   ]
 
 }
@@ -48,11 +52,14 @@ gulp.task( "js", function(){
   var data;
 
   //バージョン情報
+  /*
   var javascript = [
     'window.VERSION = "?v=' + VERSION + '";'
   ];
 
   fs.writeFileSync( "js/common/lib/Version.js", javascript.join( "" ), { "mode":"0775" } );
+
+  */
 
 
   for( var s in JS ) {
@@ -91,11 +98,13 @@ function createJs( i_name ) {
 gulp.task( "css", function(){
 
   //バージョン情報
+  /*
   var scss = [
     "$version:'?v=" + VERSION + "';"
   ];
 
   fs.writeFileSync( "css/_version.scss", scss.join( "\n" ), { "mode":"0775" } );
+  */
 
 
   var files = "css/*.scss";

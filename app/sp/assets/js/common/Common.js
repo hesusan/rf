@@ -48,27 +48,6 @@
         new AccountModal($('[data-account-modal=signup]'))
       );
 
-      //Project
-      //@NOTE 構造によっては別scriptに分離
-
-      //タブ
-      $projectTab = $('[data-project-tab]');
-
-      if($projectTab.length >= 0) {
-
-        new Tab($projectTab);
-
-      }
-
-      //リターン
-      $('[data-project-outline-return]').each(function() {
-        new ProjectReturn($(this));
-      })
-
-      ProjectSub.init();
-
-      console.log(ProjectSub.isInit);
-
     }
 
 
@@ -82,15 +61,9 @@
 
   })();
 
-  window.Common = Common;
-
   /**
    * export
    */
-  $(function() {
-
-    Common.init();
-
-  });
+  window.Common = Common;
 
 })(window, document, jQuery, Util);

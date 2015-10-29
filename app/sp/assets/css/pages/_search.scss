@@ -16,20 +16,34 @@ $SEARCH-NAV_Z-INDEX: 100;
  * heading
  */
 .Search-heading {
-  backgrond-color: #fafafa;
-  border-top: 1px solid #e0e0e0;
-  border-bottom: 1px solid #888;
-  height: 55px;
-  color: #666;
-  font-size: 1.4rem;
-  padding-left: 14px;
-  display: flex;
-  align-items: center;
 }
-  .Search-heading__icon {
-    @include sprite-icon($common-icon-arrow-b);
-    margin-left: 14px;
+  .Search-heading__trigger {
+    display: flex;
+    align-items: center;
+    background-color: #fafafa;
+    border-top: 1px solid #e0e0e0;
+    border-bottom: 1px solid #888;
+    height: 55px;
+    color: #666;
+    font-size: 1.4rem;
+    padding-left: 14px;
+
+    /**
+     * 展開時
+     */
+    &.is-open {
+
+      .Search-heading__icon {
+        @include sprite-icon($common-icon-arrow-t);
+      }
+
+    }
+
   }
+    .Search-heading__icon {
+      @include sprite-icon($common-icon-arrow-b);
+      margin-left: 14px;
+    }
 
 /**
  * body
@@ -81,6 +95,7 @@ $SEARCH-NAV_Z-INDEX: 100;
   position: absolute;
   top: 105px;
   width: 100%;
+  display: none;
   z-index: $SEARCH-NAV_Z-INDEX;
 }
   .Search-nav__menu {

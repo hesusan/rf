@@ -211,7 +211,7 @@
       &.is-open {
 
         .Project-outline__return-toggle {
-          @include sprite-bg($common_icon_accordion_b);
+          @include sprite-bg($common_icon_accordion_t);
         }
 
       }
@@ -222,7 +222,7 @@
        * toggle
        */
       .Project-outline__return-toggle {
-        @include sprite-bg($common_icon_accordion_a);
+        @include sprite-bg($common_icon_accordion_b);
         position: absolute;
         top: 9px;
         right: 9px;

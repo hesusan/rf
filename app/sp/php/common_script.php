@@ -32,4 +32,4 @@
   }(document, 'script', 'facebook-jssdk'));
 </script>
 
-<script src="/sp/js/common.js"></script>
+<script src="/sp/js/all.js"></script>

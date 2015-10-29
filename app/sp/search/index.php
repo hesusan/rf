@@ -30,12 +30,13 @@
   <section class="Page-body Bg-0">
 
     <h1 class="Search-heading">
-      <div class="Search-heading__txt">（プロジェクト名）</div>
-      <div class="Search-heading__icon"></div>
+      <a href="javascript:void(0)" class="Search-heading__trigger" data-search-nav-trigger>
+        <div class="Search-heading__txt">（プロジェクト名）</div>
+        <div class="Search-heading__icon"></div>
+      </a>
     </h1>
 
-    <!-- @NOTE 表示する場合はCSSを切り替え -->
-    <nav class="Search-nav" style="display: none">
+    <nav class="Search-nav" data-search-nav>
       <h1 class="u-d_none">ナビゲーション</h1>
 
       <section class="Search-nav__menu">
