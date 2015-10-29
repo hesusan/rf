@@ -149,10 +149,10 @@
 
           </div>
 
-          <div class="Project-outline__sub">
+          <div class="Project-outline__sub" data-project-sub>
 
-            <div class="Project-outline__more">
-              <a href="javascript:void(0)" class="Btn-3">
+            <div class="Project-outline__more" data-project-sub-more>
+              <a href="javascript:void(0)" class="Btn-3" data-project-sub-more-trigger>
                 <div class="Btn-3__inner">
                   <div class="Btn-3__content">
                     もっと見る

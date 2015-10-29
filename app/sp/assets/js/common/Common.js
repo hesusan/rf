@@ -12,6 +12,8 @@
 
     init = function() {
 
+      var $projectTab;
+
       //画面のリサイズ
       ResizeManager.init();
 
@@ -50,12 +52,22 @@
       //@NOTE 構造によっては別scriptに分離
 
       //タブ
-      new Tab($('[data-project-tab]'));
+      $projectTab = $('[data-project-tab]');
+
+      if($projectTab.length >= 0) {
+
+        new Tab($projectTab);
+
+      }
 
       //リターン
       $('[data-project-outline-return]').each(function() {
         new ProjectReturn($(this));
       })
+
+      ProjectSub.init();
+
+      console.log(ProjectSub.isInit);
 
     }
 

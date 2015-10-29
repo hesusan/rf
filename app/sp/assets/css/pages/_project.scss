@@ -168,7 +168,7 @@
     padding-left: 10px;
     padding-right: 10px;
     overflow: hidden;
-    height: 260px;
+    /*height: 260px;*/
     position: relative;
   }
     .Project-outline__more {
@@ -182,6 +182,9 @@
       text-align: center;
     }
 
+  /**
+   * sub2
+   */
   .Project-outline__sub-2 {
     border-top: 1px solid #f0f0f0;
     padding: 10px 10px 35px;
