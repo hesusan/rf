@@ -1832,101 +1832,105 @@ var EnterFrameManager = {
 //	▲ EnterFrameManager ▲
 //---------------------------------------------------------
 
-//---------------------------------------------------------
-//	▼ ResizeManager ▼
-//---------------------------------------------------------
+/**
+ * リサイズ管理
+ * @class ResizeManager
+ */
 var ResizeManager = {
-  
+
   $document: null,
-	$window : null,
+  $window : null,
   totalHeight: 0,
-	height : 0,
-	width : 0,
-	heightHalf : 0,
-	widthHalf : 0,
-	_minWidth : 0,
-	_length : 0,
-	_functions : [],
-	_isInit : false,
+  height : 0,
+  width : 0,
+  heightHalf : 0,
+  widthHalf : 0,
+  _minWidth : 0,
+  _length : 0,
+  _functions : [],
+  _isInit : false,
 
-	//---------------------------------------------------------
-	//	initialize
-	//---------------------------------------------------------
-	init : function( i_minWidth ){
+  /**
+   * 初期化
+   * @name init
+   * @name {Number} i_minWidth
+   */
+  init : function( i_minWidth ){
 
-		ResizeManager._isInit = true;
-		ResizeManager.$window = $( window );
+    ResizeManager._isInit = true;
+    ResizeManager.$window = $( window );
     ResizeManager.$document = $( document );
 
-		if( i_minWidth ) {
-			ResizeManager._minWidth = i_minWidth;
-		}
+    if( i_minWidth ) {
+      ResizeManager._minWidth = i_minWidth;
+    }
 
-		ResizeManager.$window.resize( ResizeManager._onResize );
-		ResizeManager._onResize();
+    ResizeManager.$window.resize( ResizeManager._onResize );
+    ResizeManager._onResize();
 
-	},
+  },
 
-	//---------------------------------------------------------
-	//	イベント追加
-	//---------------------------------------------------------
-	add : function( i_func ) {
+  /**
+   * イベントの追加
+   * @name add
+   * @name {Function} i_func
+   */
+  add : function( i_func ) {
 
-		ResizeManager._functions.push( i_func );
-		ResizeManager._length = ResizeManager._functions.length;
+    ResizeManager._functions.push( i_func );
+    ResizeManager._length = ResizeManager._functions.length;
 
-	},
+  },
 
-	//---------------------------------------------------------
-	//	イベント解除
-	//---------------------------------------------------------
-	remove : function( i_func ) {
+  /**
+   * イベントの解除
+   * @name remove
+   * @name {Function} i_func
+   */
+  remove : function( i_func ) {
 
-		for( var i = 0; i < ResizeManager._length; i++ ) {
+    for( var i = 0; i < ResizeManager._length; i++ ) {
 
-			var f = ResizeManager._functions[i];
-			if( f == i_func ) {
-				ResizeManager._functions.splice( i, 1 );
-				break;
-			}
+      var f = ResizeManager._functions[i];
+      if( f == i_func ) {
+        ResizeManager._functions.splice( i, 1 );
+        break;
+      }
 
-		}
-		ResizeManager._length = ResizeManager._functions.length;
+    }
+    ResizeManager._length = ResizeManager._functions.length;
 
-	},
+  },
 
-	//---------------------------------------------------------
-	//	リサイズ時
-	//---------------------------------------------------------
-	_onResize : function(){
-    
+  /**
+   * リサイズイベントハンドラ
+   * @name _onResize
+   */
+  _onResize : function(){
+
     var len = ResizeManager._length,
         i = 0;
-    
+
     ResizeManager.totalHeight = ResizeManager.$document.height();
-		ResizeManager.height = ResizeManager.$window.height();
-		ResizeManager.width = ResizeManager.$window.width();
-		
-		if( ResizeManager.width < ResizeManager._minWidth ) {
-			ResizeManager.width = ResizeManager._minWidth;
-		}
-		
-		ResizeManager.heightHalf = ResizeManager.height / 2;
-		ResizeManager.widthHalf = ResizeManager.width / 2;
-    
-		for(; i < len; i++ ) {
+    ResizeManager.height = ResizeManager.$window.height();
+    ResizeManager.width = ResizeManager.$window.width();
 
-			ResizeManager._functions[i]();
+    if( ResizeManager.width < ResizeManager._minWidth ) {
+      ResizeManager.width = ResizeManager._minWidth;
+    }
 
-		}
+    ResizeManager.heightHalf = ResizeManager.height / 2;
+    ResizeManager.widthHalf = ResizeManager.width / 2;
 
-	}
+    for(; i < len; i++ ) {
 
+      ResizeManager._functions[i]();
+
+    }
+
+  }
 
 }
-//---------------------------------------------------------
-//	▲ ResizeManager ▲
-//---------------------------------------------------------
 
 /**
  * @preserve FastClick: polyfill to remove click delays on browsers with touch UIs.
@@ -2761,12 +2765,10 @@ if (typeof define == 'function' && typeof define.amd == 'object' && define.amd) 
 
     init = function() {
 
-      var $projectTab;
-
-      //画面のリサイズ
+      //画面のリサイズ管理
       ResizeManager.init();
 
-      //エンターフレーム
+      //エンターフレーム管理
       EnterFrameManager.init();
 
       //@NOTE
@@ -3293,7 +3295,7 @@ if (typeof define == 'function' && typeof define.amd == 'object' && define.amd) 
   'use strict';
 
   /**
-   * みつける
+   * エントリーポイント
    * @class Search
    */
   var Search = (function() {
@@ -3327,25 +3329,29 @@ if (typeof define == 'function' && typeof define.amd == 'object' && define.amd) 
   window.Search = Search;
 
 })(window, document, jQuery, Util);
-;(function(window, document, $, Util, undefined) {
+;(function(window, document, $, Util, ResizeManager, undefined) {
 
   'use strict';
 
   /**
    * みつけるナビゲーション
    * @class SearchNav
+   * @requires Util
+   * @requires ResizeManager
    */
   var SearchNav = (function() {
 
     var $elm,
         $trigger,
+        _triggerHeight,
+        _gnavHeight,
         _isInit = false,
         _isOpen = false,
         classNames = {
           open: 'is-open'
         },
         init, toggle, open, close, isExecutable,
-        _setup, _bindAll,
+        _setup, _bindAll, _updateElmHeight,
         _onTriggerClick;
 
     /**
@@ -3361,9 +3367,34 @@ if (typeof define == 'function' && typeof define.amd == 'object' && define.amd) 
       }
 
       $trigger = $('[data-search-nav-trigger]');
+      _triggerHeight = $trigger.outerHeight();
+
+      _gnavHeight = $('[data-page-header]').outerHeight();
       _isInit = true;
 
+      _setup();
       _bindAll();
+
+    }
+
+    /**
+     * 初回セットアップ
+     * @name _setup
+     */
+    _setup = function() {
+
+      _updateElmHeight();
+
+    }
+
+    /**
+     * 要素の高さを更新
+     * @name _updateElmHeight
+     */
+    _updateElmHeight = function() {
+
+      //コンテンツ部分の高さを算出
+      $elm.css('min-height', ResizeManager.totalHeight - _gnavHeight - _triggerHeight);
 
     }
 
@@ -3374,6 +3405,12 @@ if (typeof define == 'function' && typeof define.amd == 'object' && define.amd) 
     _bindAll = function() {
 
       $trigger.on('click.trigger', _onTriggerClick);
+
+      if(ResizeManager) {
+
+        ResizeManager.add(_updateElmHeight);
+
+      }
 
     }
 
@@ -3471,7 +3508,7 @@ if (typeof define == 'function' && typeof define.amd == 'object' && define.amd) 
    */
   window.SearchNav = SearchNav;
 
-})(window, document, jQuery, Util);
+})(window, document, jQuery, Util, ResizeManager);
 ;(function(window, document, $, Util, undefined) {
 
   'use strict';

@@ -12,12 +12,10 @@
 
     init = function() {
 
-      var $projectTab;
-
-      //画面のリサイズ
+      //画面のリサイズ管理
       ResizeManager.init();
 
-      //エンターフレーム
+      //エンターフレーム管理
       EnterFrameManager.init();
 
       //@NOTE

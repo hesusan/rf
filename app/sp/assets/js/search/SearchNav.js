@@ -1,22 +1,26 @@
-;(function(window, document, $, Util, undefined) {
+;(function(window, document, $, Util, ResizeManager, undefined) {
 
   'use strict';
 
   /**
    * みつけるナビゲーション
    * @class SearchNav
+   * @requires Util
+   * @requires ResizeManager
    */
   var SearchNav = (function() {
 
     var $elm,
         $trigger,
+        _triggerHeight,
+        _gnavHeight,
         _isInit = false,
         _isOpen = false,
         classNames = {
           open: 'is-open'
         },
         init, toggle, open, close, isExecutable,
-        _setup, _bindAll,
+        _setup, _bindAll, _updateElmHeight,
         _onTriggerClick;
 
     /**
@@ -32,9 +36,34 @@
       }
 
       $trigger = $('[data-search-nav-trigger]');
+      _triggerHeight = $trigger.outerHeight();
+
+      _gnavHeight = $('[data-page-header]').outerHeight();
       _isInit = true;
 
+      _setup();
       _bindAll();
+
+    }
+
+    /**
+     * 初回セットアップ
+     * @name _setup
+     */
+    _setup = function() {
+
+      _updateElmHeight();
+
+    }
+
+    /**
+     * 要素の高さを更新
+     * @name _updateElmHeight
+     */
+    _updateElmHeight = function() {
+
+      //コンテンツ部分の高さを算出
+      $elm.css('min-height', ResizeManager.totalHeight - _gnavHeight - _triggerHeight);
 
     }
 
@@ -45,6 +74,12 @@
     _bindAll = function() {
 
       $trigger.on('click.trigger', _onTriggerClick);
+
+      if(ResizeManager) {
+
+        ResizeManager.add(_updateElmHeight);
+
+      }
 
     }
 
@@ -142,4 +177,4 @@
    */
   window.SearchNav = SearchNav;
 
-})(window, document, jQuery, Util);
+})(window, document, jQuery, Util, ResizeManager);

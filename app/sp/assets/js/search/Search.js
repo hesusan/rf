@@ -3,7 +3,7 @@
   'use strict';
 
   /**
-   * みつける
+   * エントリーポイント
    * @class Search
    */
   var Search = (function() {
